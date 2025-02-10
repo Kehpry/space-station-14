@@ -1,77 +1,78 @@
 ﻿<Document>
-  # Fire and Gas Control
-  Unfortunately, [textlink="fires" link="Fires"], [textlink="spacing" link="Spacing"], and other [textlink="atmospheric upsets" link="AtmosphericUpsets"] are a common occurrence on the station.
-  These upsets can quickly spread throughout the station and make the atmosphere uninhabitable for the crew.
+# Contrôle du Feu et des Gaz
+Malheureusement, les [textlink="incendies" link="Fires"], les [textlink="espaces vides" link="Spacing"], et d'autres [textlink="perturbations atmosphériques" link="AtmosphericUpsets"] sont des événements courants sur la station.
+Ces perturbations peuvent se propager rapidement à travers la station et rendre l'atmosphère inhabitable pour l'équipage.
 
-  <Box>
-    <GuideEntityEmbed Entity="Firelock"/>
-    <GuideEntityEmbed Entity="FirelockGlass"/>
-    <GuideEntityEmbed Entity="FirelockEdge"/>
-    <GuideEntityEmbed Entity="FireAlarm"/>
-  </Box>
+<Box>
+  <GuideEntityEmbed Entity="Firelock"/>
+  <GuideEntityEmbed Entity="FirelockGlass"/>
+  <GuideEntityEmbed Entity="FirelockEdge"/>
+  <GuideEntityEmbed Entity="FireAlarm"/>
+</Box>
 
-  To combat this, stations have a variety of devices to help prevent these upsets from spreading.
+Pour lutter contre cela, les stations disposent de divers dispositifs pour empêcher ces perturbations de se propager.
 
-  ## Firelocks
-  Firelocks are a simple and effective way to prevent fires from spreading throughout the station.
+## Serrures Contre le Feu
+Les serrures contre le feu sont un moyen simple et efficace d'empêcher les incendies de se propager à travers la station.
 
-  Based on conditions sensed by the firelock, or through instruction from a connected [textlink="air" link="AirAlarms"] or fire alarm, they can close off sections of the station to prevent the spread of dangerous conditions.
+En fonction des conditions détectées par la serrure contre le feu, ou par l'instruction provenant d'une alarme [textlink="air" link="AirAlarms"] ou d'une alarme incendie, elles peuvent fermer des sections de la station pour éviter la propagation des conditions dangereuses.
 
-  ## Station Sectioning
-  Firelocks are intentionally placed in key areas to divide the station into sections. Open spaces like hallways or promenades are divided into smaller sections. This prevents the spread of dangerous conditions to the entire station through connected rooms, hallways, and other open spaces.
+## Division de la Station
+Les serrures contre le feu sont placées de manière stratégique dans des zones clés pour diviser la station en sections. Les espaces ouverts comme les couloirs ou les promenades sont divisés en sections plus petites. Cela empêche la propagation des conditions dangereuses à toute la station via les pièces, les couloirs et d'autres espaces ouverts.
 
-  ## Basic Operation
-  When not connected to an [textlink="air alarm" link="AirAlarms"] or fire alarm, firelocks will function based on the conditions they sense. Firelocks will drop (close) if:
-  - The temperature between the two sides of the firelock is different by [color=orange][protodata="Firelock" comp="Firelock" member="TemperatureThreshold"/] K[/color] or more.
-  - The pressure between the two sides of the firelock is different by [color=orange][protodata="Firelock" comp="Firelock" member="PressureThreshold"/] kPa[/color] or more.
+## Fonctionnement de Base
+Lorsqu'elles ne sont pas connectées à une [textlink="alarme incendie" link="FireAlarms"] ou à une alarme [textlink="air" link="AirAlarms"], les serrures contre le feu fonctionneront en fonction des conditions qu'elles détectent. Les serrures contre le feu se fermeront si :
+- La température entre les deux côtés de la serrure contre le feu diffère de [color=orange][protodata="Firelock" comp="Firelock" member="TemperatureThreshold"/] K[/color] ou plus.
+- La pression entre les deux côtés de la serrure contre le feu diffère de [color=orange][protodata="Firelock" comp="Firelock" member="PressureThreshold"/] kPa[/color] ou plus.
 
-  If these conditions continue, the firelock will enter lockout mode. Firelocks in lockout mode will have [color=red]red[/color] lights and cannot be pried open by hand. They can only be opened by people with Engineering access or by using a crowbar.
+Si ces conditions persistent, la serrure contre le feu passera en mode verrouillage. Les serrures en mode verrouillage auront des lumières [color=red]rouges[/color] et ne peuvent pas être ouvertes à la main. Elles ne peuvent être ouvertes que par des personnes ayant un accès à l'Ingénierie ou à l'aide d'un pied-de-biche.
 
-  Firelocks in lockout mode cannot be opened by using Engineering access if they are unpowered. Only a crowbar can open an unpowered firelock in lockout mode.
+Les serrures en mode verrouillage ne peuvent pas être ouvertes à l'aide de l'accès à l'Ingénierie si elles sont sans alimentation. Seul un pied-de-biche peut ouvrir une serrure sans alimentation en mode verrouillage.
 
-  If the conditions between the two sides of the firelock return to within acceptable differences, the firelock will disable lockout mode, and can be opened by anyone.
-  Note that this only means that the conditions are the same on both sides of the firelock, not that they are safe.
+Si les conditions entre les deux côtés de la serrure contre le feu reviennent dans des différences acceptables, la serrure désactivera le mode verrouillage et pourra être ouverte par n'importe qui.
+Notez que cela signifie seulement que les conditions sont les mêmes des deux côtés de la serrure contre le feu, et non qu'elles sont sûres.
 
-  A common example of this is a firelock that has released due to both sides being exposed to space.
+Un exemple courant est une serrure qui s'est libérée en raison de l'exposition des deux côtés à l'espace.
 
-  ## Connecting to Air and Fire Alarms
-  Firelocks can be connected to [textlink="air alarms" link="AirAlarms"] and fire alarms to receive instructions on when to drop.
-  Firelocks use the [textlink="List system" link="Networking"], and you can connect these devices using a multitool or network configurator.
+## Connexion aux Alarmes de Gaz et d'Incendie
+Les serrures contre le feu peuvent être connectées aux [textlink="alarmes de gaz" link="AirAlarms"] et aux alarmes incendie pour recevoir des instructions sur le moment où elles doivent se fermer.
+Les serrures contre le feu utilisent le [textlink="système de liste" link="Networking"], et vous pouvez connecter ces appareils en utilisant un multitool ou un configurateur de réseau.
 
-  <Box>
-    <GuideEntityEmbed Entity="Firelock" Caption=""/>
-    <GuideEntityEmbed Entity="Multitool" Caption=""/>
-    <GuideEntityEmbed Entity="NetworkConfigurator" Caption=""/>
-    <GuideEntityEmbed Entity="FireAlarm" Caption=""/>
-    <GuideEntityEmbed Entity="AirAlarm" Caption=""/>
-  </Box>
+<Box>
+  <GuideEntityEmbed Entity="Firelock" Caption=""/>
+  <GuideEntityEmbed Entity="Multitool" Caption=""/>
+  <GuideEntityEmbed Entity="NetworkConfigurator" Caption=""/>
+  <GuideEntityEmbed Entity="FireAlarm" Caption=""/>
+  <GuideEntityEmbed Entity="AirAlarm" Caption=""/>
+</Box>
 
-  Each firelock has its own unique address. The process for connecting air vents, scrubbers, and sensors to air alarms is very similar.
+Chaque serrure contre le feu a son propre identifiant unique. Le processus de connexion des aérations, des épurateurs et des capteurs aux alarmes de gaz est très similaire.
 
-  ## Operation Under Air Alarms
-  When connected to an air alarm, firelocks will also drop under the command of the connected [textlink="air alarm" link="AirAlarms"].
+## Fonctionnement Sous Alarmes de Gaz
+Lorsqu'elles sont connectées à une alarme de gaz, les serrures contre le feu se fermeront également sous le commandement de l'[textlink="alarme de gaz" link="AirAlarms"] connectée.
 
-  Firelocks will drop if the air alarm reaches a [color=red]Danger[/color] alert state. Firelocks will remain dropped until the air alarm returns to a [color=green]Green[/color] alert state.
+Les serrures contre le feu se fermeront si l'alarme de gaz atteint un état [color=red]Danger[/color]. Les serrures resteront fermées jusqu'à ce que l'alarme de gaz revienne à un état [color=green]Normal[/color].
 
-  Firelocks that are in lockout mode will not raise even if the air alarm returns to a [color=green]Green[/color] alert state. Even if the pressure difference is resolved, the firelock will remain dropped until the air alarm re-sends a green alert state.
+Les serrures en mode verrouillage ne se lèveront pas même si l'alarme de gaz revient à un état [color=green]Normal[/color]. Même si la différence de pression est résolue, la serrure restera fermée jusqu'à ce que l'alarme de gaz renvoie un état d'alerte verte.
 
-  ## Operation Under Fire Alarms
-  When connected to a fire alarm, firelocks will drop if the fire alarm is triggered. Firelocks will remain dropped until the fire alarm is reset.
+## Fonctionnement Sous Alarmes Incendie
+Lorsqu'elles sont connectées à une alarme incendie, les serrures contre le feu se fermeront si l'alarme incendie est déclenchée. Les serrures resteront fermées jusqu'à ce que l'alarme incendie soit réinitialisée.
 
-  ## Fire Alarms
-  Fire alarms are devices that can be used to centrally control all connected firelocks.
+## Alarmes Incendie
+Les alarmes incendie sont des dispositifs qui peuvent être utilisés pour contrôler de manière centrale toutes les serrures contre le feu connectées.
 
-  <Box>
-    <GuideEntityEmbed Entity="FireAlarm"/>
-  </Box>
+<Box>
+  <GuideEntityEmbed Entity="FireAlarm"/>
+</Box>
 
-  Devices with sensors can be [textlink="linked" link="Networking"] to fire alarms, which will trigger the fire alarm if the sensor enters the [color=red]Danger[/color] temperature threshold as defined by its sensors.
+Les appareils équipés de capteurs peuvent être [textlink="liés" link="Networking"] aux alarmes incendie, ce qui déclenchera l'alarme incendie si le capteur atteint le seuil de température [color=red]Danger[/color] défini par ses capteurs.
 
-  When the fire alarm is triggered, all connected firelocks will be overridden with a [color=red]Danger[/color] alert state and will drop.
+Lorsque l'alarme incendie est déclenchée, toutes les serrures contre le feu connectées recevront un état d'alerte [color=red]Danger[/color] et se fermeront.
 
-  The alarm will automatically clear itself when the sensor returns to a [color=green]Normal[/color] temperature threshold.
+L'alarme se réinitialisera automatiquement lorsque le capteur reviendra à un seuil de température [color=green]Normal[/color].
 
-  You can trigger and reset a fire alarm manually by interacting with it.
+Vous pouvez déclencher et réinitialiser une alarme incendie manuellement en interagissant avec elle.
 
-  This can be used to quickly drop firelocks in a room manually, or to raise them after an upset has been resolved.
+Cela peut être utilisé pour fermer rapidement les serrures contre le feu dans une pièce manuellement, ou pour les rouvrir après qu'une perturbation a été résolue.
+
 </Document>

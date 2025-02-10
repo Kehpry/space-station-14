@@ -1,51 +1,52 @@
 <Document>
-# Chemist
-Now you've done it. You picked the one job where -math- is mandatory. Grab your beaker, pull up a chair, and get cracking, it's time to cook up some chems.
+# Chimiste
+Maintenant vous avez choisi le métier où les -maths- sont obligatoires. Prenez votre bécher, asseyez-vous, et commencez, il est temps de concocter des produits chimiques.
 
-While chemists primarily make medications, there's a very wide variety of chemicals that can be made, all of which are showcased in the Chemicals entry of the Guidebook.
+Bien que les chimistes fabriquent principalement des médicaments, il existe une grande variété de produits chimiques qui peuvent être fabriqués, tous présentés dans la section "Chimie" du Guide.
 
-[textlink="Click here to see a complete list of chemicals." link="Chemicals"]
+[textlink="Cliquez ici pour voir une liste complète de produits chimiques." link="Chemicals"]
 
-## Equipment:
+## Équipement:
 
-  <Box>
-    <GuideEntityEmbed Entity="ChemDispenser"/>
-    <GuideEntityEmbed Entity="ChemBag"/>
-    <GuideEntityEmbed Entity="KitchenReagentGrinder"/>
-    <GuideEntityEmbed Entity="ChemMaster"/>
-  </Box>
-  <Box>
-    <GuideEntityEmbed Entity="LargeBeaker"/>
-    <GuideEntityEmbed Entity="ChemistryEmptyBottle01"/>
-    <GuideEntityEmbed Entity="HandLabeler"/>
-    <GuideEntityEmbed Entity="Syringe"/>
-    <GuideEntityEmbed Entity="PillCanister"/>
-  </Box>
+<Box>
+<GuideEntityEmbed Entity="ChemDispenser"/>
+<GuideEntityEmbed Entity="ChemBag"/>
+<GuideEntityEmbed Entity="KitchenReagentGrinder"/>
+<GuideEntityEmbed Entity="ChemMaster"/>
+</Box>
+<Box>
+<GuideEntityEmbed Entity="LargeBeaker"/>
+<GuideEntityEmbed Entity="ChemistryEmptyBottle01"/>
+<GuideEntityEmbed Entity="HandLabeler"/>
+<GuideEntityEmbed Entity="Syringe"/>
+<GuideEntityEmbed Entity="PillCanister"/>
+</Box>
 
-## The Basics:
-Chemistry is fairly straightforward once you know what to expect. Here's a simple, step-by-step process on how to begin.
+## Les bases:
+La chimie est assez simple une fois que vous savez à quoi vous attendre. Voici un processus simple et étape par étape pour commencer.
 
-- Grab a beaker, Pill Canister, and if desired, some Bottles.
-- Place the beaker in the Chemical Dispenser, and Pill Canister (or bottle) in the Chem Master.
-- Open the Chemical Dispenser UI, and make your mix. Recipes are in other sections of the guidebook.
-- Alt-click the dispenser to remove your beaker, and place it in the Chem Master.
-- Open the Chem Master UI. On the Input tab, move your mix into the buffer.
-- Move to the Output tab, customise your pill, and press the Create button.
-- Alt-click the Chem Master to get the pill bottle out. You may have to remove the beaker first.
-- Click on a table, crate, or another surface to empty the pill bottle if desired. Alternatively, store or empty it into another storage container.
+- Prenez un bécher, un Pilulier, et si vous le souhaitez, des Bouteilles.
+- Placez le bécher dans le Distributeur Chimique et le Pilulier (ou la bouteille) dans le Chem Master.
+- Ouvrez l'interface utilisateur du Distributeur Chimique et réalisez votre mélange. Les recettes se trouvent dans d'autres sections du guide.
+- Alt-cliquez sur le distributeur pour retirer votre bécher et placez-le dans le Chem Master.
+- Ouvrez l'interface du Chem Master. Dans l'onglet "Input", déplacez votre mélange dans le tampon.
+- Allez dans l'onglet "Output", personnalisez votre pilule, puis appuyez sur le bouton Créer.
+- Alt-cliquez sur le Chem Master pour récupérer la bouteille de pilules. Vous devrez peut-être retirer le bécher d'abord.
+- Cliquez sur une table, une caisse ou une autre surface pour vider la bouteille de pilules si vous le souhaitez. Vous pouvez également la stocker ou la vider dans un autre conteneur de stockage.
 
-That's it, you've made your first set of pills! Consider checking with Medical Doctors and other crew to see what else may be requested, refilling the medical kits in medbay storage, or just experimenting!
+C'est tout, vous avez créé votre premier lot de pilules ! Vous pouvez consulter les médecins et d'autres membres de l'équipage pour voir ce qui peut être demandé, remplir les trousses médicales dans le stockage de la salle de médecine, ou tout simplement expérimenter !
 
-You can also use the hand labeler to organize individual bottles or bags without using the Chem Master labeling system.
+Vous pouvez également utiliser l'étiqueteuse à main pour organiser les bouteilles ou sacs individuels sans utiliser le système d'étiquetage du Chem Master.
 
-## Extra Content:
+## Contenu supplémentaire:
 
-Speaking of experimentation, there are a few more toy you can use when it comes to chemistry. This job requires a lot of trial and error, but it was worth mentioning that these things exist! It's up to you to figure out what to make with them.
+En parlant d'expérimentation, il existe quelques autres outils que vous pouvez utiliser en chimie. Ce métier nécessite beaucoup d'essais et d'erreurs, mais il vaut la peine de mentionner qu'ils existent ! C'est à vous de découvrir ce que vous pouvez fabriquer avec eux.
 
-  <Box>
-    <GuideEntityEmbed Entity="ModularGrenade"/>
-    <GuideEntityEmbed Entity="CableApcStack"/>
-    <GuideEntityEmbed Entity="ChemicalPayload"/>
-    <GuideEntityEmbed Entity="TimerTrigger"/>
-  </Box>
+<Box>
+<GuideEntityEmbed Entity="ModularGrenade"/>
+<GuideEntityEmbed Entity="CableApcStack"/>
+<GuideEntityEmbed Entity="ChemicalPayload"/>
+<GuideEntityEmbed Entity="TimerTrigger"/>
+</Box>
+
 </Document>

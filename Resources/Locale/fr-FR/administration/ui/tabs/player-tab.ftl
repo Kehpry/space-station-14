@@ -1,0 +1,13 @@
+﻿player-tab-player-count = Joueurs : { $count }
+player-tab-username = Nom d'utilisateur
+player-tab-character = Personnage
+player-tab-job = Métier
+player-tab-antagonist = Antagoniste
+player-tab-roletype = Type de rôle
+player-tab-playtime = Temps de jeu
+player-tab-show-disconnected = Afficher les déconnectés
+player-tab-overlay = Superposition
+player-tab-entry-tooltip = Le temps de jeu est affiché en jours:heures:minutes.
+player-tab-filter-line-edit-placeholder = Filtrer
+player-tab-is-antag-yes = OUI
+player-tab-is-antag-no = NON

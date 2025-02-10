@@ -1,20 +1,20 @@
 ﻿<Document>
-  # Ramping
-  Contrary to what one might expect from a video game electrical simulation, power is not instantly provided upon request.
+  # Montée en charge
+  Contrairement à ce que l'on pourrait attendre d'une simulation électrique dans un jeu vidéo, l'énergie n'est pas fournie instantanément sur demande.
 
-  Generators and batteries take time to ramp up to match the draw imposed on them, which leads to brownouts when there are large changes in current draw all at once; for example, when batteries run out.
+  Les générateurs et les batteries mettent du temps à augmenter leur puissance pour correspondre à la demande qui leur est imposée, ce qui peut entraîner des baisses de tension lorsque des changements importants de la demande de courant se produisent soudainement ; par exemple, lorsque les batteries sont épuisées.
 
-  Observe the following example:
-  - Say you have a generator that outputs 100 kW of power.
-  - If you have a device that draws 50 kW of power, the generator will output 50 kW of power to match the grid's demand to its supply.
-  - If you then turn on a device that draws another 50 kW of power, the generator will take time to ramp up to 100 kW of power. It will not provide this power instantly.
-  - During this time, devices will not recieve the power they need, and the grid will experience a temporary brownout.
-  - After some seconds have passed, the generator will have ramped up to 100 kW of power, and the brownout will end. All devices are now satisfied with the power they are receiving.
+  Observez l'exemple suivant :
+  - Disons que vous avez un générateur qui produit 100 kW de puissance.
+  - Si vous avez un appareil qui consomme 50 kW de puissance, le générateur fournira 50 kW de puissance pour ajuster l'offre à la demande du réseau.
+  - Si vous allumez ensuite un appareil qui consomme encore 50 kW de puissance, le générateur mettra du temps à augmenter sa production à 100 kW. Il ne fournira pas cette puissance instantanément.
+  - Pendant ce temps, les appareils ne recevront pas la puissance dont ils ont besoin, et le réseau connaîtra une baisse temporaire de tension.
+  - Après quelques secondes, le générateur aura augmenté sa production à 100 kW de puissance et la baisse de tension prendra fin. Tous les appareils recevront maintenant la puissance dont ils ont besoin.
 
-  During a shift, this is most commonly observed when a generator runs out of fuel and suddenly stops producing power.
-  Suddenly, the grid is hit with a large deficit of power (as supply has fallen below demand), and all devices will experience a brownout until SMESes or other generators can ramp up to match the new demand.
+  Au cours d'un shift, cela se produit le plus souvent lorsqu'un générateur manque de carburant et cesse soudainement de produire de l'énergie.
+  Soudainement, le réseau est frappé par un important déficit de puissance (l'offre étant inférieure à la demande), et tous les appareils connaîtront une baisse de tension jusqu'à ce que les SMES ou d'autres générateurs augmentent leur puissance pour correspondre à la nouvelle demande.
 
-  This can also happen when a large power consuming device, or department, is reconnected to the grid.
-  The sudden increase in power draw will cause a brownout until the generators can ramp up to match the new demand.
+  Cela peut également se produire lorsqu'un gros consommateur d'énergie, ou un département, est reconnecté au réseau.
+  L'augmentation soudaine de la demande d'énergie entraînera une baisse de tension jusqu'à ce que les générateurs puissent augmenter leur production pour répondre à la nouvelle demande.
 
 </Document>

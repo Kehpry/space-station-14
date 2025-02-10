@@ -1,58 +1,58 @@
 ﻿<Document>
-  # Atmospherics Systems
-  Atmos has a wide variety of devices catered to moving, managing, and otherwise manipulating gas.
-  These devices often work together to maintain a safe, breathable atmosphere for the crew, or to achieve a common task.
+# Systèmes Atmosphériques
+Les systèmes atmosphériques disposent d'une large gamme d'appareils conçus pour déplacer, gérer et manipuler les gaz.
+Ces dispositifs fonctionnent souvent ensemble pour maintenir une atmosphère sûre et respirable pour l'équipage, ou pour accomplir une tâche commune.
 
-  This section delves into the various systems that Atmos has at their disposal, how they interconnect, and how they are ideally used.
+Cette section explore les différents systèmes dont dispose les atmosphériques, comment ils s'interconnectent et comment ils sont idéalement utilisés.
 
+<Box>
+  <GuideEntityEmbed Entity="GasPipeStraight" Caption=""/>
+  <GuideEntityEmbed Entity="GasPipeHalf" Caption=""/>
+  <GuideEntityEmbed Entity="GasPipeBend" Caption=""/>
+  <GuideEntityEmbed Entity="GasPipeTJunction" Caption=""/>
+  <GuideEntityEmbed Entity="GasPipeFourway" Caption=""/>
+  <GuideEntityEmbed Entity="GasPressurePump" Caption=""/>
+  <GuideEntityEmbed Entity="GasVolumePump" Caption=""/>
+</Box>
+<Box>
+  ## Réseaux de Tuyaux
+</Box>
+<Box>
+  [color=#999999][italic]Tuyaux interconnectés avec une tâche commune — communément appelés Pipenets[italic][/color]
+</Box>
 
-  <Box>
-    <GuideEntityEmbed Entity="GasPipeStraight" Caption=""/>
-    <GuideEntityEmbed Entity="GasPipeHalf" Caption=""/>
-    <GuideEntityEmbed Entity="GasPipeBend" Caption=""/>
-    <GuideEntityEmbed Entity="GasPipeTJunction" Caption=""/>
-    <GuideEntityEmbed Entity="GasPipeFourway" Caption=""/>
-    <GuideEntityEmbed Entity="GasPressurePump" Caption=""/>
-    <GuideEntityEmbed Entity="GasVolumePump" Caption=""/>
-  </Box>
-  <Box>
-    ## Pipe Networks
-  </Box>
-  <Box>
-    [color=#999999][italic]Interconnected pipes with a common task — commonly called Pipenets[italic][/color]
-  </Box>
+<Box>
+  <GuideEntityEmbed Entity="ComputerAlert" Caption=""/>
+  <GuideEntityEmbed Entity="AirAlarm" Caption=""/>
+</Box>
+<Box>
+  ## Surveillance et Contrôle des Appareils
+</Box>
+<Box>
+  [color=#999999][italic]Surveillance et contrôle des appareils qui gèrent une atmosphère locale[italic][/color]
+</Box>
 
-  <Box>
-    <GuideEntityEmbed Entity="ComputerAlert" Caption=""/>
-    <GuideEntityEmbed Entity="AirAlarm" Caption=""/>
-  </Box>
-  <Box>
-    ## Device Monitoring and Control
-  </Box>
-  <Box>
-    [color=#999999][italic]Monitoring and control over devices that manage a local atmosphere[italic][/color]
-  </Box>
+<Box>
+  <GuideEntityEmbed Entity="Firelock" Caption=""/>
+  <GuideEntityEmbed Entity="FireAlarm" Caption=""/>
+</Box>
+<Box>
+  ## Contrôle des Gaz et des Incendies
+</Box>
+<Box>
+  [color=#999999][italic]Appareils pour contrôler et prévenir les fuites de gaz et les incendies[italic][/color]
+</Box>
 
-  <Box>
-    <GuideEntityEmbed Entity="Firelock" Caption=""/>
-    <GuideEntityEmbed Entity="FireAlarm" Caption=""/>
-  </Box>
-  <Box>
-    ## Fire and Gas Control
-  </Box>
-  <Box>
-    [color=#999999][italic]Devices to control and prevent gas leaks and fires[italic][/color]
-  </Box>
+<Box>
+  <GuideEntityEmbed Entity="GasMinerOxygenStation" Caption=""/>
+  <GuideEntityEmbed Entity="AirCanister" Caption=""/>
+</Box>
+<Box>
+  ## Extraction et Stockage des Gaz
+</Box>
+<Box>
+  [color=#999999][italic]Appareils pour extraire de nouveaux gaz pour la station et les stocker pour plus tard[italic][/color]
+</Box>
 
-  <Box>
-    <GuideEntityEmbed Entity="GasMinerOxygenStation" Caption=""/>
-    <GuideEntityEmbed Entity="AirCanister" Caption=""/>
-  </Box>
-  <Box>
-    ## Gas Mining and Storage
-  </Box>
-  <Box>
-    [color=#999999][italic] Devices to mine new gas for the station to use, and store it for later[italic][/color]
-  </Box>
 
 </Document>

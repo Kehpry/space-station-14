@@ -1,16 +1,15 @@
+[color=#ffffff]Options du panneau de génération d'entités[/color]
+[color=#a4885c]Par défaut[/color] génère de petites entités comme des mugs sans les aligner sur quoi que ce soit, tout en alignant les entités en blocs comme les murs sur la grille.
+[color=#a4885c]PlaceFree[/color] génère toutes les entités sans les aligner.
+[color=#a4885c]PlaceNearby[/color] limite le rayon de génération à environ 2 tuiles.
+[color=#a4885c]SnapgridCenter[/color] aligne l'entité au centre de la tuile.
+[color=#a4885c]SnapgridBorder[/color] aligne l'entité sur le bord de la tuile.
 
-[color=#ffffff]Entity spawn panel options[/color]
-[color=#a4885c]Default[/color] spawns small entities like mugs without aligning them to anything, while aligning block entities like walls to the grid.
-[color=#a4885c]PlaceFree[/color] spawns all entities without aligning them.
-[color=#a4885c]PlaceNearby[/color] limits the spawn radius to around 2 tiles.
-[color=#a4885c]SnapgridCenter[/color] aligns the entity to the middle of the tile.
-[color=#a4885c]SnapgridBorder[/color] aligns the entity to the border of the tile.
-
-[color=#ffffff]Grid aligned options[/color]
-[color=#a4885c]AlignSimilar[/color] snaps the entity to similar entities. Currently broken.
-[color=#a4885c]AlignTileAny[/color] aligns the entity to the grid.
-[color=#a4885c]AlignTileEmpty[/color] target tile must be empty
-[color=#a4885c]AlignTileNonDense[/color] no colliders allowed in the target tile.
-[color=#a4885c]AlignTileDense[/color] colliders must be in the target tile.
-[color=#a4885c]AlignWall[/color] snaps to vertical halftiles.
-[color=#a4885c]AlignWallProper[/color] snaps the entity to the middle of the tile edges
+[color=#ffffff]Options alignées sur la grille[/color]
+[color=#a4885c]AlignSimilar[/color] ajuste l'entité aux entités similaires. Actuellement en panne.
+[color=#a4885c]AlignTileAny[/color] aligne l'entité sur la grille.
+[color=#a4885c]AlignTileEmpty[/color] la tuile cible doit être vide.
+[color=#a4885c]AlignTileNonDense[/color] aucune collision n'est autorisée dans la tuile cible.
+[color=#a4885c]AlignTileDense[/color] des collisions doivent être présentes dans la tuile cible.
+[color=#a4885c]AlignWall[/color] ajuste aux moitiés de tuiles verticales.
+[color=#a4885c]AlignWallProper[/color] ajuste l'entité au centre des bords des tuiles.

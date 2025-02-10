@@ -1,16 +1,16 @@
 <Document>
-  # Reptilians
+  # Reptiliens
 
   <Box>
     <GuideEntityEmbed Entity="MobReptilian" Caption=""/>
   </Box>
 
-  They can ONLY eat fruits and meat, but can eat raw meat and drink blood without any ill effects.
-  They prefer a somewhat higher temperature range than humans.
-  They can drag objects with their tail, keeping both their hands free.
+  Ils ne peuvent manger QUE des fruits et de la viande, mais peuvent manger de la viande crue et boire du sang sans effets négatifs.  
+  Ils préfèrent une gamme de températures légèrement plus élevée que les humains.  
+  Ils peuvent traîner des objets avec leur queue, gardant ainsi leurs mains libres.
 
-  Their unarmed claw attacks deal Slash damage instead of Blunt.
+  Leurs attaques à mains nues avec des griffes infligent des dégâts tranchants au lieu de contondants.
 
-  They take [color=#ffa500]30% more Cold damage.[/color]
+  Ils subissent [color=#ffa500]30% de dégâts en plus contre le froid.[/color]
 
 </Document>

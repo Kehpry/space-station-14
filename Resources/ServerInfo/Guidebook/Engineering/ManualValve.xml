@@ -1,15 +1,14 @@
 ﻿<Document>
-  # Manual Valve
-  The manual valve is as simple as it gets.
-  Allows or blocks the flow of gasses depending on if it's open or closed.
+  # Soupape Manuelle
+  La soupape manuelle est aussi simple que possible.
+  Elle permet ou bloque le flux de gaz en fonction de si elle est ouverte ou fermée.
   <Box>
     <GuideEntityEmbed Entity="GasValve"/>
   </Box>
 
-  Gas can freely flow between both sides with no restrictions.
+  Le gaz peut circuler librement entre les deux côtés sans restrictions.
 
-  Manual valves are used in a variety of applications, for example:
-  - Allowing or blocking the bypass of a recyclernet, to space waste gas directly
-  - Connecting or isolating heaters/coolers from the station's distro
-
+  Les soupapes manuelles sont utilisées dans diverses applications, par exemple :
+  - Permettre ou bloquer le contournement d'un recyclernet, pour envoyer directement le gaz résiduel dans l'espace
+  - Connecter ou isoler les chauffages/refroidisseurs du réseau de distribution de la station
 </Document>

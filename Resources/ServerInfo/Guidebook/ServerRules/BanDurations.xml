@@ -1,17 +1,17 @@
 ﻿<Document>
-  # Ban Durations
+  # Durées de Bannissement
 
-  Bans can be appealed at forum.ss14.io in the ban appeals section.
+  Les bannissements peuvent être contestés sur le Discord en créant un ticket.
 
-  ## Temporary
-  Temporary bans will be lifted automatically after a certain amount of time. If they are a game ban, they will tell you how much time is remaining when you try to connect.
+  ## Temporaire
+  Les bannissements temporaires seront levés automatiquement après un certain temps. S'il s'agit d'un bannissement de jeu, il vous indiquera combien de temps il reste lorsque vous essayez de vous connecter.
 
-  ## Indefinite
-  These bans will only be removed on a successful appeal on the forums. Any ban which doesn't tell you when it expires and doesn't specify otherwise can be presumed to be an indefinite ban.
+  ## Indéfini
+  Ces bannissements ne seront retirés que si un appel réussi est effectué sur les forums. Tout bannissement qui ne vous indique pas de date d'expiration et qui ne précise rien d'autre peut être présumé être un bannissement indéfini.
 
-  ## Voucher
-  This is an indefinite ban which may only be appealed both with a successful appeal and which require a voucher of good behavior from the administrative team of a well-known or at least decently active SS13/SS14 server in order for the appeal to be considered. Voucher bans typically cannot be appealed for at least six months after being issued. Without a voucher, a player can only attempt to appeal a voucher ban once, and only if the ban was inappropriately placed. Voucher bans are typically only placed as a result of an unsuccessful appeal of an indefinite game ban by players with a history of bans and of causing issues.
+  ## Bon de Garantie
+  Il s'agit d'un bannissement indéfini qui peut uniquement être contesté après un appel réussi et qui nécessite un bon de bonne conduite de l'équipe administrative d'un serveur SS13/SS14 bien connu ou au moins suffisamment actif pour que l'appel soit pris en compte. Les bannissements par bon de garantie ne peuvent généralement pas être contestés avant au moins six mois après leur émission. Sans bon, un joueur ne peut tenter d’appeler un bannissement par bon que si celui-ci a été placé de manière inappropriée. Les bannissements par bon de garantie sont généralement émis à la suite d'un appel infructueux d'un bannissement indéfini de jeu pour des joueurs ayant un historique de bannissements et de comportements problématiques.
 
   ## Permanent
-  This is a ban that is only appealable if the ban was inappropriately placed, including if the ban should not have been permanent. If the result of the appeal is that the ban was appropriately placed, the ban may not be appealed again and will not be lifted. These bans are extremely rare, but are applied to players who continually cause problems even after a voucher ban or users who have completely unacceptable behavior may be permanently removed.
+  Il s'agit d'un bannissement qui ne peut être contesté que si le bannissement a été placé de manière inappropriée, y compris si le bannissement n'aurait pas dû être permanent. Si, à la suite de l'appel, il est décidé que le bannissement était correctement appliqué, le bannissement ne pourra plus être contesté et ne sera pas levé. Ces bannissements sont extrêmement rares, mais sont appliqués aux joueurs qui causent continuellement des problèmes même après un bannissement par bon de garantie ou aux utilisateurs ayant des comportements complètement inacceptables et qui peuvent être définitivement exclus.
 </Document>

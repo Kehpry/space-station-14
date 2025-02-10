@@ -1,0 +1,1 @@
+﻿station-event-vent-creatures-start-announcement = Attention. Un grand afflux de formes de vie inconnues a été détecté dans le système de ventilation de la station. Merci de vous débarrasser de ces créatures avant que cela n'affecte la productivité.

@@ -1,0 +1,17 @@
+﻿advertisement-discount-1 = Discount Dan, c'est l'homme !
+advertisement-discount-2 = Il n'y a rien de mieux dans ce monde qu'une bouchée de mystère.
+advertisement-discount-3 = N'écoutez pas ces autres machines, achetez mon produit !
+advertisement-discount-4 = Quantité avant qualité !
+advertisement-discount-5 = N'écoutez pas ces têtes d'œufs de la CDC, achetez maintenant !
+advertisement-discount-6 = Discount Dan's : Nous sommes bons pour vous ! Non, je ne pouvais pas dire ça sérieusement.
+advertisement-discount-7 = Discount Dan's : Seulement les meilleurs produits *BZZT
+advertisement-discount-8 = Discount Dan(tm) n'est pas responsable des dommages causés par une mauvaise utilisation de son produit.
+advertisement-discount-9 = Nous proposons une large gamme de snacks bon marché !
+thankyou-discount-1 = Merci d'avoir utilisé-*BZZT
+thankyou-discount-2 = Rappelez-vous : pas de remboursement !
+thankyou-discount-3 = C'est maintenant votre problème !
+thankyou-discount-4 = Nous sommes légalement obligés de vous rappeler de ne pas manger ça.
+thankyou-discount-5 = S'il vous plaît, ne nous poursuivez pas !
+thankyou-discount-6 = On jure que c'était comme ça quand nous l'avons stocké !
+thankyou-discount-7 = Ouais, bonne chance avec ça.
+thankyou-discount-8 = Profitez de votre, euh... "snack".

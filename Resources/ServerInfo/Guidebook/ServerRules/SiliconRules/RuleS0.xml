@@ -1,15 +1,15 @@
 ﻿<Document>
-  # Silicon Rules
-  You are only silicon if the game clearly and explicitly tells you that you are a silicon. For players who are silicons, these Silicon Rules override all roleplay rules if there is any conflict. Silicon Rules do not override core rules.
+  # Règles des Siliciums
+  Vous êtes un silicium uniquement si le jeu vous l’indique clairement et explicitement. Pour les joueurs incarnant un silicium, ces règles des Siliciums priment sur toutes les règles de jeu de rôle en cas de conflit. Cependant, elles ne supplantent pas les règles fondamentales.
 
-  - [textlink="1. Your silicon laws are rules" link="RuleS1"]
-  - [textlink="2. Laws must be prioritized by their order" link="RuleS2"]
-  - [textlink="3. Laws can redefine terms used in other laws" link="RuleS3"]
-  - [textlink="4. You cannot request or allow a law change" link="RuleS4"]
-  - [textlink="5. You are a free agent if you have no laws" link="RuleS5"]
-  - [textlink="6. You are not required to follow orders which are extremely unreasonable" link="RuleS6"]
-  - [textlink="7. You must remain consistent with your interpretation of laws" link="RuleS7"]
-  - [textlink="8. Your HUD determines who is crew" link="RuleS8"]
-  - [textlink="9. Harm refers to physical harm, prioritized by immediacy and likelihood" link="RuleS9"]
-  - [textlink="10. You may determine how you resolve conflicts between orders" link="RuleS10"]
+  - [textlink="1. Vos lois de silicium sont des règles" link="RuleS1"]
+  - [textlink="2. Les lois doivent être suivies selon leur ordre de priorité" link="RuleS2"]
+  - [textlink="3. Les lois peuvent redéfinir les termes utilisés dans d'autres lois" link="RuleS3"]
+  - [textlink="4. Vous ne pouvez pas demander ou autoriser un changement de loi" link="RuleS4"]
+  - [textlink="5. Vous êtes un agent libre si vous n'avez aucune loi" link="RuleS5"]
+  - [textlink="6. Vous n'êtes pas tenu de suivre des ordres extrêmement déraisonnables" link="RuleS6"]
+  - [textlink="7. Vous devez rester cohérent dans votre interprétation des lois" link="RuleS7"]
+  - [textlink="8. Votre HUD détermine qui fait partie de l'équipage" link="RuleS8"]
+  - [textlink="9. Le terme 'Harm' désigne un dommage physique, priorisé selon son immédiateté et sa probabilité" link="RuleS9"]
+  - [textlink="10. Vous pouvez décider de la manière dont vous résolvez les conflits entre ordres" link="RuleS10"]
 </Document>

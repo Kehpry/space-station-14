@@ -1,0 +1,1 @@
+attach-to-grid-verb-get-data-text = Attacher à la grille

@@ -1,0 +1,9 @@
+server-info-rules-button = Règles
+server-info-guidebook-button = Guide du jeu
+server-info-discord-button = Discord
+server-info-website-button = Site web
+server-info-wiki-button = Wiki
+server-info-forum-button = Forum
+server-info-telegram-button = Telegram
+server-info-report-button = Signaler un bug
+server-info-credits-button = Crédits

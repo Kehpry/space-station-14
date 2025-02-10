@@ -1,0 +1,1 @@
+wire-speech-pulse = {CAPITALIZE(THE($name))} émet un son bourdonnant

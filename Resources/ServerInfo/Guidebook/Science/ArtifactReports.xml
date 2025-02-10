@@ -1,24 +1,24 @@
 <Document>
-  # Artifact Reports
-  A large portion of Xenoarchaeology gameplay revolves around the interpretation of artifact reports, which are created at the [color=#a4885c]analysis console[/color] after an artifact is scanned. Reports contain the following information:
+  # Rapports d'Artéfacts
+  Une grande partie du gameplay de la Xénoarchéologie repose sur l'interprétation des rapports d'artéfacts, qui sont créés sur la [color=#a4885c]console d'analyse[/color] après qu'un artéfact ait été scanné. Les rapports contiennent les informations suivantes :
 
-  - [color=#a4885c]Node ID:[/color] a unique numeric ID corresponding to this artifact's node. Useful in conjunction with a [color=#a4885c]node scanner[/color] for quickly identifying recurring nodes.
+  - [color=#a4885c]ID du nœud :[/color] un identifiant numérique unique correspondant au nœud de cet artéfact. Utile en combinaison avec un [color=#a4885c]scanner de nœud[/color] pour identifier rapidement les nœuds récurrents.
 
-  - [color=#a4885c]Depth:[/color] a distance from the starting node (depth 0). This is a good shorthand for the value and danger of a node.
+  - [color=#a4885c]Profondeur :[/color] la distance par rapport au nœud de départ (profondeur 0). C'est une bonne abréviation pour la valeur et le danger d'un nœud.
 
-  - [color=#a4885c]Activation status:[/color] whether or not a node has been activated in the past.
+  - [color=#a4885c]Statut d'activation :[/color] indique si un nœud a été activé dans le passé ou non.
 
-  - [color=#a4885c]Stimulus:[/color] the stimulus for that particular node.
+  - [color=#a4885c]Stimulus :[/color] le stimulus pour ce nœud particulier.
 
-  - [color=#a4885c]Reaction:[/color] the reaction the stimulus induces. This is often vague, so caution is advised.
+  - [color=#a4885c]Réaction :[/color] la réaction induite par le stimulus. Cela est souvent vague, il est donc conseillé de faire preuve de prudence.
 
-  - [color=#a4885c]Edges:[/color] the amount of nodes that are connected to the current node. Using this, you can calculate the total number of nodes as well as organize a map of their connections.
+  - [color=#a4885c]Arêtes :[/color] le nombre de nœuds connectés au nœud actuel. Grâce à cela, vous pouvez calculer le nombre total de nœuds ainsi que créer une carte de leurs connexions.
 
-  - [color=#a4885c]Unextracted value:[/color] the amount of research points an artifact will give when extracted. Extracting sets this to zero and traversing new nodes increases it.
+  - [color=#a4885c]Valeur non extraite :[/color] le nombre de points de recherche qu'un artéfact donnera une fois extrait. L'extraction le ramène à zéro, et le fait de traverser de nouveaux nœuds l'augmente.
 
-  Reports are a helpful tool in manipulating an artifact, especially in the later stages where you are traversing nodes that have already been activated.
+  Les rapports sont un outil utile pour manipuler un artéfact, en particulier dans les phases avancées où vous traversez des nœuds déjà activés.
   <Box>
   <GuideEntityEmbed Entity="PaperArtifactAnalyzer"/>
   </Box>
-  To help with this process, consider printing out reports, writing down details uncovered during activation, or storing them in a folder nearby.
+  Pour vous aider dans ce processus, pensez à imprimer les rapports, à noter les détails découverts lors de l'activation ou à les ranger dans un dossier à proximité.
 </Document>

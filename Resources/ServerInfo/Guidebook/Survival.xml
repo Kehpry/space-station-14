@@ -1,38 +1,38 @@
 <Document>   
-# Survival 
-It is generally wise to avoid situations that will cause you harm, because medical can only heal you so much with limited chemicals and medical items and especially when there's nuclear operatives on your doorstep. 
+# Survie
+Il est généralement sage d'éviter les situations qui vous causeront du tort, car la médecine ne peut vous soigner que dans une certaine mesure avec des produits chimiques et des objets médicaux limités, surtout lorsqu'il y a des opérateurs nucléaires devant votre porte.
 
-## Identifying your situation 
-Your PDA contains both a vessel name and list of crew currently active in your vessel, a reminder for your name if needed, and your assigned job for the shift, allowing you to quickly assess the situation. 
+## Identifier votre situation
+Votre PDA contient à la fois le nom du vaisseau et une liste de l'équipage actuellement actif sur votre vaisseau, un rappel de votre nom si nécessaire, et votre travail assigné pour le shift, vous permettant d'évaluer rapidement la situation.
 
-## Emergency Treatment 
-In the event of a serious emergency, there're a few things you can do to help ensure your long-term survival, including: 
-- If entering critical condition, use the emergency medipen from your emergency box, it'll make sure you don't end up unable to do anything. Emergency medipens can also be used to revive people currently in crit on the floor, and to prolong the amount of time you have to deal with poisons/etc. 
+## Traitement d'urgence
+En cas d'urgence grave, il y a quelques choses que vous pouvez faire pour aider à garantir votre survie à long terme, y compris : 
+- Si vous entrez en état critique, utilisez le medipen d'urgence de votre boîte d'urgence, il s'assurera que vous ne finissez pas dans un état où vous ne pouvez rien faire. Les medipens d'urgence peuvent également être utilisés pour réanimer les personnes actuellement en état critique au sol, et pour prolonger le temps dont vous disposez pour traiter des poisons/etc.
 
 <Box> 
   <GuideEntityEmbed Entity="EmergencyMedipen"/> 
 </Box>
 
-- Your emergency box contains a breath mask and oxygen tank, which can help you survive longer in a spacing situation. If you're one of the slimepeople, be aware that nitrogen replaces oxygen for you and that your emergency box will start with a red tank of nitrogen replacing the standard blue/yellow oxygen tank. 
+- Votre boîte d'urgence contient un masque de respiration et une bouteille d'oxygène, ce qui peut vous aider à survivre plus longtemps en cas de perte de pression (spécialement dans le cas d'une brèche de coque). Si vous êtes l'une des créatures appelées "slimepeople", sachez que l'azote remplace l'oxygène pour vous et que votre boîte d'urgence commencera avec un réservoir rouge d'azote remplaçant le réservoir d'oxygène bleu/jaune standard.
 
 <Box> 
   <GuideEntityEmbed Entity="ClothingMaskBreath"/> 
   <GuideEntityEmbed Entity="EmergencyOxygenTankFilled"/> 
 </Box>
 
-- If actively bleeding out, or simply wishing to prepare, it's possible to slice up cloth items with a knife or other sharp object and use the resulting cloth to create gauze in the crafting menu to stem bleeding with, however cloth alone can be used to less of a degree in emergencies. 
+- Si vous êtes en train de saigner activement, ou si vous souhaitez simplement vous préparer, il est possible de couper des objets en tissu avec un couteau ou un autre objet tranchant et d'utiliser le tissu obtenu pour créer des bandages dans le menu de fabrication pour stopper les saignements. Cependant, le tissu seul peut être utilisé dans une moindre mesure en cas d'urgence.
 
 <Box>
   <GuideEntityEmbed Entity="Gauze"/>
   <GuideEntityEmbed Entity="MaterialCloth"/>
 </Box>
 
-## Other Various Tips
-- In lieu of an actual health analyzer, simply examining yourself and using the detailed examine is a good way to figure out what wounds you have. 
-- If going blind, carrots are another way to treat the issue (as they contain Oculine, the chemistry drug used to treat blindness) should they be available. 
-- Well-made meals (cooked food not from a vending machine) is generally much better for your overall health and can help heal smaller wounds more quickly. 
-- Simple bed rest can allow some wounds to close up on their own. Medical beds are best for this, providing a sterile surface and support for all damaged body parts, but any bed works. 
-- Actually sleeping on a bed boosts your healing rate even farther. 
-- Meals that contain proteins, such as meat, will tremendously help your body's condition after severe bloodloss. It's still advised to visit a doctor and get treated though. 
-  
-</Document> 
+## Autres conseils divers
+- En l'absence d'un véritable analyseur de santé, il suffit de vous examiner et d'utiliser l'examen détaillé pour déterminer les blessures que vous avez.
+- Si vous devenez aveugle, les carottes sont un autre moyen de traiter ce problème (car elles contiennent de l'Oculine, le médicament chimique utilisé pour traiter la cécité), si elles sont disponibles.
+- Les repas bien faits (nourriture cuite et non provenant d'un distributeur automatique) sont généralement bien meilleurs pour votre santé générale et peuvent aider à soigner plus rapidement les petites blessures.
+- Un simple repos au lit peut permettre à certaines blessures de se refermer d'elles-mêmes. Les lits médicaux sont idéaux pour cela, offrant une surface stérile et un soutien pour toutes les parties du corps endommagées, mais n'importe quel lit fait l'affaire.
+- Dormir réellement dans un lit augmente encore votre taux de guérison.
+- Les repas contenant des protéines, comme la viande, aideront énormément votre état après une importante perte de sang. Il est toujours conseillé de visiter un médecin et de recevoir un traitement, cependant.
+
+</Document>

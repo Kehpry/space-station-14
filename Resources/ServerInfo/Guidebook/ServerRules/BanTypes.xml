@@ -1,11 +1,11 @@
 ﻿<Document>
-  # Ban Types
+  # Types de Bannissement
 
-  Bans can be appealed at forum.ss14.io in the ban appeals section.
+  Les bannissements peuvent être contestés sur le forum, en créant un ticket.
 
-  ## Role Ban
-  Also called a "job ban", this ban prevents your character from joining or late-joining a round as one or more jobs or roles. These are often used in response to problematic behavior in particular departments or address gross inexperience in important roles such as heads of staff. These bans do not mechanically prevent you from switching to the role during a round or acting as that role, but doing so is considered ban evasion.
+  ## Bannissement de Rôle
+  Aussi appelé "bannissement de poste", ce bannissement empêche votre personnage de rejoindre ou de rejoindre en retard une partie en tant que l'un ou plusieurs rôles ou postes. Ces bannissements sont souvent utilisés en réponse à un comportement problématique dans certains départements ou pour traiter une grande inexpérience dans des rôles importants tels que les chefs de personnel. Ces bannissements ne vous empêchent pas mécaniquement de changer de rôle pendant une partie ou d'agir en tant que ce rôle, mais le faire est considéré comme une évasion de bannissement.
 
-  ## Game Ban
-  Also called a "server ban", this ban prevents you from connecting to all Wizard's Den servers.
+  ## Bannissement de Jeu
+  Aussi appelé "bannissement de serveur", ce bannissement vous empêche de vous connecter à tous les serveurs de Wizard's Den.
 </Document>

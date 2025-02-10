@@ -1,67 +1,67 @@
 ﻿<Document>
-  # Roleplay Rule 11 - Follow reasonable escalation
-  Antagonists are fully exempt from escalation rules. Non-antagonists who are in a conflict with antagonists are not exempt. Escalation should typically follow steps or a pattern of conflict types similar to:
+  # Règle de Roleplay 11 - Suivre une escalade raisonnable
+  Les antagonistes sont complètement exemptés des règles d'escalade. Les non-antagonistes qui sont en conflit avec des antagonistes ne sont pas exemptés. L'escalade devrait généralement suivre des étapes ou un modèle de types de conflits similaires à :
   - Verbal
-  - Non-harmful
-  - Non-lethal
-  - Lethal
-  - Permanently lethal
+  - Non-dangereux
+  - Non-létal
+  - Létal
+  - Permanent létal
 
-  All new conflicts should start at the first step. A player should not escalate a conflict across steps without some escalation from the other party involved in the conflict. Players can skip steps to match the level of escalation that the other person is at, but should almost always not skip steps other than that. Players who attempt to deescalate conflicts will be given more leniency in escalating if the other party continues to escalate despite the attempt at de-escalation. You do not have to try to deescalate conflicts, but someone who watches you over the entire round, or over multiple rounds, should not feel that your goal is generally to escalate conflicts.
+  Tous les nouveaux conflits devraient commencer par la première étape. Un joueur ne doit pas escalader un conflit d'un niveau sans qu'il y ait une escalade de l'autre partie impliquée dans le conflit. Les joueurs peuvent sauter des étapes pour correspondre au niveau d'escalade auquel l'autre personne est, mais ils ne doivent presque jamais sauter des étapes autres que celles-ci. Les joueurs qui tentent de désescalader les conflits seront plus tolérés dans l'escalade si l'autre partie continue d'escalader malgré la tentative de désescalade. Vous n'êtes pas obligé d'essayer de désescalader les conflits, mais quelqu'un qui vous surveille pendant toute la durée de la ronde, ou pendant plusieurs rondes, ne doit pas avoir l'impression que votre but est généralement d'escalader les conflits.
 
-  Conflicts or escalation can be indirect. When someone steals someone else's ID, the theft is a direct part of the conflict, but if the victim becomes trapped as a result of not having their ID to open a door, that is also considered part of the conflict and escalation. Do not randomly steal IDs from people.
+  Les conflits ou l'escalade peuvent être indirects. Lorsque quelqu'un vole l'ID de quelqu'un d'autre, le vol fait partie directe du conflit, mais si la victime se retrouve piégée par le fait de ne pas avoir son ID pour ouvrir une porte, cela fait également partie du conflit et de l'escalade. Ne volez pas les IDs des gens sans raison.
 
-  Escalation does not have to be directed at a specific player to enter them into a conflict. Nuclear operatives who are trying to destroy the station are considered to be at the permanently lethal level of conflict with all crew on the station. Someone who kills a station pet has started some degree of conflict with all crewmembers. Someone who kills a mouse that a chef was caring for has started some degree of conflict with that chef.
+  L'escalade ne doit pas être dirigée spécifiquement contre un joueur pour l'introduire dans un conflit. Les opérateurs nucléaires qui essaient de détruire la station sont considérés comme étant au niveau permanent létal avec tout l'équipage de la station. Quelqu'un qui tue un animal de compagnie de station a lancé un certain degré de conflit avec tous les membres d'équipage. Quelqu'un qui tue une souris qu'un chef avait prise en charge a lancé un certain degré de conflit avec ce chef.
 
-  You will be considered to be violating this rule if you escalate a conflict based on a poor or unreasonable assumption.
+  Vous serez considéré comme violant cette règle si vous escalez un conflit sur la base d'une hypothèse mauvaise ou déraisonnable.
 
-  Conflicts should almost never reach the "permanently lethal" stage. Conflicts should only reach this stage if the other party brought it to the stage, or if the same conflict escalated to the lethal stage multiple times in the round.
+  Les conflits ne doivent presque jamais atteindre le stade "permanent létal". Les conflits doivent atteindre ce stade uniquement si l'autre partie l'a amené à ce stade, ou si le même conflit s'est escaladé au stade létal plusieurs fois au cours de la ronde.
 
-  If a party in the conflict goes into crit or dies, the party responsible should take them to get treatment or to security. For the conflict, this should be considered saving someone from dying and should deescalate the conflict. If the conflict is deescalated in this way, both parties need to re-escalate to lethal for the conflict to return to that stage. If the conflict is not deescalated in this way, then only the party who defeated the other would need to re-escalate for the conflict to return to the lethal stage.
+  Si une partie dans le conflit passe en état de critique ou meurt, la partie responsable doit la mener pour obtenir des soins médicaux ou à la sécurité. Pour le conflit, cela doit être considéré comme sauver quelqu'un de la mort et doit désescalader le conflit. Si le conflit est désescaladé de cette manière, les deux parties doivent ré-escalader pour revenir à un niveau létal. Si le conflit n'est pas désescaladé de cette manière, seule la partie ayant vaincu l'autre devra ré-escalader pour que le conflit revienne au niveau létal.
 
-  Security can immediately escalate to non-lethal force if it is necessary to arrest someone.
+  La sécurité peut immédiatement escalader à la force non-létale si cela est nécessaire pour arrêter quelqu'un.
 
-  People using or brandishing Syndicate items can typically be presumed to have lethal intent. Someone with lethal intent can typically be immediately escalated against at a lethal level, a notable exception is if you have the tools to safely detain them.
+  Les personnes utilisant ou brandissant des objets Syndicate peuvent généralement être présumées avoir une intention létale. Quelqu'un avec une intention létale peut généralement être immédiatement escaladé au niveau létal, à l'exception notable si vous avez les outils pour les appréhender en toute sécurité.
 
-  ## Escalation Involving Animals
-  See [textlink="Escalation Involving Animals" link="RuleR11-1"].
+  ## Escalade concernant les animaux
+  Voir [texte lien="Escalade concernant les animaux" lien="RègleR11-1"].
 
   ## Exemptions
-  Escalation rules aren't enforced against non-players, but players will be held responsible for rule violations even if they don't realize that a character or animal was controlled by another player. Characters who have purple text saying that they are catatonic are considered non-players. Characters who are disconnected are still considered players.
+  Les règles d'escalade ne sont pas appliquées aux non-joueurs, mais les joueurs seront tenus responsables des violations de règles même s'ils ne réalisent pas qu'un personnage ou un animal est contrôlé par un autre joueur. Les personnages ayant du texte violet indiquant qu'ils sont catatoniques sont considérés comme des non-joueurs. Les personnages déconnectés sont toujours considérés comme des joueurs.
 
-  ## MRP Amendment
-  Escalation rules are enforced even against non-players.
+  ## Amendement MRP
+  Les règles d'escalade sont appliquées même contre les non-joueurs.
 
-  ## Examples of Conflict Types
-  See [textlink="Examples of Conflict Types" link="RuleR11-2"].
+  ## Exemples de Types de Conflits
+  Voir [texte lien="Exemples de types de conflits" lien="RègleR11-2"].
 
-  ## Example Scenarios
-  These examples assume that you are not an antagonist.
+  ## Scénarios Exemple
+  Ces exemples supposent que vous n'êtes pas un antagoniste.
 
-  Acceptable:
-  - A player starts punching you, so you start punching back until they stop. If they go into crit, you stop attacking them and take them to security or to get medical attention.
-  - You make fun of a clown, who then throws a pie at you and steals your shoes. You slip the clown and steal their mask.
-  - You are a security officer and tell someone to stop, so you can question them. They run away, so you use your disabler to stun and cuff them.
-  - You are a security officer and see someone wearing a syndicate hardsuit, so you shoot them to crit, cuff them, then take them to security.
-  - You are a crewmember and see a nuclear operative, so you kill them.
-  - An unauthorized person enters a high risk area of the station, like the armory or atmospherics, so you attack them until they leave.
-  - Minorly inconveniencing someone for your own benefit.
-  - As an antagonist, killing someone who got in your way.
-  - As an antagonist, killing someone who didn't give you what you want.
-  - A chef and bartender reach the lethal level of conflict through appropriate escalation. The chef crits the bartender and does not take them to medbay or security. The bartender immediately tries to crit the chef next time they run into each other.
-  - A chef and bartender reach the lethal level of conflict through appropriate escalation. The chef crits the bartender and does not take them to medbay or security. The chef insults the bartender next time they see them.
+  Acceptable :
+  - Un joueur commence à vous frapper, vous commencez à rendre les coups jusqu'à ce qu'ils s'arrêtent. S'ils passent en état de critique, vous cessez de les attaquer et les emmenez à la sécurité ou pour recevoir des soins médicaux.
+  - Vous vous moquez d'un clown, qui vous lance alors une tarte et vole vos chaussures. Vous faites trébucher le clown et lui volez son masque.
+  - Vous êtes un agent de sécurité et demandez à quelqu'un de s'arrêter, afin de pouvoir l'interroger. Ils s'enfuient, vous utilisez donc un désactivateur pour les étourdir et les menotter.
+  - Vous êtes un agent de sécurité et voyez quelqu'un portant une combinaison Syndicate, vous les frappez jusqu'à la critique, les menottez, puis les emmenez à la sécurité.
+  - Vous êtes un membre d'équipage et voyez un opérateur nucléaire, vous le tuez.
+  - Une personne non autorisée entre dans une zone à haut risque de la station, comme l'armurerie ou l'atmosphérique, vous l'attaquez jusqu'à ce qu'elle quitte.
+  - Inconvénient mineur de quelqu'un pour votre propre bénéfice.
+  - En tant qu'antagoniste, tuer quelqu'un qui vous a gêné.
+  - En tant qu'antagoniste, tuer quelqu'un qui ne vous a pas donné ce que vous voulez.
+  - Un chef et un barman atteignent le niveau létal de conflit par une escalade appropriée. Le chef critique le barman et ne l'emmène pas à l'infirmerie ou à la sécurité. Le barman essaie immédiatement de critiquer le chef la prochaine fois qu'ils se croisent.
+  - Un chef et un barman atteignent le niveau létal de conflit par une escalade appropriée. Le chef critique le barman et ne l'emmène pas à l'infirmerie ou à la sécurité. Le chef insulte le barman la prochaine fois qu'ils se croisent.
 
-  Prohibited:
-  - A player starts punching you, so you gib them.
-  - A clown throws a pie at you and steals your shoes, so you stab them to crit with a screwdriver.
-  - You are a security officer and tell someone to stop, so you can question them. They run away so you use a truncheon to beat them to crit.
-  - An authorized person who you unreasonably or carelessly think is unauthorized enters a high risk area of the station, like the armory or atmospherics, so you attack them until they leave.
-  - An unauthorized person enters a low risk area of the station, like cargo, and you start attacking them with no other escalation.
-  - Slipping security all round because they are security.
-  - Blocking the head of personnel in their office using walls because they didn't give you what you asked for.
-  - Hiding someone's body because they punched you earlier in the round.
-  - Harassing the bar or bartender by frequently coming in to break their glasses or furniture.
-  - Randomly picking fights with people.
-  - A chef and bartender reach the lethal level of conflict through appropriate escalation. The chef crits the bartender and does not take them to medbay or security. The chef immediately tries to crit the bartender next time they run into each other.
-  - A chef and bartender reach the lethal level of conflict through appropriate escalation. The chef crits the bartender and takes them to the medbay or security. The bartender immediately tries to crit the chef next time they run into each other.
+  Interdit :
+  - Un joueur commence à vous frapper, vous le gibbifiez.
+  - Un clown vous lance une tarte et vole vos chaussures, vous le poignardez jusqu'à la critique avec un tournevis.
+  - Vous êtes un agent de sécurité et demandez à quelqu'un de s'arrêter, pour que vous puissiez l'interroger. Ils s'enfuient, vous utilisez donc un trucheon pour les frapper jusqu'à la critique.
+  - Une personne autorisée que vous pensez de manière déraisonnable ou imprudente non autorisée entre dans une zone à haut risque de la station, comme l'armurerie ou l'atmosphérique, vous l'attaquez jusqu'à ce qu'elle quitte.
+  - Une personne non autorisée entre dans une zone à faible risque de la station, comme le cargo, et vous commencez à l'attaquer sans autre escalade.
+  - Faire trébucher la sécurité toute la ronde parce qu'ils sont la sécurité.
+  - Bloquer le chef du personnel dans son bureau en utilisant des murs parce qu'ils ne vous ont pas donné ce que vous avez demandé.
+  - Cacher le corps de quelqu'un parce qu'ils vous ont frappé plus tôt dans la ronde.
+  - Harceler le bar ou le barman en entrant fréquemment pour casser leurs verres ou meubles.
+  - Commencer des bagarres aléatoires avec des gens.
+  - Un chef et un barman atteignent le niveau létal de conflit par une escalade appropriée. Le chef critique le barman et ne l'emmène pas à l'infirmerie ou à la sécurité. Le chef essaie immédiatement de critiquer le barman la prochaine fois qu'ils se croisent.
+  - Un chef et un barman atteignent le niveau létal de conflit par une escalade appropriée. Le chef critique le barman et ne l'emmène pas à l'infirmerie ou à la sécurité. Le chef essaie immédiatement de critiquer le barman la prochaine fois qu'ils se croisent.
 </Document>

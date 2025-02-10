@@ -1,0 +1,11 @@
+metabolizer-type-animal = Animal
+metabolizer-type-bloodsucker = Suceur de sang
+metabolizer-type-dragon = Dragon
+metabolizer-type-human = Humain
+metabolizer-type-slime = Slime
+metabolizer-type-vox = Vox
+metabolizer-type-rat = Rat
+metabolizer-type-plant = Plante
+metabolizer-type-dwarf = Nain
+metabolizer-type-moth = Moth
+metabolizer-type-arachnid = Arachnide

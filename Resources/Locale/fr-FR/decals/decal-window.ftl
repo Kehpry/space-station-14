@@ -1,0 +1,9 @@
+﻿decal-placer-window-title = Placer un décalcomanie
+decal-placer-window-use-color = Couleur personnalisée
+decal-placer-window-rotation = Rotation
+decal-placer-window-zindex = Profondeur de dessin
+decal-placer-window-enable-auto = Utiliser les paramètres automatiques
+decal-placer-window-enable-snap = S'aligner sur la tuile
+decal-placer-window-enable-cleanable = Nettoyable
+decal-placer-window-palette = Palette
+palette-color-picker-window-title = Palettes

@@ -1,24 +1,24 @@
 <Document>
-## Anomaly Scanner
+## Scanner d'Anomalies
 
-The Anomaly Scanner is used to gather various information on anomalies. They can be found inside of the lockers in the science department.
+Le Scanner d'Anomalies est utilisé pour recueillir diverses informations sur les anomalies. Ils peuvent être trouvés dans les casiers du département scientifique.
 
 <Box>
 <GuideEntityEmbed Entity="AnomalyScanner"/>
 </Box>
 
-Scanning an anomaly shows the severity, general stability, approximate point output, reactions with particle types, and time until the next pulse. The reaction types, specifically, can be used in conjunction with the A.P.E. to manipulate anomalies.
+Scanner une anomalie permet d'afficher la gravité, la stabilité générale, la production approximative de points, les réactions avec les types de particules, et le temps jusqu'à la prochaine impulsion. Les types de réactions, en particulier, peuvent être utilisés en conjonction avec l'A.P.E. pour manipuler les anomalies.
 
-## Anomaly Vessel
+## Vaisseau d'Anomalie
 
-The anomaly vessel is a machine that generates points from anomalies. Use the anomaly scanner on an empty vessel, and the anomaly that was last scanned will be synced with the vessel.
+Le vaisseau d'anomalie est une machine qui génère des points à partir des anomalies. Utilisez le scanner d'anomalie sur un vaisseau vide, et l'anomalie qui a été dernièrement scannée sera synchronisée avec le vaisseau.
 
 <Box>
 <GuideEntityEmbed Entity="MachineAnomalyVessel"/>
 </Box>
 
-The amount of points a vessel generates per second is based on the severity, stability, and health of an anomaly. The higher each of these values, the higher the point output will be.
+Le nombre de points qu'un vaisseau génère par seconde est basé sur la gravité, la stabilité et la santé de l'anomalie. Plus chacune de ces valeurs est élevée, plus la production de points sera élevée.
 
-Be careful: if an anomaly goes [color=#a4885c]supercritical[/color], the vessel it is linked to will explode. This may damage the station and nearby equipment.
+Attention : si une anomalie devient [color=#a4885c]supercritique[/color], le vaisseau auquel elle est lié explosera. Cela peut endommager la station et les équipements voisins.
 
 </Document>

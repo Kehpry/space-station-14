@@ -1,37 +1,37 @@
 ﻿<Document>
-  # Roleplay Rule 14 - Set an example if playing command or security
-  All command and security roles are held to stricter interpretations of the rules.
-  - Command roles are not learning roles. Members of command must be competent.
-  - Security roles are not for inexperienced players. Members of security are expected to know game basics and be more familiar with server rules than a new player.
-  - Do not hinder or cause overall negative effects to the station or crew as a member of command or security.
-  - Do not abuse your power as command or security.
+  # Règle de jeu de rôle 14 - Montrer l'exemple en jouant un rôle de commandement ou de sécurité
+  Tous les rôles de commandement et de sécurité sont soumis à une interprétation plus stricte des règles.
+  - Les rôles de commandement ne sont pas des rôles d'apprentissage. Les membres du commandement doivent être compétents.
+  - Les rôles de sécurité ne sont pas destinés aux joueurs inexpérimentés. Les membres de la sécurité doivent connaître les bases du jeu et être plus familiers avec les règles du serveur qu'un nouveau joueur.
+  - Ne gênez pas ou ne causez pas d'effets négatifs globaux sur la station ou l'équipage en tant que membre du commandement ou de la sécurité.
+  - N'abusez pas de votre pouvoir en tant que membre du commandement ou de la sécurité.
 
-  ## Why
-  Members of command and security can often have a larger impact on the nature of the round than other players. For example, a captain who tries to bend or break the rules will often cause many others on the station to do the same. Memey station announcements from members of command also often result in the rest of the station acting the same way. When command and security members hold themselves to high standards, the rest of the station often naturally follows to a significant degree.
+  ## Pourquoi
+  Les membres du commandement et de la sécurité ont souvent un impact plus important sur le déroulement d'une partie que les autres joueurs. Par exemple, un capitaine qui tente de contourner ou de violer les règles entraînera souvent d'autres personnes sur la station à faire de même. De même, des annonces humoristiques ou inappropriées de la part des membres du commandement conduisent souvent le reste de la station à adopter le même comportement. Lorsque les membres du commandement et de la sécurité maintiennent des standards élevés, le reste de la station a tendance à suivre naturellement dans une large mesure.
 
-  ## Examples
-  Acceptable:
-  - A member of security accepts a bribe to deliver safe donuts to a prisoner who the HoS has ordered should only be given donk pockets.
-  - A captain uses a station announcement to confess to an embarrassing mistake that they made during the shift.
-  - In coordination with the head of security, a captain declares that the station will recognize the right to bear arms, so all crew can pick up a disabler at security.
-  - The chief medical officer gives a paramedic their portable crew monitor to help them complete their job.
-  - A syndicate agent is holding a crewmember hostage and threatens to kill them if the head of security doesn't give them their ID. Seeing no other safe option, the head of security hands over their ID to the syndicate agent, then begins working to re-secure it and capture the agent as soon as the hostage is safe.
-  - Nuclear operatives are attacking the station, so the captain and head of personnel both go to the armory and take a weapon.
-  - A majority of command votes to demote the captain for taking actions harmful to the station, then the head of security demotes the captain.
-  - The captain promotes the head of personnel to captain.
-  - Security releases an antagonist from the brig in exchange for the identities of other traitors.
+  ## Exemples
+  Acceptable :
+  - Un membre de la sécurité accepte un pot-de-vin pour livrer des donuts inoffensifs à un prisonnier à qui le chef de la sécurité avait ordonné de ne donner que des donk pockets.
+  - Un capitaine utilise une annonce de station pour avouer une erreur embarrassante qu'il a commise durant son service.
+  - En coordination avec le chef de la sécurité, un capitaine déclare que la station reconnaît le droit de porter des armes, permettant ainsi à tout l'équipage de récupérer un désactivateur auprès de la sécurité.
+  - Le directeur médical donne à un ambulancier son moniteur d'équipage portable pour l'aider à accomplir son travail.
+  - Un agent du Syndicat prend un membre d’équipage en otage et menace de le tuer si le chef de la sécurité ne lui remet pas son ID. Ne voyant pas d’autre option sûre, le chef de la sécurité remet son ID à l’agent du Syndicat, puis commence immédiatement à travailler pour le récupérer et capturer l'agent une fois l’otage en sécurité.
+  - Des opérateurs nucléaires attaquent la station, alors le capitaine et le chef du personnel se rendent à l'armurerie pour prendre une arme.
+  - La majorité du commandement vote pour rétrograder le capitaine en raison d’actions nuisibles à la station, puis le chef de la sécurité applique cette décision.
+  - Le capitaine promeut le chef du personnel au rang de capitaine.
+  - La sécurité libère un antagoniste de la prison en échange des identités d'autres traîtres.
 
-  Prohibited:
-  - A member of security accepts a bribe to ignore a crime or help a prisoner escape.
-  - A captain sends a ASCII art trollface over station announcements or as a fax to central command.
-  - A captain declares that all contraband is legal.
-  - Command or security allow the use of Syndicate items outside extreme emergencies.
-  - The chief medical officer knowingly helps a syndicate agent complete their objectives.
-  - A syndicate agent has killed 3 members of security so the head of security makes them an offer saying that they will space all the weapons in the armory if the syndicate agent stops killing.
-  - The captain goes to the armory and takes a gun to display in his office without asking anyone, and orders anyone who questions him not to interfere.
-  - Members of command decide to demote the captain to gain more power for themselves, or in retaliation for a decision that they didn't personally like or agree with, rather than because the decision was actually harmful to the station.
-  - The captain promotes a random crewmember to captain.
-  - A member of command gives a random crewmember substantial additional access for no reason, unnecessarily, or for a poor reason.
-  - A member of command gives a random crewmember access to a high security area, like the armory or another member of command's office, for no reason, unnecessarily, or for a poor reason.
-  - Security releases an antagonist from the brig in exchange for the antagonist buying them contraband.
+  Interdit :
+  - Un membre de la sécurité accepte un pot-de-vin pour ignorer un crime ou aider un prisonnier à s'échapper.
+  - Un capitaine envoie un trollface en ASCII art via les annonces de la station ou par fax au commandement central.
+  - Un capitaine déclare que toutes les contrebandes sont légales.
+  - Le commandement ou la sécurité autorisent l'utilisation d'objets du Syndicat en dehors de situations d'extrême urgence.
+  - Le directeur médical aide sciemment un agent du Syndicat à accomplir ses objectifs.
+  - Un agent du Syndicat a tué trois membres de la sécurité, alors le chef de la sécurité lui propose de jeter toutes les armes de l’armurerie dans l’espace en échange de l’arrêt des meurtres.
+  - Le capitaine se rend à l’armurerie et prend une arme pour l’exposer dans son bureau sans demander la permission, puis ordonne à quiconque le questionne de ne pas interférer.
+  - Les membres du commandement décident de rétrograder le capitaine pour obtenir plus de pouvoir ou en représailles d’une décision qu’ils n’aimaient pas personnellement, plutôt que parce que cette décision était réellement nuisible à la station.
+  - Le capitaine promeut un membre d’équipage aléatoire au rang de capitaine.
+  - Un membre du commandement accorde un accès supplémentaire important à un membre d’équipage au hasard sans raison, inutilement ou pour une raison insuffisante.
+  - Un membre du commandement donne à un membre d’équipage aléatoire l'accès à une zone hautement sécurisée, comme l'armurerie ou le bureau d’un autre membre du commandement, sans raison, inutilement ou pour une raison insuffisante.
+  - La sécurité libère un antagoniste de la prison en échange de l'achat de contrebande pour elle.
 </Document>

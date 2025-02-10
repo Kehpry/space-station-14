@@ -1,0 +1,13 @@
+﻿advertisement-chefvend-1 = Au moins soixante pour cent de nos œufs sont intacts, garanti !
+advertisement-chefvend-2 = Du riz, du riz, bébé.
+advertisement-chefvend-3 = Mets un peu de beurre dessus !
+advertisement-chefvend-4 = Es-tu à la hauteur ? Nous, oui.
+advertisement-chefvend-5 = Mmm, de la viande.
+advertisement-chefvend-6 = Exploite la puissance de la farine.
+advertisement-chefvend-7 = Montre à tes clients qui est le meilleur chef avec notre sauce BBQ primée, célèbre à travers la galaxie.
+advertisement-chefvend-8 = J'adore ces bons vieux œufs crus.
+advertisement-chefvend-9 = Profite de bons vieux œufs crus !
+thankyou-chefvend-1 = Il est temps de cuisiner !
+thankyou-chefvend-2 = Merci de faire confiance à nos ingrédients de qualité !
+thankyou-chefvend-3 = Cela devrait satisfaire leur appétit !
+thankyou-chefvend-4 = Va faire ces burgers !

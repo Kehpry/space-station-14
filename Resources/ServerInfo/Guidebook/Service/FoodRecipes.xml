@@ -1,32 +1,32 @@
 <Document>
-## Starting Out
-This is not an extensive list of recipes, these listings are to showcase the basics.
+## Démarrer
+Il ne s'agit pas d'une liste exhaustive de recettes, ces éléments montrent les bases.
 
-Mixes are done in a Beaker, foods are cooked in a Microwave. Cook times will be listed.
+Les mélanges se font dans un bécher, les aliments sont cuits dans un micro-ondes. Le temps de cuisson sera indiqué.
 
-WARNING: This is not an automatically generated list, things here may become outdated. The wiki has much more than is listed here.
+AVERTISSEMENT : Ce n'est pas une liste générée automatiquement, les informations ici peuvent devenir obsolètes. Le wiki propose beaucoup plus que ce qui est listé ici.
 
-## The Basics: Mixing
+## Les Bases : Mélanger
 
-- Dough = 15 Flour, 10 Water
-- Cornmeal Dough = 1 Egg (6u), 10 Milk, 15 Cornmeal
-- Tortila Dough = 15 Cornmeal, 10 Water
-- Tofu = 5 Enzyme (Catalyst), 30 Soy Milk
-- Pie Dough = 2 Eggs (12u), 15 Flour, 5 Table Salt
-- Cake Batter = 2 Eggs(12u), 15 flour, 5 Sugar, 5 Milk
-- Vegan Cake Batter = 15 Soy Milk, 15 Flour, 5 Sugar
-- Butter = 30 Milk, 5 Table Salt (Catalyst)
-- Cheese Wheel = 5 Enzyme (Catalyst), 40 Milk
-- Chèvre Log = 5 Enzyme (Catalyst), 10 Goat Milk
-- Meatball = 1 Egg (6u), 5 Flour, 5 Uncooked Animal Proteins
-- Chocolate = 6 Cocoa Powder, 2 Milk, 2 Sugar
-- Uncooked Animal Protein: Grind Raw Meat
+- Pâte = 15 Farine, 10 Eau
+- Pâte de Maïs = 1 Œuf (6u), 10 Lait, 15 Semoule de maïs
+- Pâte de Tortilla = 15 Semoule de maïs, 10 Eau
+- Tofu = 5 Enzyme (Catalyseur), 30 Lait de soja
+- Pâte à tarte = 2 Œufs (12u), 15 Farine, 5 Sel de table
+- Pâte à gâteau = 2 Œufs (12u), 15 Farine, 5 Sucre, 5 Lait
+- Pâte à gâteau vegan = 15 Lait de soja, 15 Farine, 5 Sucre
+- Beurre = 30 Lait, 5 Sel de table (Catalyseur)
+- Fromage = 5 Enzyme (Catalyseur), 40 Lait
+- Fromage de chèvre = 5 Enzyme (Catalyseur), 10 Lait de chèvre
+- Boulette de viande = 1 Œuf (6u), 5 Farine, 5 Protéines animales non cuites
+- Chocolat = 6 Poudre de cacao, 2 Lait, 2 Sucre
+- Protéine animale non cuite : Broyez de la viande crue
 
-Buzz! Don't forget about Moth diet!
-- Fiber: Juice Fabric in a Reagent Grinder, 3 Fiber per Fabric
-- Cotton Dough = 5 Flour, 10 Fiber, 10 Water
-- Cotton bread baked the same as default but with cotton dough instead
-- Cotton Pizza: Microwave 1 Flat Cotton Dough and 4 Cotton Bolls for 30 Seconds
+Buzz ! N'oubliez pas le régime des mites !
+- Fibre : Pressez le tissu dans un moulin à réactifs, 3 Fibres par tissu
+- Pâte de coton = 5 Farine, 10 Fibre, 10 Eau
+- Pain de coton : Cuit de la même manière que le pain classique mais avec de la pâte de coton
+- Pizza de coton : Micro-ondes 1 Pâte plate de coton et 4 Boules de coton pendant 30 secondes
 
 <Box>
 <GuideEntityEmbed Entity="FoodDough"/>
@@ -47,31 +47,31 @@ Buzz! Don't forget about Moth diet!
 <GuideEntityEmbed Entity="FoodSnackChocolateBar"/>
 </Box>
 
-## Secondary Products
+## Produits secondaires
 
-- Dough Slice: Cut Dough
-- Bun: Microwave Dough Slice for 5 Seconds
-- Cutlet: Slice Raw Meat
-- Cheese Wedge: Slice Cheese Wheel
-- Flat Dough: Use a rolling pin or a round object (fire extinguisher, soda can, bottle) on Dough.
-- Tortilla Dough Slice: cut Tortilla Dough
-- Flat Tortilla Dough: Use a rolling pin or a round object (fire extinguisher, soda can, bottle) on Tortilla Dough Slice
-- Taco Shell: Microwave Flat Tortilla Dough for 5 Seconds
+- Tranche de pâte : Coupez la pâte
+- Pain : Micro-ondes une tranche de pâte pendant 5 secondes
+- Cotelettes : Coupez la viande crue
+- Morceau de fromage : Coupez une roue de fromage
+- Pâte plate : Utilisez un rouleau à pâtisserie ou un objet rond (extincteur, canette de soda, bouteille) sur la pâte.
+- Tranche de pâte de tortilla : Coupez la pâte de tortilla
+- Pâte plate de tortilla : Utilisez un rouleau à pâtisserie ou un objet rond (extincteur, canette de soda, bouteille) sur la tranche de pâte de tortilla
+- Coquille de taco : Micro-ondes la pâte plate de tortilla pendant 5 secondes
 
-## Food Examples
+## Exemples de plats
 
-- Bread: Microwave Dough for 10 Seconds
-- Plain Burger: Microwave 1 Bun and 1 Raw Meat for 10 Seconds
-- Tomato Soup: 10u Water, 1 Bowl, and 2 Tomatoes for 10 Seconds
-- Citrus Salad: 1 Bowl, 1 Lemon, 1 Lime, 1 Orange for 5 Seconds
-- Margherita Pizza: Microwave 1 Flat Dough, 1 Cheese Wedge, and 4 Tomatoes for 30 Seconds
-- Cake: 1 Cake Batter for 15 Seconds
-- Apple Pie: 1 Pie Dough, 3 Apples, and 1 Pie Tin for 15 Seconds
-- Beef Taco: Microwave 1 Taco Shell, 1 Raw Meat Cutlet, 1 Cheese Wedge for 10 Seconds
-- Cuban Carp : Microwave 1 Dough, 1 Cheese Wedge, 1 Chili, 1 Carp Meat for 15 Seconds
-- Banana Cream Pie : Microwave 1 Pie Dough, 3 Bananas, and 1 Pie Tin for 15 Seconds
-- Carrot Fries : Microwave 1 Carrot, 15u Salt for 15 Seconds
-- Pancake : Microwave 5u Flour, 5u Milk, 1 Egg (6u) for 5 Seconds
+- Pain : Micro-ondes la pâte pendant 10 secondes
+- Burger simple : Micro-ondes 1 Pain et 1 Viande crue pendant 10 secondes
+- Soupe de tomates : 10u Eau, 1 Bol, et 2 Tomates pendant 10 secondes
+- Salade d'agrumes : 1 Bol, 1 Citron, 1 Lime, 1 Orange pendant 5 secondes
+- Pizza Margherita : Micro-ondes 1 Pâte plate, 1 Morceau de fromage, et 4 Tomates pendant 30 secondes
+- Gâteau : 1 Pâte à gâteau pendant 15 secondes
+- Tarte aux pommes : 1 Pâte à tarte, 3 Pommes, et 1 Moule à tarte pendant 15 secondes
+- Taco au bœuf : Micro-ondes 1 Coquille de taco, 1 Viande crue en côtelette, 1 Morceau de fromage pendant 10 secondes
+- Carp Cubain : Micro-ondes 1 Pâte, 1 Morceau de fromage, 1 Piment, 1 Viande de poisson pour 15 secondes
+- Tarte à la crème de banane : Micro-ondes 1 Pâte à tarte, 3 Bananes, et 1 Moule à tarte pendant 15 secondes
+- Frites de carottes : Micro-ondes 1 Carotte, 15u Sel pendant 15 secondes
+- Crêpe : Micro-ondes 5u Farine, 5u Lait, 1 Œuf (6u) pendant 5 secondes
 
 <Box>
 <GuideEntityEmbed Entity="FoodBreadPlain"/>

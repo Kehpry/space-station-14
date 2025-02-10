@@ -1,6 +1,7 @@
 ﻿<Document>
-  # Tesla Engine
-  The Tesla Engine is a powerful generator that uses a contained ball of lightning to produce energy for the station.
+  # Moteur Tesla
+
+  Le Moteur Tesla est un générateur puissant qui utilise une boule de foudre contenue pour produire de l'énergie pour la station.
   <Box>
     <GuideEntityEmbed Entity="TeslaGenerator"/>
   </Box>
@@ -8,13 +9,13 @@
     <GuideEntityEmbed Entity="TeslaEnergyBall"/>
   </Box>
 
-  It generates power by harnessing the lightning strikes produced by the lightning ball using Tesla Coils.
+  Il génère de l'énergie en utilisant les éclairs produits par la boule de foudre à l'aide de bobines Tesla.
 
-  ## Containment Field
-  The Tesla Engine requires a containment field to prevent the lightning ball from escaping and destroying the station.
+  ## Champ de Confinement
+  Le Moteur Tesla nécessite un champ de confinement pour empêcher la boule de foudre de s'échapper et de détruire la station.
 
-  It is suggested to use the minimum size containment field for the lightning ball.
-  Larger containment fields allow the lightning ball to reach closer to sensitive equipment and potentially strike it, ignoring placed grounding rods and tesla coils.
+  Il est recommandé d'utiliser un champ de confinement de taille minimale pour la boule de foudre.
+  Les champs de confinement plus grands permettent à la boule de foudre de se rapprocher des équipements sensibles et de les frapper, ignorant les tiges de mise à la terre et les bobines Tesla placées.
 
   <Box>
     <GuideEntityEmbed Entity="ContainmentFieldGenerator" Caption="" Margin="0"/>
@@ -32,10 +33,10 @@
     <GuideEntityEmbed Entity="ContainmentFieldGenerator" Caption="" Margin="0"/>
   </Box>
 
-  ## Lightning Strikes
-  When the Tesla Engine is active, the lightning ball will periodically strike objects surrounding it.
+  ## Éclairs
+  Lorsque le Moteur Tesla est activé, la boule de foudre frappe périodiquement les objets l'entourant.
 
-  The Tesla prefers to strike some objects more than others, such as Tesla Coils and Grounding Rods.
+  Le Tesla a une préférence pour frapper certains objets plus que d'autres, tels que les bobines Tesla et les tiges de mise à la terre.
 
   <Box HorizontalAlignment="Stretch">
     <Box>
@@ -47,21 +48,21 @@
     </Box>
   </Box>
 
-  Because of this, strategically placing Tesla Coils and Grounding Rods around the lightning ball can help protect sensitive equipment from being struck, and prevent a loosed tesla (tesloose).
+  En raison de cela, placer stratégiquement les bobines Tesla et les tiges de mise à la terre autour de la boule de foudre peut aider à protéger les équipements sensibles des frappes et prévenir un "tesloose" (fuite de Tesla).
 
-  If the tesla can't find any Tesla Coils or Grounding Rods to strike first, it will strike almost any station object capable of being powered, such as Substations, APCs, and general machinery.
+  Si le Tesla ne trouve pas de bobines Tesla ou de tiges de mise à la terre à frapper en premier, il frappera presque n'importe quel objet de la station capable d'être alimenté, comme les sous-stations, les APC et les machines générales.
 
-  Certain objects aren't struck by the tesla, such as batteries, lights, PDAs, and other handheld items.
+  Certains objets ne sont pas frappés par le Tesla, comme les batteries, les lumières, les PDAs et autres objets portatifs.
 
-  It will also strike mobs and crew members, shocking them. Make sure to wear insulated gloves before approaching it.
+  Il frappera également les mobs et les membres d'équipage, les électrocutant. Assurez-vous de porter des gants isolants avant de vous en approcher.
 
-  Note that only placing Tesla Coils won't be enough to prevent the tesla from striking sensitive equipment.
-  Grounding Rods should also be placed to help protect nearby Emitters from being struck.
+  Notez que simplement placer des bobines Tesla ne suffira pas à empêcher le Tesla de frapper les équipements sensibles.
+  Des tiges de mise à la terre doivent également être placées pour protéger les Émetteurs à proximité d'être frappés.
 
-  Engineers can also use grounding rods to protect sensitive equipment from lightning strikes, such as the Emitters powering the containment field generators.
+  Les ingénieurs peuvent également utiliser des tiges de mise à la terre pour protéger les équipements sensibles des éclairs, comme les Émetteurs alimentant les générateurs de champ de confinement.
 
-  ## Power Generation
-  Lightning strikes can be harnessed using Tesla Coils, which convert the lightning strikes into power for the station.
+  ## Production d'énergie
+  Les éclairs peuvent être exploités à l'aide des bobines Tesla, qui convertissent les éclairs en énergie pour la station.
 
   <Box>
     <GuideEntityEmbed Entity="TeslaCoil" Caption=""/>
@@ -69,36 +70,35 @@
     <GuideEntityEmbed Entity="TeslaCoil" Caption=""/>
   </Box>
 
-  Tesla Coils should be placed around the lightning ball to capture the lightning strikes, as well as to prevent the lightning from striking sensitive equipment further away.
+  Les bobines Tesla doivent être placées autour de la boule de foudre pour capturer les éclairs, ainsi que pour empêcher les éclairs de frapper des équipements sensibles plus éloignés.
 
-  Tesla Coils take damage every time they are struck by lightning, and will eventually break if not repaired.
-  Be sure to monitor the condition of the Tesla Coils and repair them as needed.
+  Les bobines Tesla subissent des dégâts chaque fois qu'elles sont frappées par des éclairs et finiront par se casser si elles ne sont pas réparées.
+  Assurez-vous de surveiller l'état des bobines Tesla et de les réparer si nécessaire.
 
-  Grounding rods, in contrast, do not take damage from lightning strikes.
+  Les tiges de mise à la terre, en revanche, ne subissent pas de dommages lorsqu'elles sont frappées par des éclairs.
 
-  When lightning strikes Tesla Coils, they fill an internal battery, which is rapidly discharged to the grid.
-  It will discharge this power even if there is no consumer to take it, so it's a good idea to have an SMES nearby to store the power and discharge it smoothly.
+  Lorsque les éclairs frappent les bobines Tesla, elles remplissent une batterie interne, qui se décharge rapidement dans le réseau.
+  Cette énergie sera déchargée même s'il n'y a pas de consommateur pour la prendre, il est donc conseillé d'avoir un SMES à proximité pour stocker l'énergie et la décharger de manière fluide.
 
-  ## Loosed Tesla (Tesloose)
-  If the lightning ball escapes the containment field, it is referred to as a loosed tesla, or tesloose.
+  ## Fuite de Tesla (Tesloose)
+  Si la boule de foudre échappe au champ de confinement, on parle de fuite de Tesla, ou "tesloose".
 
-  An escaped tesla will randomly walk around the station, attracted to objects that can be powered, such as APCs, Substations, and machinery.
-  It will also gladly strike crew members and mobs, shocking them.
+  Un Tesla échappé errera au hasard autour de la station, attiré par des objets pouvant être alimentés, comme des APC, des sous-stations et des machines.
+  Il frappera également volontiers les membres d'équipage et les mobs, les électrocutant.
 
-  Wearing insulated gloves will protect you from being shocked by the tesla, but it won't prevent the tesla from striking you.
+  Porter des gants isolants vous protégera des chocs du Tesla, mais ne l'empêchera pas de vous frapper.
 
   <Box>
     <GuideEntityEmbed Entity="ClothingHandsGlovesColorYellow"/>
   </Box>
 
-  The tesla can be destroyed by firing antiparticles at it using a Portable Particle Decelerator, however, the Tesla is much more powerful than the Singularity, and it will take a lot of antiparticles to destroy it.
-  A group of people using decelerators is recommended to destroy a tesloose.
+  Le Tesla peut être détruit en tirant des antiparticules sur lui à l'aide d'un Décélérateur de Particules Portable, cependant, le Tesla est beaucoup plus puissant que la Singularité, et il faudra beaucoup d'antiparticules pour le détruire.
+  Un groupe de personnes utilisant des décélérateurs est recommandé pour détruire un tesloose.
 
-  Portable Particle Decelerators can be either researched and made by the Research Department, or they can be bought from Cargo.
+  Les Décélérateurs de Particules Portables peuvent soit être recherchés et fabriqués par le Département de Recherche, soit achetés auprès de Cargo.
 
   <Box>
     <GuideEntityEmbed Entity="WeaponParticleDecelerator"/>
   </Box>
-
 
 </Document>

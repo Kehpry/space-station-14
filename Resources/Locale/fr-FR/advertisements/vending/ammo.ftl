@@ -1,0 +1,10 @@
+﻿advertisement-ammo-1 = Liberation Station : Votre guichet unique pour tout ce qui concerne le deuxième amendement !
+advertisement-ammo-2 = Soyez un patriote aujourd'hui, prenez une arme !
+advertisement-ammo-3 = Des armes de qualité à prix abordables !
+advertisement-ammo-4 = Mieux vaut mort que rouge !
+advertisement-ammo-5 = Flottez comme un astronaute, piquez comme une balle !
+advertisement-ammo-6 = Exprimez votre deuxième amendement aujourd'hui !
+advertisement-ammo-7 = Les armes ne tuent pas les gens, mais vous pouvez le faire !
+advertisement-ammo-8 = Qui a besoin de responsabilités quand on a des armes ?
+advertisement-ammo-9 = Tuer des gens, c'est amusant !
+advertisement-ammo-10 = Allez, tirez-les !

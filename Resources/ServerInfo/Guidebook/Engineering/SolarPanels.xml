@@ -1,9 +1,9 @@
 ﻿<Document>
-  # Solar Panels
-  Solar Panels are a low-maintenance passive power source that generates power from incoming sunlight.
+  # Panneaux solaires
+  Les panneaux solaires sont une source d'énergie passive et peu exigeante en entretien qui génère de l'énergie à partir de la lumière du soleil.
 
-  They are a renewable source of power that can be used to supplement generators in the station's power grid.
-  This is extremely useful, as while most generators burn through some type of fuel in some form or fashion, solar panels generate power for free.
+  Ils sont une source d'énergie renouvelable qui peut être utilisée pour compléter les générateurs dans le réseau électrique de la station.
+  Cela est extrêmement utile, car, contrairement à la plupart des générateurs qui consomment du carburant sous diverses formes, les panneaux solaires génèrent de l'énergie gratuitement.
 
   <Box>
     <GuideEntityEmbed Entity="SolarPanel" Caption=""/>
@@ -11,60 +11,60 @@
     <GuideEntityEmbed Entity="SolarPanel" Caption=""/>
   </Box>
 
-  ## Power Generation
-  Solar panels generate power based on their relative angle to the sun, and if they are occluded by other objects.
+  ## Production d'énergie
+  Les panneaux solaires génèrent de l'énergie en fonction de leur angle relatif par rapport au soleil et de s'ils sont occultés par d'autres objets.
 
-  Because of this, you might see some panels generating 0 W of power, while others generate a lot more.
-  This is because the station is occluding some panels, so don't worry about it too much.
-  Most stations have solar arrays placed at all sides of the station, so there's always some power being generated.
+  En raison de cela, vous pourriez voir certains panneaux générer 0 W d'énergie, tandis que d'autres en génèrent beaucoup plus.
+  Cela est dû à l'occultation de certains panneaux par la station, donc ne vous inquiétez pas trop.
+  La plupart des stations disposent de panneaux solaires placés sur tous les côtés de la station, de sorte qu'il y a toujours de l'énergie générée.
 
-  Solar panels generate [color=orange]HV power[/color], and as such require an [color=orange]HV wire[/color] running underneath them to connect to the station's power grid.
+  Les panneaux solaires génèrent de l'[color=orange]énergie HV[/color], et nécessitent donc un [color=orange]câble HV[/color] les reliant au réseau électrique de la station.
 
-  ## Power Bridge
-  Solar panels might seem like an unnecessary power source at first glance.
-  After all, we have this giant black hole in the center of the station.
-  Why bother setting up solars when we can use that?
+  ## Pont d'énergie
+  À première vue, les panneaux solaires peuvent sembler être une source d'énergie inutile.
+  Après tout, nous avons ce gigantesque trou noir au centre de la station.
+  Pourquoi se donner la peine de mettre en place des panneaux solaires alors que nous pouvons utiliser cela ?
 
-  It's ideal to set up solars alongside the [textlink="AME" link="AME"] for a few reasons:
-  - Having active solar panels alongside the [textlink="AME" link="AME"] increases the runtime of the station's batteries significantly more than just the [textlink="AME" link="AME"] alone. This can buy engineers more time to setup bigger power sources.
-  - Having active solar panels can reduce load on other grid producers. For example, if the solar arrays are producing enough power to satisfy half the station's needs, that is reflected in a reduced load on other engines, which can reduce the amount of fuel they burn.
+  Il est idéal de mettre en place des panneaux solaires aux côtés du [textlink="AME" link="AME"] pour plusieurs raisons :
+  - Avoir des panneaux solaires actifs en plus de l'[textlink="AME" link="AME"] augmente considérablement l'autonomie des batteries de la station, ce qui peut permettre aux ingénieurs de disposer de plus de temps pour installer des sources d'énergie plus grandes.
+  - Avoir des panneaux solaires actifs peut réduire la charge sur les autres producteurs du réseau. Par exemple, si les panneaux solaires produisent suffisamment d'énergie pour satisfaire la moitié des besoins de la station, cela se reflète par une réduction de la charge sur les autres moteurs, ce qui peut réduire la quantité de carburant qu'ils brûlent.
 
 
-  ## Adjusting Panels
-  Because the station is orbiting a star, the sun's position in space changes over time.
-  Solar panels need to be pointing straight at the sun to generate power efficiently, and they need to move over time to keep up with the sun's position.
+  ## Ajustement des panneaux
+  Puisque la station orbite autour d'une étoile, la position du soleil dans l'espace change au fil du temps.
+  Les panneaux solaires doivent être orientés directement vers le soleil pour générer de l'énergie de manière efficace, et ils doivent se déplacer avec le temps pour suivre la position du soleil.
 
-  The angle at which solar panels face to can be adjusted at a Solar Control Computer.
+  L'angle auquel les panneaux solaires sont orientés peut être ajusté via un ordinateur de contrôle solaire.
   <Box>
     <GuideEntityEmbed Entity="ComputerSolarControl"/>
   </Box>
 
-  You can also adjust the rate at which the panels move to track the sun.
+  Vous pouvez également ajuster la vitesse à laquelle les panneaux se déplacent pour suivre le soleil.
 
-  The rate at which the sun moves around the station changes each shift, so time the sun's position and adjust the rate accordingly.
+  Le taux de déplacement du soleil autour de la station change à chaque quart, alors synchronisez la position du soleil et ajustez la vitesse en conséquence.
 
-  The Solar Control Computer also reports on the total power generated by the solar panels.
+  L'ordinateur de contrôle solaire indique également la puissance totale générée par les panneaux solaires.
 
   ## Construction
 
-  Solar panels can be constructed by using two glass sheets on a solar assembly.
+  Les panneaux solaires peuvent être construits en utilisant deux plaques de verre sur un assemblage solaire.
   <Box>
     <GuideEntityEmbed Entity="SolarAssembly" Caption=""/>
     <GuideEntityEmbed Entity="SheetGlass10" Caption=""/>
     <GuideEntityEmbed Entity="SolarPanel" Caption=""/>
   </Box>
 
-  You can purchase solar assemblies from Cargo.
+  Vous pouvez acheter des assemblages solaires à la section Cargo.
 
-  ## Repairs
-  Solar panels can sometimes be damaged, and require repair.
+  ## Réparations
+  Les panneaux solaires peuvent parfois être endommagés et nécessitent des réparations.
 
   <Box>
     <GuideEntityEmbed Entity="SolarPanelBroken"/>
   </Box>
 
-  To fix them, you can use a crowbar to pry the broken glass shards out of the panel.
-  Weld these glass shards into glass sheets, and then use them to make a new panel.
+  Pour les réparer, vous pouvez utiliser un pied-de-biche pour retirer les éclats de verre cassés du panneau.
+  Soudez ces éclats de verre pour en faire des plaques de verre, puis utilisez-les pour fabriquer un nouveau panneau.
 
   <Box>
     <GuideEntityEmbed Entity="SolarPanelBroken" Caption=""/>
@@ -78,20 +78,20 @@
     <GuideEntityEmbed Entity="SolarPanel" Caption=""/>
   </Box>
 
-  ## Setting Up Solar Panel Arrays
-  Solar panel arrays are commonly found on the exterior of the station, and are used to generate large amounts of free power for the station.
+  ## Mise en place des arrays solaires
+  Les arrays solaires se trouvent couramment à l'extérieur de la station et sont utilisés pour générer de grandes quantités d'énergie gratuite pour la station.
 
-  You can either spacewalk to them from the outside, or you can run a loop through the station's maintenance tunnels to reach them.
-  Solar array machine rooms are often marked with signs, and locked behind engineering access.
+  Vous pouvez soit effectuer une sortie dans l'espace pour y accéder, soit suivre une boucle dans les tunnels de maintenance de la station pour y parvenir.
+  Les salles des machines des arrays solaires sont souvent marquées par des panneaux et verrouillées derrière un accès ingénierie.
   <Box>
     <GuideEntityEmbed Entity="SignDirectionalSolar" Caption=""/>
     <GuideEntityEmbed Entity="AirlockEngineering" Caption=""/>
   </Box>
 
-  At the start of the shift, solar panels are misaligned and disconnected from the grid.
-  You will need to align them and connect them to the station's power grid to start generating power.
+  Au début du quart, les panneaux solaires sont mal alignés et déconnectés du réseau.
+  Vous devrez les aligner et les connecter au réseau électrique de la station pour commencer à générer de l'énergie.
 
-  This usually involves running a line of [color=orange]HV wire[/color] to the pannels from the solar array machine room, and then using a Solar Control Computer to align the panels.
+  Cela implique généralement de faire passer une ligne de [color=orange]câble HV[/color] jusqu'aux panneaux depuis la salle des machines de l'array solaire, puis d'utiliser un ordinateur de contrôle solaire pour aligner les panneaux.
 
-  Solar array machine rooms frequently have a Solar Control Computer nearby, as well as an [textlink="SMES" link="PowerStorage"] to store the power generated by the panels for later use.
+  Les salles des machines des arrays solaires disposent fréquemment d'un ordinateur de contrôle solaire à proximité, ainsi que d'un [textlink="SMES" link="PowerStorage"] pour stocker l'énergie générée par les panneaux pour une utilisation ultérieure.
 </Document>

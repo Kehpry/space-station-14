@@ -1,21 +1,21 @@
 <Document>
   # Cargo Bounties
-  While [textlink="Cargo" link="Cargo"] can make [color=cyan]spesos[color] selling just about anything, more spesos can be made by fulfilling [color=cyan]bounties[/color] found through the Cargo Bounty Computer.
+  Bien que [textlink="Cargo" link="Cargo"] puisse gagner des [color=cyan]spesos[color] en vendant pratiquement n'importe quoi, vous pouvez en gagner davantage en accomplissant des [color=cyan]primes[/color] trouvées via le Computer des Primes Cargo.
 
-  ## Starting Bounties
+  ## Démarrer des Primes
 
   <Box>
     <GuideEntityEmbed Entity="ComputerCargoBounty"/>
     <GuideEntityEmbed Entity="PaperCargoBountyManifest"/>
   </Box>
 
-  To start a bounty, open the bounty screen by interacting with the [color=cyan]Cargo Bounty Computer[/color]. The Cargo Bounty Computer maintains a list of all the current bounties and lets you either print out a label or skip it.
+  Pour démarrer une prime, ouvrez l'écran des primes en interagissant avec le [color=cyan]Computer des Primes Cargo[/color]. Le Computer des Primes Cargo maintient une liste de toutes les primes en cours et vous permet soit d'imprimer une étiquette, soit de la passer.
 
-  - Printing the label gives you a [color=cyan]Bounty Manifest[/color] listing the goods that need to be acquired. You can print out infinite Bounty Manifests, so ensure you are not repeating the same work as another Cargo Technician.
+  - Imprimer l'étiquette vous donne un [color=cyan]Manifeste des Primes[/color] listant les biens à acquérir. Vous pouvez imprimer un nombre infini de Manifeste des Primes, alors assurez-vous de ne pas répéter le travail d'un autre technicien Cargo.
 
-  - Skipping a bounty replaces that bounty with a new one, as there can only be six active bounties at any time. Skipping has a 15-minute cooldown and voids that bounty, which may anger other Cargo Technicians working on it.
+  - Passer une prime remplace cette prime par une nouvelle, car il ne peut y avoir que six primes actives en même temps. Passer une prime a un délai de 15 minutes et annule cette prime, ce qui pourrait contrarier d'autres techniciens Cargo qui y travaillent.
 
-  ## Fulfilling Bounties
+  ## Accomplir des Primes
 
   <Box>
     <GuideEntityEmbed Entity="PaperCargoBountyManifest"/>
@@ -23,13 +23,13 @@
     <GuideEntityEmbed Entity="AppraisalTool"/>
   </Box>
 
-  With the [color=cyan]Bounty Manifest[/color], it is now up to you to collect the required goods. Most departments will give you what you need by asking for it with a Bounty Manifest.
+  Avec le [color=cyan]Manifeste des Primes[/color], il vous revient de collecter les biens requis. La plupart des départements vous fourniront ce dont vous avez besoin en vous le demandant avec un Manifeste des Primes.
 
-  Once you have collected the goods, return to the cargo bay and put the goods inside an empty [color=cyan]Crate[/color]. After everything is in the crate, close it, and then apply the Bounty Manifest to it.
+  Une fois que vous avez collecté les biens, retournez à la salle de cargo et mettez les biens dans une [color=cyan]Caisse[/color] vide. Après avoir mis tous les articles dans la caisse, fermez-la et appliquez-y le Manifeste des Primes.
 
-  To verify the completion of a bounty, use the [color=cyan]Appraisal Tool[/color] on it. It should say that it confirms that the bounty has been completed.
+  Pour vérifier l'achèvement d'une prime, utilisez l'[color=cyan]Outil d'Évaluation[/color] dessus. Il devrait confirmer que la prime a été complétée.
 
-  ## Selling Bounties
+  ## Vendre des Primes
 
   <Box>
     <GuideEntityEmbed Entity="PaperCargoBountyManifest"/>
@@ -37,9 +37,9 @@
     <GuideEntityEmbed Entity="CargoPalletSell"/>
   </Box>
 
-  Once you have verified that you have completed the bounty, follow the same steps as selling anything else.
+  Une fois que vous avez vérifié que vous avez complété la prime, suivez les mêmes étapes que pour vendre n'importe quoi d'autre.
 
-  Just transport it to the [color=cyan]Trading Station[/color], sell it, and you are done!
+  Transportez-le simplement à la [color=cyan]Station de Commerce[/color], vendez-le et c'est terminé !
 
-  When you return, there should be a new bounty to take its place.
+  À votre retour, une nouvelle prime devrait prendre sa place.
 </Document>

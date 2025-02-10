@@ -1,0 +1,1 @@
+ghostrole-spawner-select = Sélectionné : {$mode}

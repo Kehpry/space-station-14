@@ -1,0 +1,2 @@
+nuke-ops-no-more-threat-announcement-shuttle-call = D'après nos scans effectués avec nos capteurs à longue portée, la menace nucléaire a maintenant été éliminée. Nous allons appeler le vaisseau d'urgence qui arrivera sous peu. ETA : {$time} {$units}. Vous pouvez rappeler le vaisseau pour prolonger le quart.
+nuke-ops-no-more-threat-announcement = D'après nos scans effectués avec nos capteurs à longue portée, la menace nucléaire a maintenant été éliminée. Le vaisseau a déjà été appelé.

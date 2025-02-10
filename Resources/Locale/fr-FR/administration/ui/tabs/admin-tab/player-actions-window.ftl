@@ -1,0 +1,10 @@
+admin-player-actions-window-title = Panneau des actions du joueur
+admin-player-actions-window-ban = Panneau de bannissement
+admin-player-actions-window-admin-ghost = Fantôme administrateur
+admin-player-actions-window-teleport = Téléportation
+admin-player-actions-window-permissions = Panneau des permissions
+admin-player-actions-window-announce = Annoncer
+admin-player-actions-window-shuttle = (Ré)appeler la navette
+admin-player-actions-window-admin-logs = Journaux des administrateurs
+admin-player-actions-window-admin-notes = Notes des administrateurs
+admin-player-actions-window-admin-fax = Fax des administrateurs

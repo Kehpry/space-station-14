@@ -1,0 +1,9 @@
+game-hud-open-escape-menu-button-tooltip = Ouvrir le menu d'évasion.
+game-hud-open-guide-menu-button-tooltip = Ouvrir le menu du guide.
+game-hud-open-character-menu-button-tooltip = Ouvrir le menu du personnage.
+game-hud-open-emotes-menu-button-tooltip = Ouvrir le menu des émotes.
+game-hud-open-inventory-menu-button-tooltip = Ouvrir le menu de l'inventaire.
+game-hud-open-crafting-menu-button-tooltip = Ouvrir le menu de fabrication.
+game-hud-open-actions-menu-button-tooltip = Ouvrir le menu des actions.
+game-hud-open-admin-menu-button-tooltip = Ouvrir le menu administrateur.
+game-hud-open-sandbox-menu-button-tooltip = Ouvrir le menu du bac à sable.

@@ -1,34 +1,34 @@
 <Document>
-  # Access Configurator
-  The access configurator is a tool used to specify what type of personnel may use certain devices.
+# Configureur d'accès
+Le configureur d'accès est un outil utilisé pour spécifier quel type de personnel peut utiliser certains dispositifs.
 
-  <Box>
-	  <GuideEntityEmbed Entity="AccessConfigurator" Caption="access configurator"/>
-  </Box>
+<Box>
+	<GuideEntityEmbed Entity="AccessConfigurator" Caption="configureur d'accès"/>
+</Box>
 
-  Configurable devices can include airlocks, secure crates and lockers, as well as access restricted machines.
-  Note: Airlocks can have their accesses configured by the [color=#a4885c]Network Configurator[/color] (or multitool), for convenience.
+Les dispositifs configurables peuvent inclure des écluses, des caisses et des casiers sécurisés, ainsi que des machines à accès restreint.
+Note : Les écluses peuvent avoir leurs accès configurés par le [color=#a4885c]Configureur Réseau[/color] (ou multitool), pour plus de commodité.
 
-  ## Where to find Access Configurators
-  Each station is equipped with up to two access configurators. The first is in the possession of the Chief Engineer, while the second can be found with the Head of Personnel.
+## Où trouver les configureurs d'accès
+Chaque station est équipée de deux configureurs d'accès maximum. Le premier est en possession du Chef Ingénieur, tandis que le second peut être trouvé auprès du Chef du Personnel.
 
-  ## How to use the access configurator
-  To modify a device using the access configurator:
-  - First, use the access configurator on the chosen device to link them together. This will automatically open the configurator UI.
-  - Next, insert an ID card into the access configurator.
-  - Set the access requirements of the connected device. What requirements can be added or removed will depend upon the access privileges of the inserted ID card.
-  - Any changes made will be applied [color=#a4885c]immediately[/color] - simply eject the ID card from the access configurator and close the UI when you are done.
+## Comment utiliser le configureur d'accès
+Pour modifier un dispositif à l'aide du configureur d'accès :
+- D'abord, utilisez le configureur d'accès sur le dispositif choisi pour les lier ensemble. Cela ouvrira automatiquement l'interface du configureur.
+- Ensuite, insérez une carte d'identité dans le configureur d'accès.
+- Définissez les exigences d'accès du dispositif connecté. Les exigences qui peuvent être ajoutées ou supprimées dépendront des privilèges d'accès de la carte d'identité insérée.
+- Toute modification apportée sera appliquée [color=#a4885c]immédiatement[/color] - il vous suffit d'éjecter la carte d'identité du configureur d'accès et de fermer l'interface lorsque vous avez terminé.
 
-  ## Restrictions on changing access
-  As a safety precaution, the inserted ID must possess [bold]all[/bold] of the access requirements that are currently active on the connected device in order to modify it.
+## Restrictions sur la modification des accès
+Par mesure de sécurité, la carte d'identité insérée doit posséder [bold]toutes[/bold] les exigences d'accès actuellement actives sur le dispositif connecté pour pouvoir le modifier.
 
-  For example, a device which can be accessed by both 'Science' and 'Medical' personnel can only by modified using an ID card that has access to [color=#a4885c]both[/color] of these departments.
-  The access configurator will warn the user if the inserted ID card does not have sufficient privileges to modify a device.
+Par exemple, un dispositif accessible tant par le personnel 'Science' que 'Medical' ne pourra être modifié qu'à l'aide d'une carte d'identité ayant accès à [color=#a4885c]ces deux[/color] départements.
+Le configureur d'accès avertira l'utilisateur si la carte d'identité insérée n'a pas les privilèges suffisants pour modifier un dispositif.
 
-  A device with no access requirements set, like a public access airlock, can be modified using any valid station ID card.
+Un dispositif sans exigences d'accès définies, comme une écluse d'accès public, peut être modifié avec n'importe quelle carte d'identité valide de la station.
 
-  ## Repairing damaged ID card readers
-  Syndicate agents may attempt to hack access-restricted devices through the use of a [color=#a4885c]Cryptographic Sequencer (EMAG)[/color]. This nefarious tool will completely short out any ID card readers that are attached to the device.
+## Réparation des lecteurs de cartes d'identité endommagés
+Les agents Syndicate peuvent tenter de pirater les dispositifs à accès restreint à l'aide d'un [color=#a4885c]Séquenceur Cryptographique (EMAG)[/color]. Cet outil néfaste court-circuite complètement tous les lecteurs de cartes d'identité attachés au dispositif.
 
-  Engineers will need to partially de/reconstruct affected devices, and then set appropriate access permissions afterwards using the access configurator (or network configurator, for airlocks), to re-establish access restrictions.
+Les ingénieurs devront partiellement dé/reconstruire les dispositifs affectés, puis définir les permissions d'accès appropriées à l'aide du configureur d'accès (ou du configureur réseau, pour les écluses), afin de rétablir les restrictions d'accès.
 </Document>

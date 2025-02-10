@@ -1,9 +1,9 @@
 <Document>
-# Janitorial
+# Entretien
 
-You keep things clean, it's a rough job sometimes, but someone's gotta do it. This will walk you through the tools of the trade, and how they're used.
+Vous gardez les lieux propres, c'est parfois un travail difficile, mais quelqu'un doit s'en occuper. Ce guide vous expliquera les outils du métier et comment les utiliser.
 
-## Basic Equipment
+## Équipement de base
 <Box>
 <GuideEntityEmbed Entity="MopItem"/>
 <GuideEntityEmbed Entity="JanitorialTrolley"/>
@@ -18,39 +18,39 @@ You keep things clean, it's a rough job sometimes, but someone's gotta do it. Th
 <GuideEntityEmbed Entity="Mousetrap"/>
 </Box>
 
-## Additional Equipment
+## Équipement supplémentaire
 <Box>
 <GuideEntityEmbed Entity="WetFloorSign"/>
-<GuideEntityEmbed Entity="Holoprojector" Caption="holosign projector"/>
+<GuideEntityEmbed Entity="Holoprojector" Caption="Projecteur de panneaux holographiques"/>
 <GuideEntityEmbed Entity="LightReplacer"/>
 </Box>
 <Box>
-<GuideEntityEmbed Entity="AdvMopItem" Caption="Advanced mop, ask in R&D"/>
+<GuideEntityEmbed Entity="AdvMopItem" Caption="Mop avancé, demandez à la R&D"/>
 </Box>
 
-## Fluid Acquisition and Disposal
+## Acquisition et élimination des fluides
 <Box>
 <GuideEntityEmbed Entity="WaterTankFull"/>
 <GuideEntityEmbed Entity="Sink"/>
 <GuideEntityEmbed Entity="FloorDrain"/>
 </Box>
 
-## Tidying up.
-Now, onto the (figurative) meat and potatoes. We're here to clean, right? Lets keep it simple. The main tools you'll be putting to use are the trusty mop, a trash bag, space cleaner, and one of the three different buckets.
+## Rangement.
+Passons aux choses sérieuses (au sens figuré). Nous sommes là pour nettoyer, n'est-ce pas ? Gardons ça simple. Les principaux outils que vous utiliserez sont la fidèle serpillère, un sac poubelle, le nettoyeur spatial et l'un des trois seaux différents.
 
-Mopping: Fill your cart up with water, then, find some puddles! Wet your mop, and wipe them up, the resulting water puddle will dry after a short time. Don't forget the wet floor signs!
-- To drain your cart, drag it (with your cursor) onto a floor drain. This will dump all the fluids inside! Floor drains can usually be found somewhere in medical, the kitchen freezer, and of course, the janitor closet.
+Serpillère : Remplissez votre chariot d'eau, puis trouvez des flaques ! Mouillez votre serpillère et essuyez-les, la flaque d'eau résultante séchera après un court instant. N'oubliez pas les panneaux de sol humide !
+- Pour vider votre chariot, faites-le glisser (avec votre curseur) sur un drain de sol. Cela videra tous les fluides à l'intérieur ! Les drains de sol se trouvent généralement quelque part dans la médecine, le congélateur de la cuisine, et bien sûr, le placard du concierge.
 
-Trash: Place it in the bag directly, or hold it in your hand. Click -near- trash to scoop -all- nearby junk up, or click on each piece individually. Using the bag on a disposal will empty it.
-- Cargo might want some of your trash, it might be worthwhile to check in from time to time!
+Poubelle : Placez-la directement dans le sac, ou tenez-la à la main. Cliquez près des déchets pour ramasser tout ce qui traîne à proximité, ou cliquez sur chaque morceau individuellement. Utilisez le sac sur un déverseur pour le vider.
+- Le cargo pourrait avoir besoin de vos déchets, il peut être utile de vérifier de temps en temps !
 
-Space Cleaner: This miracle spray can do two things, clean graffiti, and in a pinch, clean up puddles!
-- You might be able to get more of this from chemistry.
+Nettoyeur spatial : Ce spray miracle peut faire deux choses : nettoyer les graffitis et, en cas de besoin, nettoyer les flaques !
+- Vous pourriez obtenir plus de ce produit auprès de la chimie.
 
-## Extra Duties
-A good janitor is always on the lookout for a bit more to do, and there are plenty of tools at your disposal. Keep an eye out for broken lights, help the chef take care of mice in the kitchen, and if you're feeling -really- generous, try to restock the vending machines and emergency closets around the station!
+## Tâches supplémentaires
+Un bon concierge est toujours à l'affût de quelques tâches supplémentaires, et il y a plein d'outils à votre disposition. Gardez un œil sur les lumières cassées, aidez le chef à lutter contre les souris dans la cuisine et, si vous vous sentez vraiment généreux, essayez de réapprovisionner les distributeurs automatiques et les armoires d'urgence dans la station !
 
-##Additional Information:
+## Informations supplémentaires :
 <GuideReagentEmbed Reagent="SpaceCleaner"/>
 <GuideReagentEmbed Reagent="Ammonia"/>
 

@@ -1,19 +1,44 @@
 ﻿<Document>
-  # Core Rules
-  These rules apply at all times, including between rounds.
+  # Règles de base
+  Ces règles s'appliquent en tout temps, y compris entre les rounds.
 
-  - [textlink="1. Admins have final say" link="RuleC1"]
-  - [textlink="2. Don't be a dick" link="RuleC2"]
-  - [textlink="3. No Hate Speech or Discriminatory Language" link="RuleC3"]
-  - [textlink="4. No sexual content/themes, including erotic roleplay (ERP) and no shock content" link="RuleC4"]
-  - [textlink="5. Do not use out of game methods to communicate with other players" link="RuleC5"]
-  - [textlink="6. Do not attempt to evade bans" link="RuleC6"]
-  - [textlink="7. Only use English" link="RuleC7"]
-  - [textlink="8. Do not exploit the game, use cheats, or macros" link="RuleC8"]
-  - [textlink="9. Do not use multiple accounts, or alt accounts, and do not share accounts" link="RuleC9"]
-  - [textlink="10. Do not abuse or ignore admin messages" link="RuleC10"]
-  - [textlink="11. Do not threaten to ahelp other players or argue with them about rules" link="RuleC11"]
-  - [textlink="12. Players must be and act at least 16 years old" link="RuleC12"]
-  - [textlink="13. Use realistic character names, and do not use names of famous people" link="RuleC13"]
-  - [textlink="14. Do not use LOOC or OOC to share current round information" link="RuleC14"]
+  - [textlink="1. Les admins ont le dernier mot" link="RuleC1"]
+  - [textlink="2. Ne soyez pas un con" link="RuleC2"]
+  - [textlink="3. Pas de discours haineux ou de langage discriminatoire" link="RuleC3"]
+  - [textlink="4. Pas de contenu/thèmes sexuels, y compris le jeu de rôle érotique (ERP) et pas de contenu choquant" link="RuleC4"]
+  - [textlink="5. N'utilisez pas de méthodes hors jeu pour communiquer avec d'autres joueurs" link="RuleC5"]
+  - [textlink="6. Ne tentez pas d'évader des bans" link="RuleC6"]
+  - [textlink="7. Utilisez uniquement le français" link="RuleC7"]
+  - [textlink="8. N'exploitez pas le jeu, n'utilisez pas de cheats ni de macros" link="RuleC8"]
+  - [textlink="9. N'utilisez pas plusieurs comptes, ni de comptes secondaires, et ne partagez pas vos comptes" link="RuleC9"]
+  - [textlink="10. Ne abusez pas des messages des admins et ne les ignorez pas" link="RuleC10"]
+  - [textlink="11. Ne menacez pas d'alerter les admins ou ne vous disputez pas avec d'autres joueurs à propos des règles" link="RuleC11"]
+  - [textlink="12. Les joueurs doivent avoir au moins 16 ans et se comporter en conséquence" link="RuleC12"]
+  - [textlink="13. Utilisez des noms de personnages réalistes et ne vous servez pas des noms de personnes célèbres" link="RuleC13"]
+  - [textlink="14. N'utilisez pas LOOC ou OOC pour partager des informations sur la partie en cours" link="RuleC14"]
+  
+  # Règles de Roleplay
+  Ces règles ne s'appliquent que pendant une ronde. Une ronde se termine uniquement lorsque le résumé de la ronde apparaît. Toutes ces règles s'appliquent pleinement jusqu'au moment où le résumé de la ronde apparaît, même lorsque le vaisseau de l'arrivée est en transit.
+
+  Les modes de jeu deathmatch et sandbox sont exemptés de ces règles. Les joueurs qui choisissent de ne pas suivre ces règles sont entièrement responsables de savoir si un mode de jeu exempté est actif.
+
+  Les règles de roleplay ne s'appliquent pas aux fantômes/spectateurs/observateurs lorsqu'ils sont fantômes/spectateurs/observateurs. Le chat des morts est considéré comme un canal de discussion hors personnage dans le jeu.
+
+  Consultez la liste des [textlink="types de rôles" link="RoleTypes"] pour plus d'informations sur les différents types de rôles.
+
+  - [textlink="1. Les Silicons doivent suivre les Règles des Silicons" link="RuleR1"]
+  - [textlink="2. Les Familiers doivent obéir à leur maître" link="RuleR2"]
+  - [textlink="3. Roleplay en tant que personne normale" link="RuleR3"]
+  - [textlink="4. Ne pas métagamer, respecter le Metashield" link="RuleR4"]
+  - [textlink="5. Ne pas interférer avec les arrivées" link="RuleR5"]
+  - [textlink="6. Ne pas agir en tant qu'antagoniste à moins que le jeu ne vous indique que vous en êtes un" link="RuleR6"]
+  - [textlink="7. Ne pas ralentir la ronde" link="RuleR7"]
+  - [textlink="8. En tant qu'antagoniste, soyez uniquement amical avec votre équipe et ne travaillez pas contre elle" link="RuleR8"]
+  - [textlink="9. En tant qu'antagoniste, ne causez pas de morts, de dégâts ou de destructions excessifs au-delà de vos objectifs" link="RuleR9"]
+  - [textlink="10. Écoutez votre chef d'équipe" link="RuleR10"]
+  - [textlink="11. Suivez une escalade raisonnable" link="RuleR11"]
+  - [textlink="12. Ne pas abandonner votre rôle" link="RuleR12"]
+  - [textlink="13. Tenez-vous à votre rôle" link="RuleR13"]
+  - [textlink="14. Donnez l'exemple si vous jouez un rôle de commandement ou de sécurité" link="RuleR14"]
+  - [textlink="15. Commandement et sécurité doivent suivre la Space Law" link="RuleR15"]
 </Document>

@@ -1,17 +1,17 @@
 <Document>
-  # Singularity / Tesla Engine
+  # Moteur de singularité / Moteur Tesla
 
-  The Singularity Engine / Tesla Engine can yield [color=#a4885c]infinite power[/color] for the entire shift, making it a valuable asset to the station.
+  Le moteur de singularité / moteur Tesla peut fournir [color=#a4885c]une énergie infinie[/color] pendant toute la durée du quart, ce qui en fait un atout précieux pour la station.
 
-  It can also [color=red]destroy the whole station[/color] with equal ease, and requires careful preparation and monitoring to prevent a [bold]loose[/bold].
+  Il peut également [color=red]détruire toute la station[/color] avec une facilité égale, et nécessite une préparation et une surveillance minutieuses pour éviter un [bold]échappement[/bold].
 
-  # Setting it up
-  Both engines follow the same basic setup steps, but have different subsystems and requirements.
+  # Installation
+  Les deux moteurs suivent les mêmes étapes de configuration de base, mais ont des sous-systèmes et des exigences différents.
 
-  ## Containment Field
-  The Containment Field is a multi-tile beam field that repels the singularity or tesla, keeping it from escaping.
+  ## Champ de confinement
+  Le champ de confinement est un champ à faisceau de plusieurs tuiles qui repousse la singularité ou le tesla, l'empêchant de s'échapper.
 
-  The emitter lasers and the containment fields can also cause damage and/or cause you to be sent flying into deep space; [color=#a4885c]avoid touching them[/color] when active.
+  Les lasers émetteurs et les champs de confinement peuvent également causer des dégâts et/ou vous envoyer dans l'espace profond ; [color=#a4885c]évitez de les toucher[/color] lorsqu'ils sont actifs.
 
   <Box>
     <GuideEntityEmbed Entity="Emitter"/>
@@ -19,23 +19,23 @@
     <GuideEntityEmbed Entity="ContainmentField"/>
   </Box>
 
-  Containment Fields are generated between active Containment Field Generators, which are powered by emitters.
+  Les champs de confinement sont générés entre les générateurs de champ de confinement actifs, qui sont alimentés par des émetteurs.
 
-  A containment field generator can generate a containment field if:
-  - The generator has been turned on,
-  - another field generator is within 8 tiles,
-  - and the field generators are on the same cardinal axis.
+  Un générateur de champ de confinement peut générer un champ de confinement si :
+  - Le générateur a été allumé,
+  - Un autre générateur de champ est dans un rayon de 8 tuiles,
+  - Et les générateurs de champ sont sur le même axe cardinal.
 
-  This means that the maximum length of a containment field is 7 tiles.
+  Cela signifie que la longueur maximale d'un champ de confinement est de 7 tuiles.
 
-  You can turn on a containment field generator by interacting with it using [color=yellow][bold][keybind="Use"][/bold][/color].
-  Containment field generators won't work if they aren't turned on, even when struck by an emitter. Remember to turn on the field generator!
+  Vous pouvez allumer un générateur de champ de confinement en interagissant avec lui à l'aide de [color=yellow][bold][keybind="Use"][/bold][/color].
+  Les générateurs de champ de confinement ne fonctionneront pas s'ils ne sont pas allumés, même s'ils sont frappés par un émetteur. N'oubliez pas d'allumer le générateur de champ !
 
-  The containment field generator has an internal energy level, which is filled by striking it with an emitter. When the containment field generator has enough stored energy, it will generate a containment field.
+  Le générateur de champ de confinement a un niveau d'énergie interne, qui est rempli en le frappant avec un émetteur. Lorsque le générateur de champ de confinement a suffisamment d'énergie stockée, il génère un champ de confinement.
 
-  This energy level will naturally decay over time, and the field will disappear when the energy level reaches zero after a delay.
+  Ce niveau d'énergie se dégradera naturellement avec le temps, et le champ disparaîtra lorsque le niveau d'énergie atteindra zéro après un délai.
 
-  When the containment field is active, you cannot turn off the field generator or unanchor it. You must wait for the field to decay before you can turn off the generator.
+  Lorsque le champ de confinement est actif, vous ne pouvez pas éteindre le générateur de champ ou le désancrer. Vous devez attendre que le champ se dégrade avant de pouvoir éteindre le générateur.
 
   <Box>
     <GuideEntityEmbed Entity="ContainmentFieldGenerator" Caption=""/>
@@ -45,19 +45,19 @@
     <GuideEntityEmbed Entity="ContainmentFieldGenerator" Caption=""/>
   </Box>
 
-  ## Emitters
-  Emitters are the devices that power the containment field generators.
+  ## Émetteurs
+  Les émetteurs sont les dispositifs qui alimentent les générateurs de champ de confinement.
 
   <Box>
     <GuideEntityEmbed Entity="Emitter"/>
   </Box>
 
-  The emitters connect to MV cables, and fire lasers as long as they have power and are turned on.
+  Les émetteurs se connectent aux câbles MV et tirent des lasers tant qu'ils ont de l'énergie et qu'ils sont allumés.
 
-  It is recommended to [color=#a4885c]lock the emitters[/color] with [color=yellow][bold][keybind="AltActivateItemInWorld"][/bold][/color], to prevent any break-in no-gooders from loosing the singularity or tesla by simply switching off the field.
+  Il est recommandé de [color=#a4885c]verrouiller les émetteurs[/color] avec [color=yellow][bold][keybind="AltActivateItemInWorld"][/bold][/color], afin d'empêcher tout intrus de désactiver le champ et de libérer la singularité ou le tesla.
 
-  ## Particle Accelerator
-  The Particle Accelerator (PA) is a multi-tile structure that launches accelerated particles from its emitters.
+  ## Accélérateur de particules
+  L'accélérateur de particules (AP) est une structure multi-tuiles qui lance des particules accélérées depuis ses émetteurs.
 
   <Box>
     <GuideEntityEmbed Entity="ParticleAcceleratorEndCap" Caption="" Margin="0"/>
@@ -79,16 +79,16 @@
     <GuideEntityEmbed Entity="ParticleAcceleratorEmitterPort" Caption="" Margin="0"/>
   </Box>
 
-  Some stations already have an unfinished PA.
-  To complete it, first ensure there is a MV cable beneath the PA power box, anchor all the parts, and then add an LV cable to each part.
+  Certaines stations possèdent déjà un AP inachevé.
+  Pour le compléter, assurez-vous d'abord qu'il y a un câble MV sous le boîtier d'alimentation de l'AP, ancrez toutes les pièces, puis ajoutez un câble LV à chaque pièce.
 
   <Box>
     <GuideEntityEmbed Entity="CableApcStack"/>
   </Box>
 
-  Then use a screwdriver to screw back the panels.
-  [color=#a4885c]Scan parts[/color] using the PA control computer to check if it's operational (the PA will not function if you do not scan it!).
-  If it shows up as incomplete, examine what's missing.
+  Ensuite, utilisez un tournevis pour visser les panneaux.
+  [color=#a4885c]Scannez les pièces[/color] à l'aide de l'ordinateur de contrôle de l'AP pour vérifier s'il est opérationnel (l'AP ne fonctionnera pas si vous ne l'avez pas scanné !).
+  S'il apparaît comme incomplet, examinez ce qui manque.
 
   <Box>
     <GuideEntityEmbed Entity="ParticleAcceleratorControlBox"/>

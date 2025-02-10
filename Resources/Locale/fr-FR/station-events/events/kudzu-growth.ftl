@@ -1,0 +1,1 @@
+station-event-kudzu-growth-start-announcement = Attention équipe, nous avons détecté un Envahisseur Biologique de Type 2 à bord, qui représente une menace potentielle sérieuse pour la productivité de l'équipage. Nous vous conseillons de l'exterminer.

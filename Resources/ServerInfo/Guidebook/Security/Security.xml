@@ -1,39 +1,39 @@
 <Document>
-# Security
-Ensuring the safety of both station and crew is number one for [color=#cb0000]Security[/color]. They are ready for any situation, and [color=#cb0000]Security[/color] are on hand to maintain order and control crowds.
+# Sécurité
+Assurer la sécurité de la station et de l'équipage est la priorité numéro un pour [color=#cb0000]la Sécurité[/color]. Ils sont prêts pour toute situation, et [color=#cb0000]la Sécurité[/color] est présente pour maintenir l'ordre et contrôler les foules.
 
-They face [textlink="Syndicate Agents" link="Traitors"], [textlink="Nuclear Operatives" link="NuclearOperatives"], [textlink="Zombies" link="Zombies"] and unruly staff.
+Ils font face aux [textlink="Agents Syndicates" link="Traitors"], [textlink="Opérateurs Nucléaires" link="NuclearOperatives"], [textlink="Zombies" link="Zombies"] et au personnel indiscipliné.
 
 ## Personnel
-[color=#cb0000]Security[/color]'s staff is made up of Security Cadets, Security Officers, and the Detective. [color=#cb0000]Security[/color] is run by the Warden and Head of Security.
+Le personnel de [color=#cb0000]la Sécurité[/color] est composé de Cadets de Sécurité, d'Agents de Sécurité et du Détective. [color=#cb0000]La Sécurité[/color] est dirigée par le Gardien et le Chef de la Sécurité.
 
   <Box>
-    <GuideEntityEmbed Entity="ToyFigurineSecurity" Caption="Secoff"/>
-    <GuideEntityEmbed Entity="ToyFigurineDetective" Caption="Detective"/>
-    <GuideEntityEmbed Entity="ToyFigurineWarden" Caption="Warden"/>
-    <GuideEntityEmbed Entity="ToyFigurineHeadOfSecurity" Caption="HoS"/>
+    <GuideEntityEmbed Entity="ToyFigurineSecurity" Caption="Agent de sécurité"/>
+    <GuideEntityEmbed Entity="ToyFigurineDetective" Caption="Détective"/>
+    <GuideEntityEmbed Entity="ToyFigurineWarden" Caption="Gardien"/>
+    <GuideEntityEmbed Entity="ToyFigurineHeadOfSecurity" Caption="Chef de la Sécurité"/>
   </Box>
 
-## Gear
-First we have non-lethals a step above simply telling someone to cooperate with instructions. Both the stunbaton and disabler are capable of limiting the movement of an assailant, whereas handcuffs can be applied to deny a criminal free movement and access to their hands.
+## Équipement
+Tout d'abord, nous avons des non-léthaux, une étape au-dessus de simplement demander à quelqu'un de coopérer avec les instructions. Tant le matraque à impulsion que le désactivateur sont capables de limiter les mouvements d'un assaillant, tandis que les menottes peuvent être appliquées pour priver un criminel de liberté de mouvement et d'accès à ses mains.
   <Box>
     <GuideEntityEmbed Entity="Stunbaton"/>
     <GuideEntityEmbed Entity="Handcuffs"/>
-   <GuideEntityEmbed Entity="WeaponDisabler"/>
+    <GuideEntityEmbed Entity="WeaponDisabler"/>
   </Box>
 
-## Flashes
-[color=#a4885c]Flashes[/color] are an effective tool for dispersing crowds and apprehending particularly evasive targets, with a large area of effect blinding all those without protection.
-It is worth noting that flashes can be both used in a large area ([color=yellow]Z[/color] hotkey) and if you attack somebody with it while [color=red]harm mode[/color] is active. Important to note that localized flashes last [color=yellow]2.5[/color] times as long as large area ones.
-[color=#cb0000]Security[/color] and [color=#a4885c]some[/color] other members of staff have eye protection from flashbangs and flashes.
+## Éclairs
+[color=#a4885c]Les éclairs[/color] sont un outil efficace pour disperser les foules et appréhender des cibles particulièrement difficiles à attraper, avec une large zone d'effet aveuglant tous ceux qui n'ont pas de protection.
+Il est important de noter que les éclairs peuvent être utilisés à la fois dans une large zone ([color=yellow]touche Z[/color]) et si vous attaquez quelqu'un avec lorsque [color=red]le mode de dommage[/color] est activé. Il est également important de noter que les éclairs localisés durent [color=yellow]2,5[/color] fois plus longtemps que ceux à grande échelle.
+[color=#cb0000]La Sécurité[/color] et [color=#a4885c]certains[/color] autres membres du personnel ont une protection oculaire contre les grenades éclair et les éclairs.
   <Box>
     <GuideEntityEmbed Entity="Flash"/>
     <GuideEntityEmbed Entity="ClothingEyesGlassesSecurity"/>
     <GuideEntityEmbed Entity="GrenadeFlashBang"/>
   </Box>
-  
-## Lethals
-Should the situation dictate, [color=#cb0000]Security[/color] have access to laser rifles, shotguns, handguns and automatic rifles able to put down substancial fire against any who would stand against the station.
+
+## Létaux
+Si la situation l'exige, [color=#cb0000]la Sécurité[/color] a accès à des carabines laser, des fusils à pompe, des pistolets et des fusils automatiques capables de riposter avec un feu substantiel contre tous ceux qui s'opposeraient à la station.
   <Box>
     <GuideEntityEmbed Entity="WeaponLaserCarbine"/>
     <GuideEntityEmbed Entity="WeaponShotgunKammerer"/>

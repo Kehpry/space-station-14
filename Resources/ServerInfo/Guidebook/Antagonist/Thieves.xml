@@ -1,75 +1,75 @@
 <Document>
-  # Thieves
+  # Voleurs
   
   <Box>
-    [color=#999999][italic]"Yoink! I'll be taking that! And that! Ooh, don't mind if I do!"[/italic][/color]
+    [color=#999999][italic]"Yoink ! Je vais prendre ça ! Et ça ! Oh, je ne vais pas me gêner !"[/italic][/color]
   </Box>
   <Box>
     <GuideEntityEmbed Entity="ClothingNeckCloakVoid" Caption=""/>
   </Box>
 
-  Thieves are petty yet crafty [color=green]criminals[/color] who can't keep their hands to themselves. You were forcefully given a [bold]pacifism implant[/bold] after your last arrest, but you won't let that stop you from trying to add to your collection.
+  Les voleurs sont des [color=green]criminels[/color] de petite envergure mais rusés qui ne peuvent pas garder leurs mains pour eux. On vous a implanté un [bold]implant de pacifisme[/bold] après votre dernière arrestation, mais cela ne vous empêchera pas d'ajouter à votre collection.
 
-  ## Art of the Steal
-  Unlike other antagonists, [bold]staying out of trouble is almost a requirement for you[/bold] because of your implant.
-  You can only run if [color=#cb0000]Security[/color] picks a fight with you, and because you work alone you don't have any friends to pull you out of danger.
+  ## L'Art du Vol
+  Contrairement à d'autres antagonistes, [bold]rester discret est presque une exigence pour vous[/bold] en raison de votre implant.
+  Vous ne pouvez vous enfuir que si [color=#cb0000]la Sécurité[/color] vous attaque, et comme vous travaillez seul, vous n'avez pas d'amis pour vous sortir du danger.
 
-  But against all odds, you'll sucessfully swipe what you want using determination, sleight of hand, a few tools and your [color=cyan]thieving gloves.[/color]
+  Mais contre toute attente, vous réussirez à voler ce que vous voulez grâce à la détermination, à des tours de main, quelques outils et vos [color=cyan]gants de voleur[/color].
 
-  The pair of gloves you have give you a major advantage: [bold]the ability to take things off of people without them even noticing.[/bold] With a little practice, you can steal their wallet and keep up a conversation at the same time.
+  La paire de gants que vous possédez vous offre un énorme avantage : [bold]la capacité de prendre des objets aux autres sans qu'ils ne s'en rendent compte.[/bold] Avec un peu de pratique, vous pouvez voler leur portefeuille tout en continuant la conversation.
 
-  They're also made of the highest quality [bold]holographic chameleon fibers[/bold] you could steal, but while they can take the appearance of insulated gloves you'll still need to find a real pair to keep your hands from burning.
+  Ils sont également faits des [bold]fibres holographiques caméléon[/bold] de la plus haute qualité que vous puissiez voler, mais bien qu'ils puissent prendre l'apparence de gants isolés, vous devrez tout de même trouver une vraie paire pour empêcher vos mains de brûler.
 
   <Box>
-    <GuideEntityEmbed Entity="ClothingHandsChameleonThief" Caption="your thieving gloves"/>
+    <GuideEntityEmbed Entity="ClothingHandsChameleonThief" Caption="vos gants de voleur"/>
   </Box>
 
-  ## Tools of the Trade
-  You've got two more aces up your stolen sleeves: your [color=cyan]beacon[/color] and your [color=cyan]toolbox.[/color]
+  ## Outils du Métier
+  Vous avez deux autres atouts cachés sous vos manches volées : votre [color=cyan]balise[/color] et votre [color=cyan]boîte à outils[/color].
 
-  Your [color=cyan]beacon[/color] provides safe passage home for trinkets that may not be easy to carry with you on the evac shuttle. Simply find a secluded part of the station to unfold the beacon, then set its coordinates to your hideout.
-  Any shinies near it will be [bold]teleported to your vault when the shift ends,[/bold] fulfilling your objectives.
+  Votre [color=cyan]balise[/color] vous permet de transporter en toute sécurité des objets qui pourraient être difficiles à emporter avec vous sur le navette d'évacuation. Il vous suffit de trouver un endroit isolé sur la station pour déplier la balise, puis de définir ses coordonnées sur votre cachette.
+  Tous les objets scintillants à proximité seront [bold]téléportés dans votre coffre-fort lorsque le shift se termine,[/bold] accomplissant ainsi vos objectifs.
 
-  However, this will instantly out you if found and make it extremely easy for people to reclaim their "missing" possessions. [bold]Make sure to hide it well![/bold]
+  Cependant, cela vous trahira immédiatement si on la trouve et rendra extrêmement facile pour les autres de récupérer leurs objets "perdus". [bold]Veillez à bien la cacher ![/bold]
 
   <Box>
     <GuideEntityEmbed Entity="ThiefBeacon"/>
   </Box>
 
-  Your [color=cyan]toolbox[/color] contains... well, whatever you remembered to pack. [bold]You can select two pre-made kits[/bold] to help you complete grander heists.
-  Approve your choices in a safe place, as the toolbox will dissolve and the gear will drop at your feet.
+  Votre [color=cyan]boîte à outils[/color] contient... eh bien, tout ce dont vous vous souvenez avoir emballé. [bold]Vous pouvez choisir deux kits préfabriqués[/bold] pour vous aider à réaliser des coups plus grands.
+  Approuvez vos choix dans un endroit sûr, car la boîte à outils se dissoudra et l'équipement tombera à vos pieds.
 
   <Box>
     <GuideEntityEmbed Entity="ToolboxThief"/>
   </Box>
   <Box>
-    <GuideEntityEmbed Entity="StorageImplanter" Caption="Anatomy"/>
-    <GuideEntityEmbed Entity="C4" Caption="Breacher"/>
-    <GuideEntityEmbed Entity="ChameleonProjector" Caption="Chameleon"/>
-    <GuideEntityEmbed Entity="EncryptionKeyStationMaster" Caption="Communicator"/>
+    <GuideEntityEmbed Entity="StorageImplanter" Caption="Anatomie"/>
+    <GuideEntityEmbed Entity="C4" Caption="Percuteur"/>
+    <GuideEntityEmbed Entity="ChameleonProjector" Caption="Caméléon"/>
+    <GuideEntityEmbed Entity="EncryptionKeyStationMaster" Caption="Communicateur"/>
   </Box>
   <Box>
-    <GuideEntityEmbed Entity="NitrousOxideTank" Caption="Sleeper"/>
-    <GuideEntityEmbed Entity="Emag" Caption="Smuggler"/>
-    <GuideEntityEmbed Entity="Telecrystal" Caption="Syndie"/>
+    <GuideEntityEmbed Entity="NitrousOxideTank" Caption="Somnifère"/>
+    <GuideEntityEmbed Entity="Emag" Caption="Contrebande"/>
+    <GuideEntityEmbed Entity="Telecrystal" Caption="Syndicate"/>
   </Box>
 
-  ## Centerpiece of the Collection
-  Your kleptomania will take you places. One day, you'll feel like stealing a few figurines. Another day, you'll feel like stealing an industrial machine.
+  ## Pièce maîtresse de la Collection
+  Votre kleptomanie vous amènera loin. Un jour, vous aurez envie de voler quelques figurines. Un autre jour, vous voudrez voler une machine industrielle.
   
-  No matter. They'll all be a part of your collection within a matter of time.
+  Peu importe. Elles feront toutes partie de votre collection dans peu de temps.
 
-  You can steal items by [bold]having them on your person[/bold] when you get to CentComm. Failing this, you can steal larger items by [bold]leaving them by your beacon.[/bold]
+  Vous pouvez voler des objets en [bold]les ayant sur vous[/bold] lorsque vous arrivez à CentComm. Si cela échoue, vous pouvez voler des objets plus grands en [bold]les laissant près de votre balise.[/bold]
 
-  Some of the more [italic]animate[/italic] objectives may not cooperate with you. Make sure they're alive and with you or your beacon when the shift ends.
+  Certains objectifs plus [italic]animés[/italic] pourraient ne pas coopérer avec vous. Assurez-vous qu'ils soient vivants et avec vous ou près de votre balise lorsque le shift se termine.
 
-  Things that you may desire include but are not limited to:
+  Les choses que vous pourriez désirer incluent, mais ne sont pas limitées à :
   
   <Box>
    <GuideEntityEmbed Entity="ToyFigurineGreytider" Caption="Figurines"/>
-   <GuideEntityEmbed Entity="PassengerIDCard" Caption="ID cards"/>
+   <GuideEntityEmbed Entity="PassengerIDCard" Caption="Cartes d'identité"/>
    <GuideEntityEmbed Entity="ChemDispenser" Caption="Structures"/>
-   <GuideEntityEmbed Entity="MobCorgiIan" Caption="Animals/Pets"/>
+   <GuideEntityEmbed Entity="MobCorgiIan" Caption="Animaux/Animaux domestiques"/>
   </Box>
   
 </Document>

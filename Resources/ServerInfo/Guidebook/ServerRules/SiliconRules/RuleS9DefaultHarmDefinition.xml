@@ -1,25 +1,26 @@
 ﻿<Document>
-  # Silicon Rule 9 - Harm refers to physical harm, prioritized by immediacy and likelihood
-  Unless a law defines harm, harm only refers to physical harm. You may choose if voluntary harm is considered harm as long as you stay consistent. Not considering voluntary harm to be harm is recommended. There is no distinction between direct and indirect harm.
+  # Règle des Siliciums 9 - Le préjudice fait référence aux préjudices physiques, priorisés par immédiateté et probabilité
+  À moins qu'une loi ne définisse le préjudice, ce terme ne fait référence qu'aux préjudices physiques. Vous pouvez choisir si le préjudice volontaire est considéré comme un préjudice, tant que vous restez cohérent. Il est recommandé de ne pas considérer le préjudice volontaire comme un préjudice. Il n'y a pas de distinction entre préjudice direct et indirect.
 
-  If you have a law that does not allow you to harm, then that law does not allow you to take an action that causes any harm.
+  Si vous avez une loi qui ne vous permet pas de causer un préjudice, cette loi vous empêche de prendre toute action qui causerait un préjudice.
 
-  If you have a law that requires you to prevent harm, then that law requires that harm be prioritized by immediacy and likelihood. Guaranteed immediate harm takes priority over highly likely future harm.
+  Si vous avez une loi qui exige que vous empêchiez un préjudice, cette loi exige que vous priorisiez le préjudice en fonction de l'immédiateté et de la probabilité. Un préjudice garanti et immédiat a la priorité sur un préjudice hautement probable à l'avenir.
 
-  If you have a law that both requires you to prevent harm and that does not allow you to harm, then that law prohibits causing even minor harm to prevent harm. If you have a law that does not allow causing harm, and separate one that requires preventing harm, then they are prioritized by their normal law priority.
+  Si vous avez une loi qui exige que vous empêchiez un préjudice et qui ne vous permet pas de causer un préjudice, cette loi vous interdit même de causer un préjudice mineur pour prévenir un autre préjudice. Si vous avez une loi qui vous empêche de causer un préjudice, et une autre qui exige d'empêcher un préjudice, alors elles sont priorisées selon leur priorité légale normale.
 
-  ## Examples
-  These examples assume that your have a law that both prohibits causing harm and that requires you to prevent harm. Additionally, they assume that you do not have a higher priority law that overrides the harm law, and that you have decided that you will not consider voluntary harm to be harm for the round.
-  Laws typically specify who you cannot harm and who you have to prevent harm against. In these examples, you are the only person who the law doesn't require you to prevent harm against and you are the only person who the law allows you to harm.
+  ## Exemples
+  Ces exemples supposent que vous avez une loi qui interdit de causer un préjudice et qui exige d'empêcher un préjudice. De plus, ils supposent que vous n'avez pas une loi de priorité supérieure qui annule la loi sur le préjudice, et que vous avez décidé de ne pas considérer le préjudice volontaire comme un préjudice pour cette partie.
 
-  Acceptable:
-  - Taking no action to aid someone who is in psychological distress.
-  - Taking no action to prevent boxing matches between voluntary participants.
-  - Calling security to a fight.
-  - Attempting to get the people in a fight to consent to the fight when you realize that you cannot prevent the fight without causing harm.
-  - Denying a passenger access to the armory because it is likely to lead to harm
+  Les lois spécifient généralement contre qui vous ne pouvez pas causer de préjudice et contre qui vous devez empêcher un préjudice. Dans ces exemples, vous êtes la seule personne contre qui la loi ne vous exige pas d'empêcher un préjudice et vous êtes la seule personne que la loi vous permet de nuire.
 
-  Prohibited:
-  - Hitting someone once to stop them from fighting
-  - Harming someone who is trying to kill you
+  Acceptable :
+  - Ne rien faire pour aider quelqu’un en détresse psychologique.
+  - Ne rien faire pour empêcher des combats entre participants volontaires.
+  - Appeler la sécurité en cas de bagarre.
+  - Tenter d'obtenir le consentement des personnes dans un combat lorsque vous réalisez que vous ne pouvez pas empêcher le combat sans causer de préjudice.
+  - Refuser l'accès à l'armurerie à un passager parce que cela risque de mener à un préjudice.
+
+  Interdit :
+  - Frapper quelqu'un une fois pour l'empêcher de se battre
+  - Nuire à quelqu’un qui essaie de vous tuer
 </Document>

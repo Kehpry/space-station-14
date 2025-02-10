@@ -1,0 +1,9 @@
+﻿advertisement-nutrimax-1 = Nous aimons les plantes !
+advertisement-nutrimax-2 = Ne voulez-vous pas en avoir ?
+advertisement-nutrimax-3 = Les pouces verts les plus incroyables.
+advertisement-nutrimax-4 = Nous aimons les grandes plantes.
+advertisement-nutrimax-5 = Terre meuble...
+advertisement-nutrimax-6 = Seaux maintenant inclus !
+advertisement-nutrimax-7 = Plus la plante est grande, mieux c'est !
+thankyou-nutrimax-1 = À vos plantations !
+thankyou-nutrimax-2 = Jouez avec de la terre !

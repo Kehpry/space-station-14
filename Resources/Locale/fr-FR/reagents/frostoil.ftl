@@ -1,0 +1,3 @@
+﻿### Messages that pop up when metabolizing Frost Oil.
+
+frost-oil-effect-light-cold = Vous ressentez un léger frisson de froid dans votre gorge...

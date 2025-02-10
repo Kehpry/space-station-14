@@ -5,22 +5,22 @@
     <GuideEntityEmbed Entity="MobVox" Caption=""/>
   </Box>
 
-  [color=#ffa500]Warning! This species is not recommended for new players due to their fatal allergy to oxygen![/color]
+  [color=#ffa500]Avertissement ! Cette espèce n'est pas recommandée pour les nouveaux joueurs en raison de leur allergie fatale à l'oxygène ![/color]
 
-  Vox breathe nitrogen, and [color=#ffa500] oxygen is toxic to them.[/color]
-  Unfortunately, space stations tend to be full of oxygen,
-  so Vox must use an internal nitrogen supply at almost all times to avoid fatal exposure.
+  Les Vox respirent de l'azote, et [color=#ffa500]l'oxygène est toxique pour eux.[/color]
+  Malheureusement, les stations spatiales ont tendance à être remplies d'oxygène,
+  de sorte que les Vox doivent utiliser un approvisionnement interne en azote presque en tout temps pour éviter une exposition fatale.
 
-  Vox always spawn wearing working nitrogen internals equipment.
-  A spare breathing mask and an emergency nitrogen canister is provided in their survival box.
+  Les Vox apparaissent toujours avec un équipement interne d'azote fonctionnel.
+  Un masque respiratoire de rechange et une bouteille d'azote d'urgence sont fournis dans leur boîte de survie.
 
-  Vox [color=#1e90ff]slowly recover from low levels of poison damage[/color] on their own,
-  so long as they are careful not to exceed 20 poison damage.
-  This allows them to endure breathing station air for up to thirty seconds at a time without lasting damage,
-  letting them quickly eat, drink, take oral medication, and so on.
-  A thirty second oxygen exposure takes them two minutes to recover from.
-  If their health does not seem to improve within a minute of oxygen exposure, they should seek medical attention.
+  Les Vox [color=#1e90ff]récupèrent lentement des faibles niveaux de dégâts de poison[/color] d'eux-mêmes,
+  à condition de ne pas dépasser 20 points de dégâts de poison.
+  Cela leur permet de supporter l'air de la station pendant jusqu'à trente secondes sans dommages durables,
+  leur permettant de manger, boire, prendre des médicaments par voie orale, etc.
+  Une exposition à l'oxygène de trente secondes prend deux minutes pour se rétablir.
+  Si leur santé ne semble pas s'améliorer dans la minute suivant une exposition à l'oxygène, ils doivent chercher des soins médicaux.
 
-  Vox deal Slash damage with their unarmed attack.
+  Les Vox infligent des dégâts de coupure avec leur attaque à mains nues.
 
 </Document>

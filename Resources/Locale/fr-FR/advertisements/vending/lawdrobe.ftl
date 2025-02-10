@@ -1,0 +1,14 @@
+advertisement-lawdrobe-1 = OBJECTION ! Procurez-vous la règle de droit pour vous-même !
+advertisement-lawdrobe-2 = Allez embêter la sécurité jusqu'à ce qu'ils respectent vos propres règles !
+advertisement-lawdrobe-3 = Un nouveau dossier vient d'arriver ? Allez les sortir de prison !
+advertisement-lawdrobe-4 = Un donut par jour éloigne la sécurité !
+advertisement-lawdrobe-5 = Personne n'est au-dessus de la loi !
+advertisement-lawdrobe-6 = Non, officier, je ne consente pas à une fouille !
+advertisement-lawdrobe-7 = Injecter des drogues spatiales ne laisse aucune preuve !
+advertisement-lawdrobe-8 = Vous ou un proche blessé par Nanotrasen ? Tant pis !
+advertisement-lawdrobe-9 = Dossier clos ! Le prévenu a trop de style !
+thankyou-lawdrobe-1 = Vous pouvez gagner n'importe quel procès avec cette tenue !
+thankyou-lawdrobe-2 = Prenez-en une pour votre client aussi !
+thankyou-lawdrobe-3 = Gagnez ou perdez, vous êtes payé de toute façon !
+thankyou-lawdrobe-4 = Rappelez-vous : Ce n'est illégal que si vous vous faites attraper !
+thankyou-lawdrobe-5 = OBJECTION ! Cette tenue est trop cool pour le tribunal !

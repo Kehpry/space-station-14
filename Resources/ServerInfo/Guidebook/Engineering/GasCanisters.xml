@@ -1,30 +1,31 @@
 <Document>
-  # Gas Canisters
-  <Box>
-    <GuideEntityEmbed Entity="AirCanister"/>
-    <GuideEntityEmbed Entity="OxygenCanister"/>
-    <GuideEntityEmbed Entity="NitrogenCanister"/>
-  </Box>
-  <Box>
-    <GuideEntityEmbed Entity="CarbonDioxideCanister"/>
-    <GuideEntityEmbed Entity="StorageCanister"/>
-    <GuideEntityEmbed Entity="GasPort"/>
-  </Box>
+# Canisters de Gaz
+<Box>
+  <GuideEntityEmbed Entity="AirCanister"/>
+  <GuideEntityEmbed Entity="OxygenCanister"/>
+  <GuideEntityEmbed Entity="NitrogenCanister"/>
+</Box>
+<Box>
+  <GuideEntityEmbed Entity="CarbonDioxideCanister"/>
+  <GuideEntityEmbed Entity="StorageCanister"/>
+  <GuideEntityEmbed Entity="GasPort"/>
+</Box>
 
-  Gas canisters are a way to store gas in a portable container for easy transport.
-  They can store [color=orange][protodata="StorageCanister" comp="GasCanister" member="Volume"/] liters[/color] of gas.
+Les canisters de gaz sont des moyens de stocker le gaz dans un contenant portable pour un transport facile.
+Ils peuvent stocker [color=orange][protodata="StorageCanister" comp="GasCanister" member="Volume"/] litres[/color] de gaz.
 
-  You can connect handheld tanks to a gas canister to refill them using the release valve on the canister.
-  The release valve also has a adjustable pressure regulator to control the pressure of the handheld tank connected.
+Vous pouvez connecter des réservoirs portables à un canister de gaz pour les remplir en utilisant la vanne de libération du canister.
+La vanne de libération dispose également d'un régulateur de pression ajustable pour contrôler la pression du réservoir portable connecté.
 
-  Opening the release valve on a canister with no handheld tank connected will release gas into the atmosphere, at the specified regulator pressure.
+Ouvrir la vanne de libération sur un canister sans réservoir portable connecté libérera du gaz dans l'atmosphère, à la pression spécifiée par le régulateur.
 
-  [bold]Be sure to close the release valve before you eject your handheld tank![/bold]
+[bold]Assurez-vous de fermer la vanne de libération avant d'éjecter votre réservoir portable ![/bold]
 
-  ## Connector Ports
-  Gas canisters and [textlink="portable scrubbers" link="PortableScrubber"] can be connected to a [textlink="pipenet" link="PipeNetworks"] by anchoring (wrenching) the device on top of a connector.
-  When connected, gas will be free to move in and out of the canister to balance pressure, temperature, and composition.
+## Ports de Connecteur
+Les canisters de gaz et les [textlink="scrubbers portables" link="PortableScrubber"] peuvent être connectés à un [textlink="réseau de tuyaux" link="PipeNetworks"] en ancrant (serrant) le dispositif sur un connecteur.
+Lorsque connecté, le gaz pourra se déplacer librement à l'intérieur et à l'extérieur du canister pour équilibrer la pression, la température et la composition.
 
-  A pump can be used to insert or extract gas from a canister, useful for filling or emptying a canister entirely.
+Une pompe peut être utilisée pour insérer ou extraire du gaz d'un canister, ce qui est utile pour remplir ou vider complètement un canister.
+
 
 </Document>

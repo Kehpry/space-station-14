@@ -1,66 +1,66 @@
 ﻿<Document>
-  # Gas Mining and Storage
-  Gasses are often permanently used. Whether they are lost to [textlink="space" link="Spacing"] or used in a burn chamber, the station needs to be able to produce more gas to replace what is lost.
-  It also needs to store this gas in a safe and efficient manner.
+# Extraction et Stockage des Gaz
+Les gaz sont souvent utilisés de manière permanente. Qu'ils soient perdus dans [textlink="l'espace" link="Spacing"] ou utilisés dans une chambre de combustion, la station doit être capable de produire davantage de gaz pour remplacer ce qui est perdu.
+Elle doit également être capable de stocker ce gaz de manière sûre et efficace.
 
-  ## Gas Miners
-  Gas miners are used to replenish the station's gas supply. They are found in the gas storage tanks in Atmospherics.
+## Extracteurs de Gaz
+Les extracteurs de gaz sont utilisés pour reconstituer l'approvisionnement en gaz de la station. Ils se trouvent dans les réservoirs de stockage de gaz dans l'Atmosphérique.
 
-  <Box>
-    <GuideEntityEmbed Entity="GasMinerOxygenStation"/>
-    <GuideEntityEmbed Entity="GasMinerNitrogenStation"/>
-  </Box>
+<Box>
+  <GuideEntityEmbed Entity="GasMinerOxygenStation"/>
+  <GuideEntityEmbed Entity="GasMinerNitrogenStation"/>
+</Box>
 
-  Gas miners constantly produce room temperature gas and push it into the exposed atmosphere. They require no power to function, and never stop working unless they have reached the defined [bold]cutoff pressure[/bold].
+Les extracteurs de gaz produisent en permanence des gaz à température ambiante et les injectent dans l'atmosphère exposée. Ils ne nécessitent aucune alimentation électrique pour fonctionner et ne cessent de travailler que lorsque la pression définie [bold]de coupure[/bold] est atteinte.
 
-  You can see more information about the gas miners by inspecting them using [color=yellow][bold][keybind="ExamineEntity"][/bold][/color].
-  Try inspecting the gas miners presented above.
+Vous pouvez obtenir plus d'informations sur les extracteurs de gaz en les inspectant à l'aide de [color=yellow][bold][keybind="ExamineEntity"][/bold][/color].
+Essayez d'inspecter les extracteurs de gaz présentés ci-dessus.
 
-  Gas miners come in tiers, with the larger versions having a higher pressure cutoff than the smaller versions.
+Les extracteurs de gaz sont disponibles en différentes tailles, les versions plus grandes ayant un seuil de coupure de pression plus élevé que les versions plus petites.
 
-  <Box>
-    <GuideEntityEmbed Entity="GasMinerNitrogen" Caption="300 kPa"/>
-    <GuideEntityEmbed Entity="GasMinerNitrogenStation" Caption="1000 kPa"/>
-    <GuideEntityEmbed Entity="GasMinerNitrogenStationLarge" Caption="4500 kPa"/>
-  </Box>
+<Box>
+  <GuideEntityEmbed Entity="GasMinerNitrogen" Caption="300 kPa"/>
+  <GuideEntityEmbed Entity="GasMinerNitrogenStation" Caption="1000 kPa"/>
+  <GuideEntityEmbed Entity="GasMinerNitrogenStationLarge" Caption="4500 kPa"/>
+</Box>
 
-  If gas miners are ever unanchored from the station, they can be reanchored using a regular wrench.
+Si les extracteurs de gaz sont unancrés de la station, ils peuvent être réancrés à l'aide d'une clé régulière.
 
-  ## Gas Storage
-  Gas storage tanks are used to store gas produced by the gas miners, and to make it available to other processes. They are found in Atmospherics.
+## Stockage des Gaz
+Les réservoirs de stockage de gaz sont utilisés pour stocker le gaz produit par les extracteurs de gaz et le rendre disponible pour d'autres processus. Ils se trouvent dans l'Atmosphérique.
 
-  <Box>
-    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
-  </Box>
-  <Box>
-    <GuideEntityEmbed Entity="ReinforcedPlasmaWindow" Rotation="0" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="GasOutletInjector" Rotation="270" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="GasMinerOxygenStation" Rotation="0" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="GasPassiveVent" Rotation="0" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
-  </Box>
-  <Box>
-    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
-  </Box>
+<Box>
+  <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+  <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+  <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+  <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+  <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+</Box>
+<Box>
+  <GuideEntityEmbed Entity="ReinforcedPlasmaWindow" Rotation="0" Caption="" Margin="0"/>
+  <GuideEntityEmbed Entity="GasOutletInjector" Rotation="270" Caption="" Margin="0"/>
+  <GuideEntityEmbed Entity="GasMinerOxygenStation" Rotation="0" Caption="" Margin="0"/>
+  <GuideEntityEmbed Entity="GasPassiveVent" Rotation="0" Caption="" Margin="0"/>
+  <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+</Box>
+<Box>
+  <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+  <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+  <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+  <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+  <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+</Box>
 
-  <Box>
-    [color=#999999][italic]An example of a small gas holding tank[italic][/color]
-  </Box>
+<Box>
+  [color=#999999][italic]Exemple d'un petit réservoir de gaz[italic][/color]
+</Box>
 
-  Various atmos processes insert and remove gasses from the gas storage tanks.
-  For example:
-  - The gas miner provides fresh gasses to the gas storage tanks, if there is room.
-  - The recyclernet injects reclaimed gasses into the gas storage tanks for reuse.
-  - Setups like the distronet and burn chamber remove gasses from the gas storage tanks.
+Divers processus atmosphériques insèrent et retirent des gaz des réservoirs de gaz.
+Par exemple :
+- L'extracteur de gaz fournit des gaz frais aux réservoirs de gaz, s'il y a de la place.
+- Le recyclernet injecte des gaz récupérés dans les réservoirs de gaz pour les réutiliser.
+- Des configurations comme le distronet et la chambre de combustion retirent des gaz des réservoirs de gaz.
 
-  Gas storage tanks are designed to be able to be measured using a [textlink="Gas Analyzer" link="AtmosTools"].
-  Because the outflow vent is a [textlink="passive vent" link="PassiveVent"], you can use a [textlink="gas analyzer" link="AtmosTools"] to measure the gas content of the [textlink="pump's" link="Pumps"] input, which is drawing from the gas storage tank.
+Les réservoirs de gaz sont conçus pour pouvoir être mesurés à l'aide d'un [textlink="Gas Analyzer" link="AtmosTools"].
+Parce que le ventilateur de sortie est un [textlink="passive vent" link="PassiveVent"], vous pouvez utiliser un [textlink="gas analyzer" link="AtmosTools"] pour mesurer le contenu en gaz de l'entrée du [textlink="pump's" link="Pumps"], qui pompe à partir du réservoir de gaz.
 </Document>

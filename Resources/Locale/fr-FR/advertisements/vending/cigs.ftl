@@ -1,0 +1,15 @@
+﻿advertisement-cigs-1 = Les cigarettes spatiales ont un goût agréable, comme une cigarette devrait.
+advertisement-cigs-2 = Je préfère utiliser la boîte à outils plutôt que de changer.
+advertisement-cigs-3 = Fumez !
+advertisement-cigs-4 = Ne croyez pas les rapports – fumez aujourd'hui !
+advertisement-cigs-5 = Probablement pas mauvais pour vous !
+advertisement-cigs-6 = Ne croyez pas les scientifiques !
+advertisement-cigs-7 = C'est bon pour vous !
+advertisement-cigs-8 = Ne vous arrêtez pas, achetez-en plus !
+advertisement-cigs-9 = Le paradis de la nicotine.
+advertisement-cigs-10 = Les meilleures cigarettes depuis 2150.
+advertisement-cigs-11 = Des cigarettes primées.
+advertisement-cigs-12 = Ici pour détendre votre travail !
+thankyou-cigs-1 = Vous les avez, maintenant fumez-les !
+thankyou-cigs-2 = Vous ne le regretterez probablement pas !
+thankyou-cigs-3 = Vous deviendrez accro en un rien de temps !

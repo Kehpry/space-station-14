@@ -1,0 +1,12 @@
+﻿advertisement-cola-1 = Rafraîchissant !
+advertisement-cola-2 = J'espère que vous avez soif !
+advertisement-cola-3 = Plus de 1 million de boissons vendues !
+advertisement-cola-4 = Soif ? Pourquoi ne pas opter pour un cola ?
+advertisement-cola-5 = Allez, prenez une boisson !
+advertisement-cola-6 = Buvez !
+advertisement-cola-7 = Les meilleures boissons de la galaxie !
+advertisement-cola-8 = Bien meilleur que le Dr. Gibb !
+thankyou-cola-1 = Ouvre cette canette et profite-en !
+thankyou-cola-2 = Pow ! Prends ça, soif !
+thankyou-cola-3 = J'espère que tu aimes le goût !
+thankyou-cola-4 = Profite de ta boisson pleine de sucre !

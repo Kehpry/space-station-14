@@ -1,0 +1,7 @@
+marking-VoxFacialHairBeard = Barbe Vox (Plumes)
+marking-VoxFacialHairColonel = Moustache Vox (Colonel)
+marking-VoxFacialHairFu = Moustache Vox (Quill Fu)
+marking-VoxFacialHairNeck = Barbe Vox (Plumes du cou)
+marking-VoxFacialHairMane = Barbe Vox (Crinière)
+marking-VoxFacialHairManeSmall = Barbe Vox (Petite crinière)
+marking-VoxFacialHairTufts = Favoris Vox (Touffes)

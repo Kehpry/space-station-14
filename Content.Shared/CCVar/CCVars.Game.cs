@@ -101,7 +101,7 @@ public sealed partial class CCVars
         ///     If roles should be restricted based on time.
         /// </summary>
         public static readonly CVarDef<bool>
-            GameRoleTimers = CVarDef.Create("game.role_timers", true, CVar.SERVER | CVar.REPLICATED);
+            GameRoleTimers = CVarDef.Create("game.role_timers", false, CVar.SERVER | CVar.REPLICATED);
 
         /// <summary>
         ///     Override default role requirements using a <see cref="JobRequirementOverridePrototype"/>
@@ -202,7 +202,7 @@ public sealed partial class CCVars
         /// Enable IPIntel for blocking VPN connections from new players.
         /// </summary>
         public static readonly CVarDef<bool> GameIPIntelEnabled =
-            CVarDef.Create("game.ipintel_enabled", false, CVar.SERVERONLY);
+            CVarDef.Create("game.ipintel_enabled", true, CVar.SERVERONLY);
 
         /// <summary>
         /// Whether clients which are flagged as a VPN will be denied
@@ -226,13 +226,13 @@ public sealed partial class CCVars
         /// Should an admin message be made if the connection got rejected cause of ipintel?
         /// </summary>
         public static readonly CVarDef<bool> GameIPIntelAlertAdminReject =
-            CVarDef.Create("game.ipintel_alert_admin_rejected", false, CVar.SERVERONLY);
+            CVarDef.Create("game.ipintel_alert_admin_rejected", true, CVar.SERVERONLY);
 
         /// <summary>
         /// A contact email to be sent along with the request. Required by IPIntel
         /// </summary>
         public static readonly CVarDef<string> GameIPIntelEmail =
-            CVarDef.Create("game.ipintel_contact_email", string.Empty, CVar.SERVERONLY | CVar.CONFIDENTIAL);
+            CVarDef.Create("game.ipintel_contact_email", "kehpry.dh@gmail.com", CVar.SERVERONLY | CVar.CONFIDENTIAL);
 
         /// <summary>
         /// The URL to IPIntel to make requests to. If you pay for more queries this is what you want to change.

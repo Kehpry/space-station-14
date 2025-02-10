@@ -1,0 +1,10 @@
+﻿advertisement-dinnerware-1 = Mmm, nourriture !
+advertisement-dinnerware-2 = Nourriture et accessoires alimentaires.
+advertisement-dinnerware-3 = Prenez vos assiettes !
+advertisement-dinnerware-4 = Vous aimez les fourchettes ?
+advertisement-dinnerware-5 = J'aime les fourchettes.
+advertisement-dinnerware-6 = Woo, des ustensiles.
+advertisement-dinnerware-7 = Vous n'en avez vraiment pas besoin...
+advertisement-dinnerware-8 = Prenez-les si vous en voulez !
+advertisement-dinnerware-9 = Je suis assez sûr que les béchers sont indispensables.
+advertisement-dinnerware-10 = POURQUOI Y A-T-IL AUTANT DE TYPES DE MUGS ?

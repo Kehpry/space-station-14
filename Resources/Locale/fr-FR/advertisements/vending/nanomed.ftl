@@ -1,0 +1,9 @@
+﻿advertisement-nanomed-1 = Allez sauver des vies !
+advertisement-nanomed-2 = Le meilleur équipement pour votre infirmerie.
+advertisement-nanomed-3 = Seuls les meilleurs outils.
+advertisement-nanomed-4 = Produits chimiques naturels !
+advertisement-nanomed-5 = Ce produit sauve des vies.
+advertisement-nanomed-6 = Ne voulez-vous pas en avoir ?
+advertisement-nanomed-7 = Ping !
+advertisement-nanomed-8 = Assurez-vous de ne pas surdoser les gens !
+advertisement-nanomed-9 = Allez surdoser les gens !

@@ -1,28 +1,28 @@
 <Document>
-  # Roleplay Rule 12 - Do not abandon your role
-  Do not join the round as a role that you don't intend to play. Do not enable antagonist roles that you don't intend to play. Abandoning a role includes not completing tasks that the role is expected to do, in addition to things like leaving the game. Members of command should almost all stay on the station until the emergency shuttle arrives. Enforcement of this rule is more strict for command and antagonist roles, and less strict for less important roles like passengers.
+  # Règle de jeu de rôle 12 - Ne pas abandonner son rôle
+  Ne rejoignez pas la partie avec un rôle que vous n'avez pas l'intention de jouer. N'activez pas les rôles antagonistes si vous ne souhaitez pas les jouer. Abandonner un rôle inclut le fait de ne pas accomplir les tâches attendues pour ce rôle, en plus d'actions comme quitter la partie. Les membres du commandement doivent presque tous rester sur la station jusqu'à l'arrivée de la navette d'évacuation. L'application de cette règle est plus stricte pour les rôles de commandement et les antagonistes, et moins stricte pour les rôles moins importants comme les passagers.
 
-  Violations of this rule typically result in temporary or indefinite role bans. We understand that you may need to leave round early or unexpectedly. If you are in an important role (which is relayed to you in chat upon receiving your role), you should notify command members so that they know you are leaving and attempt to cryosleep if possible. Space Station 14 is a game. Do not endanger the safety of yourself or others, and do not neglect important things to avoid leaving a round early, even if you have to leave immediately without notifying anyone. Role bans for disconnecting are typically only applied if there is a pattern, and are almost always temporary.
+  Les violations de cette règle entraînent généralement des interdictions temporaires ou permanentes de certains rôles. Nous comprenons que vous puissiez devoir quitter une partie plus tôt ou de manière imprévue. Si vous avez un rôle important (ce qui vous est indiqué dans le chat lorsque vous recevez votre rôle), vous devez en informer les membres du commandement afin qu'ils sachent que vous partez et tenter d'entrer en cryosommeil si possible. Space Station 14 est un jeu. Ne mettez pas en danger votre sécurité ou celle des autres, et ne négligez pas des obligations importantes pour éviter de quitter une partie prématurément, même si vous devez partir immédiatement sans avertir qui que ce soit. Les interdictions de rôle pour déconnexion ne sont généralement appliquées qu'en cas de récidive et sont presque toujours temporaires.
 
-  "Antag rolling" refers to a player abandoning their role if they do not get an antagonist role.
+  "Antag rolling" fait référence à un joueur qui abandonne son rôle s'il ne reçoit pas un rôle d'antagoniste.
 
-  ## Examples
-  Acceptable:
-  - As an engineer, building a bar in maintenance while there is nothing important for engineering to do.
-  - As the captain, having the chef teach you how to cook while there is nothing important needing your attention.
-  - As a passenger, building a shuttle with materials given to you by cargo and engineering.
-  - Taking a short break from your job at the bar.
-  - Getting an antagonist role and doing the bare minimum needed to complete your objectives.
-  - Getting an antagonist role and making a genuine effort to complete your objectives, but failing to complete any.
-  - Getting an antagonist role and intentionally not doing any of your objectives, but creating a similar level of disruption that completing your objectives would create.
+  ## Exemples
+  Acceptable :
+  - En tant qu’ingénieur, construire un bar dans la maintenance alors qu'il n'y a rien d’important à faire pour l'ingénierie.
+  - En tant que capitaine, apprendre à cuisiner avec le chef alors qu'aucune tâche importante ne requiert votre attention.
+  - En tant que passager, construire une navette avec des matériaux fournis par le cargo et l'ingénierie.
+  - Faire une courte pause dans votre travail au bar.
+  - Obtenir un rôle d'antagoniste et faire le strict minimum pour accomplir vos objectifs.
+  - Obtenir un rôle d'antagoniste et faire un effort sincère pour accomplir vos objectifs, mais échouer à les atteindre.
+  - Obtenir un rôle d'antagoniste et choisir intentionnellement de ne pas accomplir vos objectifs, mais créer un niveau de perturbation équivalent à celui qu'accomplir vos objectifs aurait causé.
 
-  Prohibited:
-  - As an engineer, building a bar in maintenance while the station has no power.
-  - As the captain, leaving the station to go on an expedition with the salvage team.
-  - As an atmospherics technician, building a shuttle round start and never coming back to the station.
-  - Spending your entire shift at the bar, even when there is work that needs to be done by your role.
-  - Ghosting, suiciding, or leaving at the start of a round because you don't like the map or the players in your department.
-  - Getting an antagonist role and not doing any antagonist activities.
-  - Ghosting, suiciding, or leaving at the start of a round because you did not get an antagonist role.
-  - Ghosting, suiciding, or getting yourself killed because nuclear operatives declared war, and you want to try to get an antagonist ghost role.
+  Interdit :
+  - En tant qu’ingénieur, construire un bar dans la maintenance alors que la station n’a plus d’électricité.
+  - En tant que capitaine, quitter la station pour partir en expédition avec l’équipe de récupération.
+  - En tant que technicien en atmosphérique, construire une navette dès le début du tour et ne jamais revenir sur la station.
+  - Passer l’intégralité de votre service au bar, même lorsque votre rôle exige que vous travailliez.
+  - Devenir fantôme, se suicider ou quitter la partie au début d'un tour parce que vous n'aimez pas la carte ou les joueurs de votre département.
+  - Obtenir un rôle d'antagoniste et ne mener aucune activité antagoniste.
+  - Devenir fantôme, se suicider ou quitter la partie au début d'un tour parce que vous n'avez pas obtenu un rôle d'antagoniste.
+  - Devenir fantôme, se suicider ou provoquer sa propre mort parce que des opérateurs nucléaires ont déclaré la guerre, et que vous voulez tenter d'obtenir un rôle de fantôme antagoniste.
 </Document>

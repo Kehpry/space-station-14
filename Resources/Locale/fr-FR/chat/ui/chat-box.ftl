@@ -1,0 +1,33 @@
+hud-chatbox-info = Appuyez sur {$talk-key} pour parler, {$cycle-key} pour changer de canal.
+hud-chatbox-info-talk = Appuyez sur {$talk-key} pour parler.
+hud-chatbox-info-cycle = Cliquez ici pour parler, {$cycle-key} pour changer de canal.
+hud-chatbox-info-unbound = Cliquez ici pour parler.
+
+hud-chatbox-select-name-prefixed = {$prefix} {$name}
+hud-chatbox-select-channel-Admin = Admin
+hud-chatbox-select-channel-Console = Console
+hud-chatbox-select-channel-Dead = Mort
+hud-chatbox-select-channel-Emotes = Emotes
+hud-chatbox-select-channel-Local = Local
+hud-chatbox-select-channel-Whisper = Chuchotement
+hud-chatbox-select-channel-LOOC = LOOC
+hud-chatbox-select-channel-OOC = OOC
+hud-chatbox-select-channel-Damage = Dommages
+hud-chatbox-select-channel-Visual = Actions
+hud-chatbox-select-channel-Radio = Radio
+
+hud-chatbox-channel-Admin = Admin Divers
+hud-chatbox-channel-AdminAlert = Alerte Admin
+hud-chatbox-channel-AdminChat = Chat Admin
+hud-chatbox-channel-Dead = Mort
+hud-chatbox-channel-Emotes = Emotes
+hud-chatbox-channel-Local = Local
+hud-chatbox-channel-Whisper = Chuchotement
+hud-chatbox-channel-LOOC = LOOC
+hud-chatbox-channel-OOC = OOC
+hud-chatbox-channel-Radio = Radio
+hud-chatbox-channel-Notifications = Notifications
+hud-chatbox-channel-Server = Serveur
+hud-chatbox-channel-Visual = Actions
+hud-chatbox-channel-Damage = Dommages
+hud-chatbox-channel-Unspecified = Non spécifié

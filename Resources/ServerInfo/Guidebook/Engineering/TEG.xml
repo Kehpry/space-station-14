@@ -1,16 +1,16 @@
 <Document>
-  # Thermo-electric Engine (TEG)
+  # Moteur thermoélectrique (TEG)
 
-  The TEG generates power by exchanging heat between hot and cold gases.
-  On the station, hot gas is usually created by burning plasma, and an array of [textlink="heat-exchanging" link="Radiators"] pipes in space radiates away heat to cool down circulated gases.
+  Le TEG génère de l'énergie en échangeant de la chaleur entre des gaz chauds et froids.
+  Sur la station, les gaz chauds sont généralement créés en brûlant du plasma, et un ensemble de tuyaux de [textlink="échange thermique" link="Radiators"] dans l'espace dissipe la chaleur pour refroidir les gaz circulants.
 
-  The TEG relies heavily on [textlink="atmospherics" link="Atmospherics"] [textlink="piping." link="Pipes"]
-  The only truly special component about it is the generator core and circulators; the rest is all off-the-shelf atmospherics equipment.
-  Note that while the exact layout may vary significantly depending on the station, the general components and setup are usually the same.
+  Le TEG repose fortement sur la [textlink="atmosphérique" link="Atmospherics"] [textlink="tuyauterie." link="Pipes"]
+  Le seul composant véritablement spécial à son sujet est le cœur du générateur et les circulateurs ; le reste est constitué de matériel atmosphérique standard.
+  Notez que bien que la disposition exacte puisse varier considérablement selon la station, les composants généraux et l'agencement sont généralement les mêmes.
 
-  ## Generator
+  ## Générateur
 
-  The main generator itself is a machine made up of 3 major parts: the central generator and two "circulators", in this arrangement:
+  Le générateur principal lui-même est une machine composée de 3 parties principales : le générateur central et deux "circulateurs", dans cet agencement :
 
   <Box>
     <GuideEntityEmbed Entity="TegCirculator" Rotation="180" Caption="" Margin="0"/>
@@ -18,42 +18,42 @@
     <GuideEntityEmbed Entity="TegCirculator" Caption="" Margin="0"/>
   </Box>
 
-  The circulators take in either a hot or cold gas, and pass it through the machine to exchange heat.
-  The gas then gets output on the other end of the circulator. The generator produces the actual power and outputs it over an [color=orange]HV wire[/color].
+  Les circulateurs prennent soit un gaz chaud, soit un gaz froid, et le font passer dans la machine pour échanger la chaleur.
+  Le gaz est ensuite expulsé à l'autre extrémité du circulateur. Le générateur produit la véritable énergie et la transmet via un [color=orange]fil HV[/color].
 
-  Note that the circulators are [color=#a4885c]directional[/color]: they will only let gas through one way.
-  You can see this direction in-game by examining the circulator itself.
-  A pressure difference is required across the input and output, so pumps are generally provided and must be turned on.
+  Notez que les circulateurs sont [color=#a4885c]directionnels[/color] : ils ne laissent passer le gaz que dans un sens.
+  Vous pouvez voir cette direction dans le jeu en examinant le circulateur lui-même.
+  Une différence de pression est nécessaire entre l'entrée et la sortie, donc des pompes sont généralement fournies et doivent être activées.
 
-  There is no preference for which side must be hot or cold, there need only be a difference in temperature between them.
-  The gases in the two "loops" are never mixed, [color=#a4885c]only energy is exchanged between them[/color].
-  The hot side will cool down, the cold side will heat up.
+  Il n'y a pas de préférence pour quel côté doit être chaud ou froid, il suffit qu'il y ait une différence de température entre eux.
+  Les gaz dans les deux "boucles" ne se mélangent jamais, [color=#a4885c]seule l'énergie est échangée entre eux[/color].
+  Le côté chaud va se refroidir, le côté froid va se réchauffer.
 
-  ## The Pipes
+  ## Les Tuyaux
 
-  There are 2 major [textlink="pipenets" link="PipeNetworks"] to worry about here: [color=red]The Hot Loop[/color] (where gas will be burnt for heat), and [color=cyan]The Cold Loop[/color] (where circulated, heated waste gas will either be removed into space or cooled back down).
-  Make sure that [color=#a4885c][bold]both [textlink="pipenets" link="PipeNetworks"] do NOT mix[/bold][/color], as only heat should be transferred between the two through the TEG.
+  Il y a 2 grands [textlink="réseaux de tuyaux" link="PipeNetworks"] à surveiller ici : [color=red]La boucle chaude[/color] (où le gaz sera brûlé pour produire de la chaleur), et [color=cyan]La boucle froide[/color] (où les gaz usés chauffés seront soit évacués dans l'espace, soit refroidis).
+  Assurez-vous que [color=#a4885c][bold]les deux [textlink="réseaux de tuyaux" link="PipeNetworks"] NE se mélangent PAS[/bold][/color], car seule la chaleur doit être transférée entre les deux via le TEG.
 
-  # The Hot Loop
+  # La Boucle Chaude
 
-  As I'm sure a wise person once said: the best way to make something hot is to light it on fire.
-  Well, depending on context, that may not be very wise, but luckily your engineering department has just what's needed to do it wisely after all.
+  Comme je suis sûr qu'une personne sage l'a dit un jour : la meilleure façon de rendre quelque chose chaud est de l'enflammer.
+  Eh bien, selon le contexte, cela peut ne pas être très sage, mais heureusement votre département de génie a justement ce qu'il faut pour le faire de manière judicieuse après tout.
 
-  As stated above, there are many different layouts one can follow to heat up (or cool down) gases; this part of the guide will cover some common methods one will often see for the hot loop, involving [color=red]the Burn Chamber[/color].
+  Comme mentionné ci-dessus, il existe de nombreuses dispositions différentes que l'on peut suivre pour chauffer (ou refroidir) des gaz ; cette section du guide couvrira certaines méthodes courantes que l'on rencontre souvent pour la boucle chaude, impliquant la [color=red]chambre de combustion[/color].
 
-  Side note: Plasma fires burn relatively cool compared to, for example, Tritium fires.
-  It may be viable to extract Tritium from an extraction setup and react it with Oxygen to get truly hellish temperatures for power.
+  Note à part : Les feux de plasma brûlent relativement froid comparé, par exemple, aux feux de Tritium.
+  Il peut être viable d'extraire du Tritium d'un système d'extraction et de le réagir avec de l'Oxygène pour obtenir des températures véritablement infernales pour la production d'énergie.
 
-  ## The Burn Chamber
+  ## La Chambre de Combustion
 
-  The burn chamber is the preferred method for heating up gases, and it is commonly used for other purposes too. (see: Tritium production)
+  La chambre de combustion est la méthode préférée pour chauffer les gaz, et elle est couramment utilisée pour d'autres usages également. (voir : production de Tritium)
 
-  Most (if not all) stations have the burn chamber separated from the main atmospherics block by a 1-wide spaced grid, to prevent the flow of scalding hot gas to Atmos if there was a breach. The chambers consist of 3 important parts:
-  - The [textlink="Air Injector" link="AirInjector"]/[textlink="Passive Vent" link="PassiveVent"]
-  - The Space Vent
-  - The [textlink="scrubber" link="AirScrubber"] Array
+  La plupart (sinon toutes) les stations ont la chambre de combustion séparée du bloc atmosphérique principal par une grille espacée de 1, pour empêcher le flux de gaz brûlants vers Atmos si une fuite se produisait. Les chambres se composent de 3 parties importantes :
+  - L'[textlink="injecteur d'air" link="AirInjector"] / [textlink="vent passif" link="PassiveVent"]
+  - Le vent spatial
+  - Le réseau de [textlink="scrubbers" link="AirScrubber"]
 
-  Here is one layer of an example setup:
+  Voici une couche d'un exemple d'installation :
   <Box>
     <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
     <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
@@ -83,152 +83,28 @@
     <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
   </Box>
 
-  The [textlink="air injector" link="AirInjector"] (or [textlink="passive vent" link="PassiveVent"]) injects air (or allows air to flow) into the burn chamber.
-  Either should be supplemented with a pump before it, to keep pressures high.
+  L'[textlink="injecteur d'air" link="AirInjector"] (ou [textlink="vent passif" link="PassiveVent"]) injecte de l'air (ou permet à l'air de circuler) dans la chambre de combustion.
+  Il est conseillé de le compléter avec une pompe avant, pour maintenir des pressions élevées.
 
-  There is a notable difference between the [textlink="passive vent" link="PassiveVent"] and the [textlink="air injector" link="AirInjector"]; the [textlink="air injector" link="AirInjector"] can only keep injecting air up to [color=#a4885c]9MPa[/color], which can be reached very easily with a good burn.
-  Ideally, switch out the [textlink="air injector" link="AirInjector"] for a [textlink="passive vent" link="PassiveVent"] connected to a volume pump.
+  Il y a une différence notable entre l'[textlink="vent passif" link="PassiveVent"] et l'[textlink="injecteur d'air" link="AirInjector"] ; l'[textlink="injecteur d'air" link="AirInjector"] ne peut injecter de l'air qu'à une pression de [color=#a4885c]9MPa[/color], ce qui peut être atteint très facilement avec une bonne combustion.
+  Idéalement, remplacez l'[textlink="injecteur d'air" link="AirInjector"] par un [textlink="vent passif" link="PassiveVent"] connecté à une pompe à volume.
 
-  The space vent (designated as a blast door to space on one side of the burn chamber) allows waste gases to be expelled and destroyed.
-  Open this occasionally to keep the pressure under control, or to space excess input gas.
-  You even might find the pneumatic valve useful for occasionally spacing the gas.
+  Le vent spatial (désigné par une porte blindée vers l'espace d'un côté de la chambre de combustion) permet d'évacuer et de détruire les gaz usés.
+  Ouvrez-le de temps en temps pour maintenir la pression sous contrôle ou pour évacuer le gaz excédentaire.
+  Vous trouverez peut-être la vanne pneumatique utile pour parfois expulser le gaz dans l'espace.
 
-  The [textlink="scrubber" link="AirScrubber"] array filters out all the burnt gasses and sends them through the TEG.
-  Note that using default settings on the [textlink="scrubbers" link="AirScrubber"] is a bad idea, as valuable plasma will be filtered out too.
+  Le réseau de [textlink="scrubbers" link="AirScrubber"] filtre tous les gaz brûlés et les envoie dans le TEG.
+  Notez que l'utilisation des réglages par défaut sur les [textlink="scrubbers" link="AirScrubber"] est une mauvaise idée, car le plasma précieux serait également filtré.
 
-  Instead, use a network configurator to connect all the [textlink="scrubbers" link="AirScrubber"] to a nearby air alarm, and set the air alarm's [textlink="scrubber" link="AirScrubber"] settings to scrub everything except Oxygen and Plasma, and to siphon air as well.
-  This ensures that as much heat as available can be collected and sent to the TEG.
+  Au lieu de cela, utilisez un configurateur de réseau pour connecter tous les [textlink="scrubbers" link="AirScrubber"] à une alarme à air à proximité, et réglez les paramètres de l'alarme à air pour ne filtrer que l'Oxygène et le Plasma, et pour siphonner l'air également.
+  Cela permet de collecter autant de chaleur disponible que possible et de l'envoyer au TEG.
 
-  Note that this is just one of many ways you can setup the hot loop; [color=#a4885c]feel free to mix and match setups as needed![/color]
-  [textlink="Volume pumps" link="Pumps"] in replacement of [textlink="pressure pumps" link="Pumps"], [textlink="radiator" link="Radiators"] loops for heat collection, or even a Pyroclastic anomaly to provide said heat!
-  The stars are the limit!
+  Notez qu'il s'agit simplement d'une des nombreuses façons d'installer la boucle chaude ; [color=#a4885c]n'hésitez pas à combiner et assortir les installations selon vos besoins ![/color]
+  [textlink="Pompes à volume" link="Pumps"] à la place des [textlink="pompes à pression" link="Pump"] constituent également une possibilité recommandée.
 
-  # The Cold Loop
+  ## La Boucle Froide
+  La boucle froide est beaucoup plus simple à comprendre et à installer, généralement dans une pièce à température ambiante (ou mieux, dans une chambre de refroidissement spécialisée). Pour l'intégration avec le générateur, vous aurez peut-être besoin de [textlink="vent passif" link="PassiveVent"] ou de [textlink="ventilateurs" link="Fans"], ou des éléments plus avancés pour maintenir la circulation, et que vous allez connecter à votre chambre froide.
 
-  As with the Hot Loop, the Cold Loop must also be setup to operate the TEG.
-  However, the Cold Loop is usually a lot more low-tech than the Hot Loop; in reality, the Cold Loop only has to be "relatively" cooler—hey, room temperature is technically cooler than the surface of the sun, right?
-
-  There are 3 main methods you will see used for the Cold Loop: [color=#a4885c]The Water Cooler[/color] (see: Liltenhead's video on the TEG), [color=cyan]the Coolant Array[/color] and [color=#a4885c]the Freezer Loop[/color].
-
-  ## The Water Cooler
-
-  An equally naive method as the Pipe Burn, this simply involves taking some useless gas (in this case, Water Vapor) and flowing it through the TEG and into space. It's dirt-cheap and simple, at the cost of efficiency and permanent loss of gas.
-
-  Setting this up is so simple, even Hamlet could manage it. Take an output of a gas (here, Water Vapor), send it through the Cold side of the TEG, and then vent it into space.
-
-  <Box>
-    <GuideEntityEmbed Entity="GasPressurePump" Rotation="90" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="GasPipeStraight" Rotation="90" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="TegCirculator" Rotation="90" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="GasPipeStraight" Rotation="90" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="GasPassiveVent" Rotation="270" Caption="" Margin="-1"/>
-  </Box>
-
-  ## Coolant Array
-
-  This is the default method for the Cold Loop you will see on a variety of stations.
-  Being of moderate complexity and having no losses of any resource, this [color=#a4885c]should[/color] be the main method of cooling down the TEG.
-  However, most stations at the moment somehow have their radiators hooked up wrong (or suggest incorrect piping), reducing efficiency greatly.
-
-  To use heat-exchangers properly, they must be setup in [color=#a4885c]parallel[/color], not in series (like what you see on most stations).
-  A gas pump at max pressure should be placed after, and a volumetric pump before the heat-exchangers.
-  The flow-rate of the volumetric pump should be set using the following formula:
-  <Box>
-    [color=cyan]( 200 / number of heat-exchangers )[/color] L/s.
-  </Box>
-
-  Simply speaking, the Coolant Array consists of 3 major parts: An input connector port, a few pumps and the heat-exchanger array out in space.
-  It can be setup like so:
-
-  <Box>
-    <GuideEntityEmbed Entity="GasPipeBend" Rotation="90" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="0" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="0" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="0" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="0" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="GasPipeBend" Rotation="0" Caption="" Margin="-1"/>
-  </Box>
-  <Box>
-    <GuideEntityEmbed Entity="HeatExchanger" Rotation="0" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="HeatExchanger" Rotation="0" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="HeatExchanger" Rotation="0" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="HeatExchanger" Rotation="0" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="HeatExchanger" Rotation="0" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="GasPipeStraight" Rotation="0" Caption="" Margin="-1"/>
-  </Box>
-  <Box>
-    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="90" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="180" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="180" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="180" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="GasPipeBend" Rotation="270" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="GasPipeStraight" Rotation="0" Caption="" Margin="-1"/>
-  </Box>
-  <Box>
-    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="ReinforcedWindow" Rotation="0" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="ReinforcedWindow" Rotation="0" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="ReinforcedWindow" Rotation="0" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="ReinforcedWindow" Rotation="0" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
-  </Box>
-  <Box>
-    <GuideEntityEmbed Entity="GasPipeBend" Rotation="180" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="GasPressurePump" Rotation="90" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="TegCirculator" Rotation="90" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="0" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="GasVolumePump" Rotation="90" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="GasPipeBend" Rotation="270" Caption="" Margin="-1"/>
-  </Box>
-  <Box>
-    <GuideEntityEmbed Entity="TegCenter" Rotation="0" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="GasPort" Rotation="180" Caption="" Margin="-1"/>
-  </Box>
-
-  - Connector Port: Use this to input a gas with high heat capacity; most of the time, Plasma or Frezon is used to do so, as they both have very high specific heat capacities (although almost any gas will do). (Yes, Plasma =/= Hot. You can cool it down, and it acts as a excellent heat exchange medium.)
-  - Input/Output Pumps: Used to make sure gas keeps flowing through both the Circulator and the radiator array. As the gas cools down and heats up (and as it flows through the Exchanger), pressure must be applied for it to keep flowing.
-  - Radiator: Basically, just a bunch of radiators in space. Not much to say, besides the fact that it cools down the gas inside it. Make sure the radiators are [color=#a4885c]placed on lattice, not plating[/color]! Otherwise, the heat-exchange efficiency will be greatly reduced, as the radiators aren't directly exposed to space below them.
-
-  ## The Freezer Loop
-
-  Most of the time, you will see this method being used in efficient TEG setups.
-  It's basically just the Coolant array, but replacing the radiators with a freezer.
-  Even though the freezer does use power, it is only a small fraction of what the TEG can generate, and it's better than the default Coolant array at the moment, so go fish.
-
-  Follow the steps for the Coolant array, but use a freezer in place of the Heat-Exchangers. As so:
-  <Box>
-    <GuideEntityEmbed Entity="GasPort" Rotation="90" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="GasPipeBend" Rotation="0" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="GasThermoMachineFreezerEnabled" Caption="" Rotation="0" Margin="0"/>
-  </Box>
-  <Box>
-    <GuideEntityEmbed Entity="GasPipeBend" Rotation="90" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="GasVolumePump" Rotation="270" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="180" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="180" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="GasPipeBend" Rotation="0" Caption="" Margin="-1"/>
-  </Box>
-  <Box>
-    <GuideEntityEmbed Entity="GasPipeBend" Rotation="180" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="GasPipeStraight" Rotation="90" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="TegCirculator" Rotation="90" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="GasPipeStraight" Rotation="90" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="GasPipeBend" Rotation="270" Caption="" Margin="-1"/>
-  </Box>
-
-  Once again, use Plasma or Frezon in the loop for max efficiency (although almost any gas will do).
-
-  ## In the Pursuit of Greater Efficiency
-  Remember, Atmospherics is a science, and as such, it is always evolving.
-  The setups above are just the tip of the iceberg; there are many ways to setup the TEG, and many ways to improve upon the setups above.
-  [color=#a4885c]Experiment![/color]
-
-  Always seek to improve upon the designs you see, and always seek to improve upon the designs you make.
-  The TEG is a powerful tool, and with great power comes great responsibility.
-  Make sure to use it wisely, and make sure to use it well.
-
-  Space Station 14 atmospherics is a complex system, and the TEG is just one part of it.
-  [bold]It's like a giant puzzle, so go out and solve it![/bold]
-
+  La boucle froide est très simple comparée à la boucle chaude.
+  Vous pouvez soit évacuer les gaz de la chambre froide vers l'espace, soit les récupérer, et les réutiliser dans le TEG pour ajouter de l'énergie.
 </Document>

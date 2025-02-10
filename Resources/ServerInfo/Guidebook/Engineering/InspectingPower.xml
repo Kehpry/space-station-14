@@ -1,60 +1,58 @@
 ﻿<Document>
-  # Inspecting Power
-  Engineers can inspect a power network to see useful statistics about it.
-  This can help engineers diagnose power issues and find root causes to problems.
+  # Inspection de l'Énergie
+  Les ingénieurs peuvent inspecter un réseau électrique pour voir des statistiques utiles à son sujet. Cela peut aider les ingénieurs à diagnostiquer les problèmes d'alimentation et à trouver les causes profondes des problèmes.
 
-  ## Power Monitoring Computer
-  The Power Monitoring Computer is a device that can be used to inspect all the power networks on the station.
+  ## Ordinateur de Surveillance de l'Énergie
+  L'ordinateur de surveillance de l'énergie est un dispositif qui peut être utilisé pour inspecter tous les réseaux d'énergie de la station.
 
   <Box>
     <GuideEntityEmbed Entity="ComputerPowerMonitoring"/>
   </Box>
 
-  The Power Monitoring Computer has two major sections, a station map and the power statistics.
+  L'ordinateur de surveillance de l'énergie dispose de deux sections principales : une carte de la station et des statistiques sur l'énergie.
 
-  The station map shows:
-  - The station layout, with [color=green]low[/color], [color=yellow]medium[/color], and [color=orange]high[/color] [textlink="voltage networks" link="VoltageNetworks"] highlighted.
-  - [textlink="All APCs, SMES, and substations." link="VoltageNetworks"]
-  - All power [textlink="producers" link="Generators"] connected to the station (note that they don't have to be connected to a power network to be shown).
+  La carte de la station montre :
+  - La disposition de la station, avec des réseaux [color=green]à faible[/color], [color=yellow]moyenne[/color] et [color=orange]haute[/color] [textlink="réseaux de tension" link="VoltageNetworks"] mis en surbrillance.
+  - [textlink="Tous les APC, SMES et sous-stations." link="VoltageNetworks"]
+  - Tous les producteurs d'énergie [textlink="générateurs" link="Generators"] connectés à la station (notez qu'ils n'ont pas besoin d'être connectés à un réseau d'énergie pour être affichés).
 
-  The power statistics show:
-  - The total [textlink="generator" link="Generators"] output, which is what the generators are currently producing to match grid demand.
-  - The total [textlink="battery" link="PowerStorage"] usage, which is the amount of power being drawn from batteries. Grids completely powered by generators will show low battery usage.
-  - The total network loads, which is the amount of power being requested by the station.
+  Les statistiques sur l'énergie montrent :
+  - La sortie totale des [textlink="générateurs" link="Generators"], c'est-à-dire ce que les générateurs produisent actuellement pour répondre à la demande du réseau.
+  - L'utilisation totale des [textlink="batteries" link="PowerStorage"], soit la quantité d'énergie tirée des batteries. Les réseaux alimentés uniquement par des générateurs afficheront une faible utilisation des batteries.
+  - La charge totale du réseau, soit la quantité d'énergie demandée par la station.
 
-  In an ideal situation, the total generator output should match the total network load, and the total battery usage should be low.
-  Using these three statistics, engineers can get an accurate picture of the station's power situation.
-  For example:
-  - If the total generator output is lower than the total network load, the station is in a power deficit.
-  - If the total battery usage is high, the station is drawing power from batteries to make up the difference.
-  - If it is zero with the generator load below the total network load, then the station is actively in a brownout, as the batteries are fully discharged.
-  - If the total generator output is higher than the total network load, the SMESes are charging.
+  Dans une situation idéale, la sortie totale des générateurs doit correspondre à la charge totale du réseau, et l'utilisation totale des batteries doit être faible.
+  À l'aide de ces trois statistiques, les ingénieurs peuvent obtenir une image précise de la situation énergétique de la station.
+  Par exemple :
+  - Si la sortie totale des générateurs est inférieure à la charge totale du réseau, la station est en déficit énergétique.
+  - Si l'utilisation totale des batteries est élevée, la station tire de l'énergie des batteries pour compenser la différence.
+  - Si elle est à zéro avec la charge des générateurs inférieure à la charge totale du réseau, la station est en panne de courant, car les batteries sont complètement déchargées.
+  - Si la sortie totale des générateurs est supérieure à la charge totale du réseau, les SMES se chargent.
 
-  ## Device Tabs
-  The Power Monitoring Computer has tabs for each device category on the station.
-  Navigating these power tabs will show the power statistics for each device category.
-  For example:
-  - Clicking on a source will show what that source is supplying the power to, and how much power it is supplying. It will also highlight the devices that are connected to that source.
-  - Clicking on an SMES, Substation, or APC will show the two power grids it is connected to, how much power it is receiving, and how much power it is distributing, as well as the exact devices that are making an exchange with the target device.
+  ## Onglets des Dispositifs
+  L'ordinateur de surveillance de l'énergie dispose d'onglets pour chaque catégorie de dispositifs sur la station.
+  Naviguer dans ces onglets d'énergie affichera les statistiques énergétiques de chaque catégorie de dispositifs.
+  Par exemple :
+  - Cliquer sur une source affichera ce que cette source alimente, et combien d'énergie elle fournit. Elle mettra également en surbrillance les dispositifs connectés à cette source.
+  - Cliquer sur un SMES, une sous-station ou un APC affichera les deux réseaux d'énergie auxquels il est connecté, combien d'énergie il reçoit et combien d'énergie il distribue, ainsi que les dispositifs exacts qui échangent de l'énergie avec le dispositif cible.
 
-  ## Inspecting via Multitool
-  The Multitool can be used to inspect power cables to see their power statistics.
+  ## Inspection via Multitool
+  Le multitool peut être utilisé pour inspecter les câbles d'alimentation afin de voir leurs statistiques énergétiques.
 
   <Box>
     <GuideEntityEmbed Entity="Multitool"/>
   </Box>
 
-  When you click on a cable with the Multitool, it will show the cable's power statistics. This includes:
-  - The current supply, which is the amount of power the source is providing.
-  - The current supply from batteries, which is the amount of power being drawn from batteries.
-  - The theoretical supply, which is the maximum amount of power the source could provide if demanded.
-  - The ideal consumption, which is the current demand on the cable.
-  - The input storage, which is the capacity of batteries that are currently charging.
-  - The output storage, which is the capacity of batteries that are currently discharging.
+  Lorsque vous cliquez sur un câble avec le multitool, il affichera les statistiques énergétiques du câble. Cela comprend :
+  - L'approvisionnement actuel, soit la quantité d'énergie que la source fournit.
+  - L'approvisionnement actuel des batteries, soit la quantité d'énergie tirée des batteries.
+  - L'approvisionnement théorique, soit la quantité maximale d'énergie que la source pourrait fournir si la demande l'exigeait.
+  - La consommation idéale, soit la demande actuelle sur le câble.
+  - Le stockage d'entrée, soit la capacité des batteries en train de se charger.
+  - Le stockage de sortie, soit la capacité des batteries en train de se décharger.
 
-  Note that this information is relevant only to the voltage network you inspected.
-  A [color=green]low voltage[/color] cable (which likely only services a few rooms) will not show the same statistics as a [color=orange]high voltage[/color] cable (which services the entire station).
+  Notez que ces informations ne sont pertinentes que pour le réseau de tension que vous avez inspecté.
+  Un câble [color=green]à faible tension[/color] (qui alimente probablement seulement quelques pièces) ne montrera pas les mêmes statistiques qu'un câble [color=orange]à haute tension[/color] (qui alimente toute la station).
 
-  This is useful information to keep in mind, as it can help you troubleshoot why "this room is powered, but this one isn't!"
-
+  Ces informations peuvent être utiles pour résoudre les problèmes, car elles peuvent vous aider à comprendre pourquoi "cette pièce est alimentée, mais celle-ci ne l'est pas!"
 </Document>

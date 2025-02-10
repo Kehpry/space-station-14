@@ -1,5 +1,5 @@
 <Document>
-  # Revolutionaries
+  # Révolutionnaires
 
   <Box>
     [color=#999999][italic]"Viva la revolución!!"[/italic][/color]
@@ -8,25 +8,25 @@
     <GuideEntityEmbed Entity="PosterContrabandRevolt" Caption=""/>
   </Box>
 
-  Revolutionaries are conversion antagonists sponsored by the [color=#ff0000]Syndicate[/color] who are tasked with taking control of the station. They have no fancy gimmicks or cheap tricks, they only have a cause and strength in numbers.
+  Les révolutionnaires sont des antagonistes de conversion sponsorisés par le [color=#ff0000]Syndicat[/color] qui ont pour mission de prendre le contrôle de la station. Ils n'ont pas de gadgets sophistiqués ni de tours bon marché, ils ont simplement une cause et la force du nombre.
 
-  ## Objectives
-  You must cuff, kill, or exile all of the [textlink="Command staff" link="Command"] on station in no particular order.
+  ## Objectifs
+  Vous devez menotter, tuer ou exiler tout le personnel [textlink="Command staff" link="Command"] de la station dans n'importe quel ordre.
 
-  Your objective is [bold]not to destroy the station[/bold], but [italic]to take it over[/italic], so try to minimize damage where possible.
+  Votre objectif n'est [bold]pas de détruire la station[/bold], mais [italic]de la prendre[/italic], donc essayez de minimiser les dégâts lorsque cela est possible.
 
-  [bold]The revolution will fail[/bold] if all of the [bold][color=#5e9cff]Head Revolutionaries[/color][/bold] die, and all [color=red]Revolutionaries[/color] will de-convert if this happens.
+  [bold]La révolution échouera[/bold] si tous les [bold][color=#5e9cff]Chefs Révolutionnaires[/color][/bold] meurent, et tous les [color=red]Révolutionnaires[/color] se désactiveront si cela se produit.
 
-  ## Headrevs & Conversion
-  [bold][color=#5e9cff]Head Revolutionaries[/color][/bold] are chosen at the start of the shift and begin with a [color=cyan]flash[/color] and a pair of [color=cyan]sunglasses[/color].
+  ## Chefs Révolutionnaires & Conversion
+  Les [bold][color=#5e9cff]Chefs Révolutionnaires[/color][/bold] sont choisis au début du quart de travail et commencent avec un [color=cyan]flash[/color] et une paire de [color=cyan]lunettes de soleil[/color].
 
   <Box>
     <GuideEntityEmbed Entity="Flash"/>
     <GuideEntityEmbed Entity="ClothingEyesGlassesSunglasses"/>
   </Box>
 
-  You can convert crew members to your side by taking any [bold]flash[/bold] and attacking someone with it using [color=#ff0000]harm mode[/color].
-  However, [bold]you can't convert your target if they're wearing [color=cyan]flash protection[/color][/bold] such as sunglasses or a welding mask.
+  Vous pouvez convertir les membres de l'équipage à votre cause en prenant un [bold]flash[/bold] et en attaquant quelqu'un avec en utilisant le mode [color=#ff0000]dommages[/color].
+  Cependant, [bold]vous ne pouvez pas convertir votre cible si elle porte une protection contre les flashes[/bold] comme des lunettes de soleil ou un masque de soudure.
 
   <Box>
     <GuideEntityEmbed Entity="ClothingEyesGlassesSunglasses"/>
@@ -34,20 +34,20 @@
     <GuideEntityEmbed Entity="ClothingHeadHatWelding"/>
   </Box>
 
-  Another obstacle in your way are those pesky [color=cyan]mindshield implanters[/color]. These will:
-  - Prevent the implanted person from being converted into a [color=red]Revolutionary[/color]
-  - De-convert Revolutionaries, and will make them no longer loyal to your cause
-  - [bold]Visibly be destroyed upon being implanted into a [color=#5e9cff]Head Revolutionary[/color][/bold], giving you away
-  - NOT protect against flash disorientation
+  Un autre obstacle sur votre chemin sont ces [color=cyan]implanteurs de bouclier mental[/color]. Ceux-ci :
+  - Empêchent la personne implantée d'être convertie en [color=red]Révolutionnaire[/color]
+  - Désactive les Révolutionnaires, et les rend plus loyaux à votre cause
+  - [bold]Seront visiblement détruits lorsqu'ils sont implantés dans un [color=#5e9cff]Chef Révolutionnaire[/color][/bold], vous dévoilant ainsi
+  - NE protègent PAS contre la désorientation par flash
 
-  Assume all of [color=#cb0000]Security[/color] and [color=#1b67a5]Command[/color] are implanted with mindshields already.
+  Supposez que tout le personnel de [color=#cb0000]Sécurité[/color] et de [color=#1b67a5]Commandement[/color] soit déjà implanté avec des boucliers mentaux.
 
   <Box>
     <GuideEntityEmbed Entity="MindShieldImplanter"/>
   </Box>
 
-  ## Revolutionary
-  A [color=red]Revolutionary[/color] is a crew member that has been converted by a [bold][color=#5e9cff]Head Revolutionary[/color][/bold].
+  ## Révolutionnaire
+  Un [color=red]Révolutionnaire[/color] est un membre de l'équipage qui a été converti par un [bold][color=#5e9cff]Chef Révolutionnaire[/color][/bold].
 
-  [bold][color=red]Revolutionaries[/color] can't convert people themselves,[/bold] but they're more than capable of doing dirty work and carrying out orders.
+  [bold][color=red]Les Révolutionnaires[/color] ne peuvent pas convertir des personnes eux-mêmes,[/bold] mais ils sont tout à fait capables de faire le travail sale et d'exécuter des ordres.
 </Document>

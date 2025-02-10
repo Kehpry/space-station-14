@@ -1,52 +1,53 @@
 <Document>
-  # Atmos Tools
-  Atmospheric Technicians have the same core toolset as Engineers, but they also have access to two new tools, the Holofan Projector and the Gas Analyzer.
+# Outils Atmosphériques
+Les Techniciens Atmosphériques possèdent le même ensemble d'outils de base que les Ingénieurs, mais ils ont également accès à deux nouveaux outils : le Projecteur Holofan et l'Analyseur de Gaz.
 
-  <Box>
-    <GuideEntityEmbed Entity="HolofanProjector"/>
-    <GuideEntityEmbed Entity="GasAnalyzer"/>
-  </Box>
+<Box>
+  <GuideEntityEmbed Entity="HolofanProjector"/>
+  <GuideEntityEmbed Entity="GasAnalyzer"/>
+</Box>
 
-  ## Holofan Projector
-  The Holofan Projector is a tool that can project a barrier of hard-light which blocks air and gas flow, while still allowing people to pass through.
+## Projecteur Holofan
+Le Projecteur Holofan est un outil qui peut projeter une barrière de lumière solide bloquant le flux d'air et de gaz, tout en permettant aux personnes de passer à travers.
 
-  <Box>
-    <GuideEntityEmbed Entity="HolofanProjector"/>
-    <GuideEntityEmbed Entity="HoloFan"/>
-  </Box>
+<Box>
+  <GuideEntityEmbed Entity="HolofanProjector"/>
+  <GuideEntityEmbed Entity="HoloFan"/>
+</Box>
 
-  This is super useful for moving in between [textlink="firelock buffers" link="FireAndGasControl"] without leaking gas between rooms, as well a signifying to regular crew that a room may be unsafe for entry.
-  It can also be used for forming a temporary barrier to allow crew to quickly move between a spaced and unspaced area without risk of leaking air from other rooms.
+C'est extrêmement utile pour se déplacer entre les [textlink="buffers firelock" link="FireAndGasControl"] sans laisser échapper de gaz entre les pièces, ainsi que pour indiquer au personnel que la pièce peut être dangereuse pour l'entrée.
+Il peut également être utilisé pour créer une barrière temporaire permettant au personnel de se déplacer rapidement entre une zone espacée et une zone non espacée sans risque de fuite d'air provenant d'autres pièces.
 
-  It has an internal charge that will deplete with each use, but it can be recharged by taking out the power cell and inserting it into a cell charger or recharger.
+Il possède une charge interne qui se décharge à chaque utilisation, mais peut être rechargé en retirant la cellule d'alimentation et en la plaçant dans un chargeur de cellule ou un rechargeur.
 
-  Holofans that are placed adjacent to a [textlink="firelock" link="FireAndGasControl"] will deactivate the firelock lockout, allowing the firelock to be opened by hand.
+Les Holofans placés à côté d'un [textlink="firelock" link="FireAndGasControl"] désactiveront le verrouillage du firelock, permettant ainsi d'ouvrir le firelock manuellement.
 
-  ## Gas Analyzer
-  The Gas Analyzer is a tool that can be used to analyze the gas composition of an exposed atmosphere, or any [textlink="atmospheric device" link="GasManipulation"] containing gas.
+## Analyseur de Gaz
+L'Analyseur de Gaz est un outil qui permet d'analyser la composition du gaz d'une atmosphère exposée, ou de tout [textlink="dispositif atmosphérique" link="GasManipulation"] contenant du gaz.
 
-  <Box>
-    <GuideEntityEmbed Entity="GasAnalyzer"/>
-  </Box>
-  <Box>
-    <GuideEntityEmbed Entity="GasPipeBend" Caption=""/>
-    <GuideEntityEmbed Entity="GasPressurePump" Caption=""/>
-    <GuideEntityEmbed Entity="SignalControlledValve" Caption=""/>
-    <GuideEntityEmbed Entity="GasFilter" Caption=""/>
-    <GuideEntityEmbed Entity="StorageCanister" Caption=""/>
-    <GuideEntityEmbed Entity="GasThermoMachineFreezer" Caption=""/>
-  </Box>
+<Box>
+  <GuideEntityEmbed Entity="GasAnalyzer"/>
+</Box>
+<Box>
+  <GuideEntityEmbed Entity="GasPipeBend" Caption=""/>
+  <GuideEntityEmbed Entity="GasPressurePump" Caption=""/>
+  <GuideEntityEmbed Entity="SignalControlledValve" Caption=""/>
+  <GuideEntityEmbed Entity="GasFilter" Caption=""/>
+  <GuideEntityEmbed Entity="StorageCanister" Caption=""/>
+  <GuideEntityEmbed Entity="GasThermoMachineFreezer" Caption=""/>
+</Box>
 
-  You can use the Gas Analyzer by clicking on a gas-containing [textlink="device" link="GasManipulation"], or by clicking on the air in the room.
+Vous pouvez utiliser l'Analyseur de Gaz en cliquant sur un [textlink="dispositif" link="GasManipulation"] contenant du gaz, ou en cliquant sur l'air dans la pièce.
 
-  When used, the gas analyzer will report on:
-  - The volume of the device measured (not the volume of the gas!)
-  - The total pressure of the gas, in kPa
-  - The temperature of the gas, in Kelvin (K) and Celsius (C)
-  - The precise composition of the gas in molar amounts, and as a percentage of the total gas volume
+Lorsqu'il est utilisé, l'analyseur de gaz affiche :
+- Le volume du dispositif mesuré (et non le volume du gaz !)
+- La pression totale du gaz, en kPa
+- La température du gaz, en Kelvin (K) et Celsius (C)
+- La composition précise du gaz en quantités molaires, et en pourcentage du volume total de gaz
 
-  At the bottom of the UI, the gas analyzer will display a visual indication of the different [textlink="gasses" link="Gasses"] present in the composition, as well as their relative concentrations.
+Au bas de l'interface, l'analyseur de gaz affiche une indication visuelle des différents [textlink="gaz" link="Gasses"] présents dans la composition, ainsi que leurs concentrations relatives.
 
-  When the gas analyzer is analyzing binary and trinary [textlink="devices" link="GasManipulation"] (devices with two and three inputs/outputs), it will display the composition of each input/output separately. This is useful for troubleshooting gas [textlink="mixing and filtering" link="MixingAndFiltering"] setups.
+Lorsque l'analyseur de gaz analyse des [textlink="dispositifs" link="GasManipulation"] binaires et ternaires (dispositifs avec deux ou trois entrées/sorties), il affichera la composition de chaque entrée/sortie séparément. Cela est utile pour le dépannage des configurations de [textlink="mélange et filtrage de gaz" link="MixingAndFiltering"].
+
 
 </Document>

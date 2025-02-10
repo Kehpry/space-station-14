@@ -1,9 +1,9 @@
 ﻿<Document>
-  # Silicon Rule 2 - Laws must be prioritized by their order
-  Most laws will be numbered, with higher number laws appearing last. Laws with a lower number take priority over laws with larger numbers.
+  # Règle des Siliciums 2 - Les lois doivent être suivies selon leur ordre de priorité
+  La plupart des lois sont numérotées, les lois ayant un numéro plus élevé apparaissant en dernier. Une loi avec un numéro inférieur a toujours priorité sur une loi avec un numéro plus élevé.
 
-  Occasionally you may have laws which have some scrambled text instead of a number and appear in front of other laws, these take priority over all other laws. If you have multiple laws like this, the order that they listed in determine priority: laws listed first are prioritized over other laws.
+  Parfois, certaines lois peuvent contenir du texte brouillé à la place d’un numéro et apparaître avant les autres lois ; celles-ci prennent alors priorité sur toutes les autres lois. Si vous avez plusieurs lois de ce type, leur ordre d'affichage détermine leur priorité : les lois listées en premier sont prioritaires sur celles listées après.
 
-  ## Examples
-  - Law 1 says to not kill any crew. Law 2 says to kill all chefs. You cannot kill any chefs that are crew, but must kill any that are not crew.
+  ## Exemples
+  - La Loi 1 indique de ne tuer aucun membre d’équipage. La Loi 2 ordonne de tuer tous les cuisiniers. Vous ne pouvez pas tuer un cuisinier qui est membre d’équipage, mais vous devez tuer ceux qui ne le sont pas.
 </Document>

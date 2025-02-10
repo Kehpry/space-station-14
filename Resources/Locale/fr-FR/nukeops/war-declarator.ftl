@@ -1,0 +1,15 @@
+war-declarator-not-working = L'appareil émet des bips, mais rien ne se passe...
+war-declarator-ui-header = Déclaration de guerre
+war-declarator-ui-war-button = DÉCLARER LA GUERRE !
+war-declarator-ui-try-war-button = Essayer de déclarer la guerre
+war-declarator-conditions-small-crew = Il n'y a pas assez d'opérateurs nucléaires pour déclarer la guerre !
+war-declarator-conditions-left-outpost = Le vaisseau a quitté le repère syndical
+war-declarator-conditions-time-out = Le temps pour déclarer la guerre est écoulé
+war-declarator-conditions-ready = Le vaisseau peut quitter le repère !
+war-declarator-conditions-unknown = Inconnu
+war-declarator-boost-possible = Prêt à déclarer la guerre
+war-declarator-boost-impossible = Impossible de déclarer la guerre
+war-declarator-boost-declared = Guerre déclarée ! Le vaisseau peut être désactivé pendant...
+war-declarator-boost-timer = Temps restant : {$time} minutes.
+war-declarator-default-message = Un groupe marginal syndical a déclaré son intention de détruire complètement la station avec un dispositif nucléaire, et défie l'équipage d'essayer de les arrêter.
+war-declarator-message-placeholder = Écrivez ici une déclaration de guerre personnalisée...

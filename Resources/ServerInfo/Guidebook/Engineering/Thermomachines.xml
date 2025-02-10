@@ -1,51 +1,52 @@
 ﻿<Document>
   # Thermomachines
-  Thermomachines are devices that manipulate the temperature of gases within a [textlink="pipe network" link="PipeNetworks"] or exposed atmosphere.
+
+  Les thermomachines sont des appareils qui manipulent la température des gaz dans un [textlink="pipe network" link="PipeNetworks"] ou dans une atmosphère exposée.
   <Box>
     <GuideEntityEmbed Entity="SpaceHeater" Caption=""/>
     <GuideEntityEmbed Entity="GasThermoMachineHeater" Caption=""/>
     <GuideEntityEmbed Entity="GasThermoMachineFreezer" Caption=""/>
   </Box>
-  They are essential for maintaining the temperature of gasses for various applications.
+  Elles sont essentielles pour maintenir la température des gaz pour diverses applications.
 
-  All thermomachines work by using [textlink="electrical power" link="Power"] to preform work on the atmosphere to either heat or cool it.
-  The amount of work they do is directly related to the amount of power they consume.
+  Toutes les thermomachines fonctionnent en utilisant [textlink="electrical power" link="Power"] pour effectuer un travail sur l'atmosphère, soit pour la chauffer, soit pour la refroidir.
+  La quantité de travail qu'elles effectuent est directement liée à la quantité d'énergie qu'elles consomment.
 
-  Thermomachines also have an efficiency coefficient, which determines how much work they can do per unit of power consumed.
+  Les thermomachines ont également un coefficient d'efficacité, qui détermine combien de travail elles peuvent accomplir par unité d'énergie consommée.
 
-  To prevent overshooting their target value, thermomachines will scale back their heating/cooling power as they approach the target temperature.
-  However, they will still consume the same amount of electrical power, even when idle.
+  Pour éviter de dépasser la température cible, les thermomachines réduiront leur puissance de chauffage/refroidissement à mesure qu'elles se rapprochent de la température cible.
+  Cependant, elles continueront de consommer la même quantité d'énergie électrique, même lorsqu'elles sont en mode veille.
 
-  All thermomachines have a target temperature tolerance of [color=orange][protodata="GasThermoMachineFreezer" comp="GasThermoMachine" member="TemperatureTolerance"/] K[/color], meaning they will stop heating or cooling when the temperature is within [color=orange][protodata="GasThermoMachineFreezer" comp="GasThermoMachine" member="TemperatureTolerance"/] K[/color] of the target temperature.
+  Toutes les thermomachines ont une tolérance de température cible de [color=orange][protodata="GasThermoMachineFreezer" comp="GasThermoMachine" member="TemperatureTolerance"/] K[/color], ce qui signifie qu'elles cesseront de chauffer ou de refroidir lorsque la température sera dans une plage de [color=orange][protodata="GasThermoMachineFreezer" comp="GasThermoMachine" member="TemperatureTolerance"/] K[/color] autour de la température cible.
 
-  ## Space Heater
-  The space heater is a portable temperature control unit that preforms work to heat or cool gas in the atmosphere it's exposed to.
-  It's a simple and effective way to maintain the temperature of a room, without having to build a pipenet or other system.
+  ## Chauffage Spatial
+  Le chauffage spatial est une unité de contrôle de température portable qui effectue un travail pour chauffer ou refroidir le gaz dans l'atmosphère à laquelle elle est exposée.
+  C'est une méthode simple et efficace pour maintenir la température d'une pièce sans avoir à construire un réseau de canalisations ou d'autres systèmes.
 
   <Box>
     <GuideEntityEmbed Entity="SpaceHeater"/>
   </Box>
 
-  They can be commonly found in Atmospherics, although the relevant machine board can be printed at a circuit imprinter, commonly found in Science.
+  Ils sont couramment trouvés dans la section Atmospherics, bien que la carte de machine correspondante puisse être imprimée à l'imprimante de circuits, couramment trouvée en Science.
 
-  The space heater can cool to as low as [color=orange][protodata="SpaceHeater" comp="SpaceHeater" member="MinTemperature"/] K[/color] and heat to as high as [color=orange][protodata="SpaceHeater" comp="SpaceHeater" member="MaxTemperature"/] K[/color].
+  Le chauffage spatial peut refroidir jusqu'à [color=orange][protodata="SpaceHeater" comp="SpaceHeater" member="MinTemperature"/] K[/color] et chauffer jusqu'à [color=orange][protodata="SpaceHeater" comp="SpaceHeater" member="MaxTemperature"/] K[/color].
 
-  It also has three power settings, which determine how much power it consumes and how much work it does.
+  Il dispose également de trois réglages de puissance, qui déterminent la quantité d'énergie qu'il consomme et le travail qu'il effectue.
 
-  Botany or science will often request these to maintain the temperature of their plants or department.
+  La botanique ou la science demandera souvent ces appareils pour maintenir la température de leurs plantes ou de leur département.
 
-  ## Pipenet Thermomachines (Freezer and Heater)
-  Pipenet thermomachines are more powerful stationary temperature control units that can be used to heat or cool gas in a [textlink="pipenet." link="PipeNetworks"]
+  ## Thermomachines de Pipenet (Congélateur et Chauffage)
+  Les thermomachines de pipenet sont des unités de contrôle de température plus puissantes et stationnaires qui peuvent être utilisées pour chauffer ou refroidir des gaz dans un [textlink="pipenet." link="PipeNetworks"]
 
   <Box>
     <GuideEntityEmbed Entity="GasThermoMachineHeater"/>
     <GuideEntityEmbed Entity="GasThermoMachineFreezer"/>
   </Box>
 
-  They draw [color=orange][protodata="GasThermoMachineFreezer" comp="GasThermoMachine" member="HeatCapacity" format="N0"/] W[/color] of power and can heat or cool gas in a pipenet to as high as [color=orange][protodata="GasThermoMachineFreezer" comp="GasThermoMachine" member="MaxTemperature"/] K[/color] or as low as [color=orange][protodata="GasThermoMachineFreezer" comp="GasThermoMachine" member="MinTemperature"/] K[/color].
+  Elles consomment [color=orange][protodata="GasThermoMachineFreezer" comp="GasThermoMachine" member="HeatCapacity" format="N0"/] W[/color] d'énergie et peuvent chauffer ou refroidir des gaz dans un pipenet jusqu'à [color=orange][protodata="GasThermoMachineFreezer" comp="GasThermoMachine" member="MaxTemperature"/] K[/color] ou aussi bas que [color=orange][protodata="GasThermoMachineFreezer" comp="GasThermoMachine" member="MinTemperature"/] K[/color].
 
-  You can swap the mode of the thermomachine by deconstructing it and using a screwdriver on its board.
-  The board can be printed at a circuit imprinter, commonly found in Science.
+  Vous pouvez changer le mode de la thermomachine en la déconstruisant et en utilisant un tournevis sur sa carte.
+  La carte peut être imprimée à l'imprimante de circuits, couramment trouvée en Science.
 
   <Box>
     <GuideEntityEmbed Entity="GasThermoMachineFreezer" Caption=""/>
@@ -55,21 +56,20 @@
     <GuideEntityEmbed Entity="ThermomachineHeaterMachineCircuitBoard" Caption=""/>
     <GuideEntityEmbed Entity="MachineFrame" Caption=""/>
     <GuideEntityEmbed Entity="GasThermoMachineHeater" Caption=""/>
-
   </Box>
 
-  ## Thermomachines from Hell
-  Science can research more powerful thermomachines, aptly called hellfire heaters and freezers.
-  These machines are much more powerful than their standard counterparts, but they also consume more power.
+  ## Thermomachines de l'Enfer
+  La science peut rechercher des thermomachines plus puissantes, appelées chauffages et congélateurs hellfire.
+  Ces machines sont beaucoup plus puissantes que leurs homologues standards, mais elles consomment également plus d'énergie.
 
   <Box>
     <GuideEntityEmbed Entity="GasThermoMachineHellfireHeater"/>
     <GuideEntityEmbed Entity="GasThermoMachineHellfireFreezer"/>
   </Box>
 
-  These machines draw [color=orange][protodata="GasThermoMachineHellfireFreezer" comp="GasThermoMachine" member="HeatCapacity" format="N0"/] W[/color] of power and can heat or cool gas in a pipenet to as high as [color=orange][protodata="GasThermoMachineHellfireFreezer" comp="GasThermoMachine" member="MaxTemperature"/] K[/color] or as low as [color=orange][protodata="GasThermoMachineHellfireFreezer" comp="GasThermoMachine" member="MinTemperature"/] K[/color].
+  Ces machines consomment [color=orange][protodata="GasThermoMachineHellfireFreezer" comp="GasThermoMachine" member="HeatCapacity" format="N0"/] W[/color] d'énergie et peuvent chauffer ou refroidir des gaz dans un pipenet jusqu'à [color=orange][protodata="GasThermoMachineHellfireFreezer" comp="GasThermoMachine" member="MaxTemperature"/] K[/color] ou aussi bas que [color=orange][protodata="GasThermoMachineHellfireFreezer" comp="GasThermoMachine" member="MinTemperature"/] K[/color].
 
-  However, they also leak [color=orange][protodata="GasThermoMachineHellfireFreezer" comp="GasThermoMachine" member="EnergyLeakPercentage" format="P0"/][/color] of their energy to the surrounding environment, heating or cooling the exposed atmosphere respectively.
-  This can be dangerous if not properly managed.
+  Cependant, elles perdent également [color=orange][protodata="GasThermoMachineHellfireFreezer" comp="GasThermoMachine" member="EnergyLeakPercentage" format="P0"/][/color] de leur énergie dans l'environnement environnant, chauffant ou refroidissant l'atmosphère exposée.
+  Cela peut être dangereux si ce n'est pas correctement géré.
 
 </Document>

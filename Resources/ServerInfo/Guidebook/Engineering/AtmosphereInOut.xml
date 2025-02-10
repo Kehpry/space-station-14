@@ -1,25 +1,27 @@
 ﻿<Document>
-  #Atmosphere Input and Output
-  Inserting and extracting gasses from a present (or non-present) atmosphere is an essential part of Atmos' job.
-  <Box>
-    <GuideEntityEmbed Entity="GasVentPump"/>
-    <GuideEntityEmbed Entity="GasPassiveVent"/>
-    <GuideEntityEmbed Entity="GasOutletInjector"/>
-    <GuideEntityEmbed Entity="GasVentScrubber"/>
-    <GuideEntityEmbed Entity="PortableScrubber"/>
-  </Box>
+# Entrée et Sortie de l'Atmosphère
+Insérer et extraire des gaz d'une atmosphère présente (ou absente) est une tâche essentielle pour le département Atmos.
 
-  With these devices, Atmos can insert, extract, or scrub unwanted gasses from any atmosphere they would like.
-  This allows the maintaining of a safe, breathable atmosphere.
+<Box>
+  <GuideEntityEmbed Entity="GasVentPump"/>
+  <GuideEntityEmbed Entity="GasPassiveVent"/>
+  <GuideEntityEmbed Entity="GasOutletInjector"/>
+  <GuideEntityEmbed Entity="GasVentScrubber"/>
+  <GuideEntityEmbed Entity="PortableScrubber"/>
+</Box>
 
-  Some of these devices require [textlink="power" link="Power"] to function, and can be linked to an [textlink="air alarm." link="AirAlarms"]
+Avec ces appareils, le département Atmos peut insérer, extraire ou filtrer les gaz indésirables de toute atmosphère souhaitée.
+Cela permet de maintenir une atmosphère sûre et respirable.
 
-  [textlink="Linking" link="Networking"] compatible devices to an air alarm unlocks more configuration options and functionality. Otherwise, these devices follow their default behavior as defined in the subguides.
+Certains de ces dispositifs nécessitent de l'[textlink="énergie" link="Power"] pour fonctionner et peuvent être connectés à une [textlink="alarme d'air" link="AirAlarms"].
 
-  <Box>
-    <GuideEntityEmbed Entity="AirAlarm"/>
-    <GuideEntityEmbed Entity="Multitool"/>
-    <GuideEntityEmbed Entity="NetworkConfigurator"/>
-  </Box>
+Le [textlink="Raccordement" link="Networking"] des appareils compatibles à une alarme d'air débloque plus d'options de configuration et de fonctionnalités. Sinon, ces dispositifs suivent leur comportement par défaut tel que défini dans les sous-guides.
+
+<Box>
+  <GuideEntityEmbed Entity="AirAlarm"/>
+  <GuideEntityEmbed Entity="Multitool"/>
+  <GuideEntityEmbed Entity="NetworkConfigurator"/>
+</Box>
+
 
 </Document>

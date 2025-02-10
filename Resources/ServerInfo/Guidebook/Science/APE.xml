@@ -1,21 +1,21 @@
 <Document>
 # A.P.E.
 
-The Anomalous Particle Emitter is a machine used to interface with anomalies. It is the primary way of manipulating the stats of an anomaly.
+L'Émetteur de Particules Anormales est une machine utilisée pour interagir avec les anomalies. C'est le moyen principal de manipuler les statistiques d'une anomalie.
 
 <Box>
 <GuideEntityEmbed Entity="MachineAPE"/>
 </Box>
 
-The A.P.E. can shoot four different kinds of anomalous particles: Delta, Epsilon, Sigma and Zeta. Each particle type has certain effects:
+L'A.P.E. peut tirer quatre types différents de particules anormales : Delta, Epsilon, Sigma et Zeta. Chaque type de particule a certains effets :
 
-- [color=crimson]Danger:[/color] Increases the severity of an anomaly.
-- [color=plum]Unstable:[/color] Increases the instability of an anomaly.
-- [color=goldenrod]Containment:[/color] Increases anomaly stability at the cost of its health - if an anomaly is struck by too many containment particles, it will collapse, leaving behind an anomaly core.
-- [color=#6b75fa]Transformation:[/color] Increases anomaly severity with a chance of changing its behavior.
+- [color=crimson]Danger :[/color] Augmente la gravité d'une anomalie.
+- [color=plum]Instabilité :[/color] Augmente l'instabilité d'une anomalie.
+- [color=goldenrod]Confinement :[/color] Augmente la stabilité de l'anomalie au prix de sa santé - si une anomalie est frappée par trop de particules de confinement, elle s'effondrera, laissant derrière elle un noyau d'anomalie.
+- [color=#6b75fa]Transformation :[/color] Augmente la gravité de l'anomalie avec une chance de changer son comportement.
 
-Which particle type corresponds to each effect is unique and can be learned by scanning the anomaly.
+Le type de particule correspondant à chaque effet est unique et peut être appris en scannant l'anomalie.
 
-The A.P.E. can also be locked by anyone with science access, which prevents it from being deconstructed, turned on or off, or having the particle type switched.
+L'A.P.E. peut également être verrouillé par toute personne ayant un accès scientifique, ce qui empêche de le démonter, de l'allumer ou de l'éteindre, ou de changer le type de particule.
 
 </Document>

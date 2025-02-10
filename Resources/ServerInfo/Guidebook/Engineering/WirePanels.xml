@@ -1,8 +1,8 @@
 ﻿<Document>
-  # Wire Panels
-  Some station devices like airlocks, vending machines, and arcade consoles have wire panels, which control certain aspects of their functionality.
+  # Panneaux de Câblage
+  Certains dispositifs de la station, tels que les sas, les distributeurs automatiques et les consoles d'arcade, possèdent des panneaux de câblage, qui contrôlent certains aspects de leur fonctionnalité.
 
-  These panels can be opened using a screwdriver to access the wiring inside.
+  Ces panneaux peuvent être ouverts à l'aide d'un tournevis pour accéder au câblage à l'intérieur.
 
   <Box>
     <GuideEntityEmbed Entity="Wirecutter"/>
@@ -10,20 +10,19 @@
     <GuideEntityEmbed Entity="Multitool"/>
   </Box>
 
-  From here, you can use wirecutters and a multitool to interact with the wiring. Note that interacting with the wiring often requires insulated gloves, as if the wire is live, you can get shocked.
+  À partir de là, vous pouvez utiliser des coupe-fils et un multitool pour interagir avec le câblage. Notez que l'interaction avec le câblage nécessite souvent des gants isolants, car si le câble est sous tension, vous pouvez recevoir une décharge.
 
   <Box>
     <GuideEntityEmbed Entity="ClothingHandsGlovesColorYellow"/>
   </Box>
 
-  You can cut and mend wires using the wirecutters, and pulse wires using the multitool.
+  Vous pouvez couper et réparer les fils à l'aide des coupe-fils, et pulser les fils avec le multitool.
 
-  Cutting wires often completely disables or restores functionality to a device.
-  It may also trigger unintended functionality, like shocking people, dropping door bolts, or exploding.
+  Couper des fils désactive généralement complètement ou rétablit la fonctionnalité d'un appareil.
+  Cela peut également déclencher des fonctionnalités inattendues, telles que des électrocutions, le déblocage de portes ou des explosions.
 
-  Pulsing wires can have a variety of effects, but oftentimes it either temporarily disables or enables functionality.
+  Pulser les fils peut avoir une variété d'effets, mais souvent cela désactive ou active temporairement la fonctionnalité.
 
-  You can't pulse wires if the wire you're trying to pulse is cut. You have to mend the wire first.
-
+  Vous ne pouvez pas pulser les fils si le fil que vous essayez de pulser est coupé. Vous devez d'abord réparer le fil.
 
 </Document>

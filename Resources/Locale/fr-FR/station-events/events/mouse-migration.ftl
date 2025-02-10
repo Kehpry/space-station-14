@@ -1,0 +1,1 @@
+station-event-mouse-migration-announcement = Nous avons détecté une migration imminente de rongeurs vers la station. Veuillez éviter les tunnels de maintenance et essayer d'éviter tout contact excessif.

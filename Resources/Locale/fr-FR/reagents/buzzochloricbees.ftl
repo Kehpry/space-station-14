@@ -1,0 +1,15 @@
+buzzochloricbees-effect-oh-god-bees = Vous êtes attaqué par beaucoup, beaucoup d'abeilles.
+buzzochloricbees-effect-its-the-bees = Ce sont les abeilles, oh mon dieu, les abeilles.
+buzzochloricbees-effect-why-am-i-covered-in-bees = Vous êtes couvert d'abeilles enragées.
+buzzochloricbees-effect-one-with-the-bees = Vous êtes un avec les abeilles.
+buzzochloricbees-effect-squeaky-clean = Vous vous sentez tout propre comme les abeilles essaient de se débarrasser de vous.
+buzzochloricbees-effect-histamine-bee-allergy = Vous êtes apparemment hautement allergique aux abeilles.
+buzzochloricbees-effect-histamine-swells = Vous gonflez comme un ballon en présence des abeilles.
+buzzochloricbees-effect-histamine-numb-to-the-bees = Vous êtes engourdi par les abeilles.
+buzzochloricbees-effect-histamine-cannot-be-one-with-the-bees = Vous n'êtes pas un avec les abeilles.
+buzzochloricbees-effect-licoxide-electrifying = Les abeilles vous électrisent.
+buzzochloricbees-effect-licoxide-shocked-by-bee-facts = Vous êtes choqué par ces cinq faits surprenants sur les abeilles.
+buzzochloricbees-effect-licoxide-buzzed = Vous vous sentez bourdonnant.
+buzzochloricbees-effect-licoxide-buzzes = Vous bourdonnez avec les abeilles.
+buzzochloricbees-effect-fiber-hairy = Vous vous sentez duveteux, comme une abeille.
+buzzochloricbees-effect-fiber-soft = Vous ressentez des abeilles exceptionnellement douces.

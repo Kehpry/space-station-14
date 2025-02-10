@@ -1,17 +1,19 @@
 ﻿<Document>
-  # Signal Valve
-  The signal valve is a valve that can be controlled via [textlink="signals." link="Networking"]
+  # Soupape à signal
+
+  La soupape à signal est une soupape qui peut être contrôlée via des [textlink="signaux." link="Réseautage"].
+
   <Box>
     <GuideEntityEmbed Entity="SignalControlledValve"/>
   </Box>
 
-  The signal valve is similar to the manual valve. Gas can flow unrestricted in both directions, and it can be operated manually.
+  La soupape à signal est similaire à la soupape manuelle. Le gaz peut circuler librement dans les deux directions et elle peut être opérée manuellement.
 
-  The signal valve has 3 [textlink="signal" link="Networking"] inputs, which can open, close, or toggle the valve.
+  La soupape à signal dispose de 3 [textlink="signal" link="Réseautage"] entrées, qui peuvent ouvrir, fermer ou basculer la soupape.
 
-  Signal valves can be used in a variety of applications, for example:
-  - Remote control of valves in hazardous areas or areas inaccessible to crew
-  - Convenient control over a valve in a hard-to-reach area
-  - Automation with other [textlink="signal-enabled" link="Networking"] machines and equipment such as [textlink="air alarms" link="AirAlarms"] and remote signallers
+  Les soupapes à signal peuvent être utilisées dans diverses applications, par exemple :
+  - Contrôle à distance des soupapes dans des zones dangereuses ou inaccessibles pour l'équipage
+  - Contrôle pratique d'une soupape dans une zone difficile d'accès
+  - Automatisation avec d'autres machines et équipements [textlink="signal-enabled" link="Réseautage"] comme les [textlink="air alarms" link="AlarmesAir"] et les signaleurs à distance
 
 </Document>

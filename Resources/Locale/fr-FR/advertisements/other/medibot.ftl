@@ -1,0 +1,17 @@
+advertisement-medibot-1 = Quel genre de salle de médecine est-ce ? Tout le monde tombe comme des mouches mortes.
+advertisement-medibot-2 = Je le savais, j'aurais dû être chirurgien plasticien.
+advertisement-medibot-3 = Il y a toujours un piège, et je suis le meilleur.
+advertisement-medibot-4 = Une pomme par jour me garde loin.
+advertisement-medibot-5 = Je suis différent !
+advertisement-medibot-6 = Va te faire foutre.
+advertisement-medibot-7 = Pourquoi sommes-nous encore ici ? Juste pour souffrir ?
+advertisement-medibot-8 = Je... Je n'ai jamais perdu un patient auparavant. Pas aujourd'hui, je veux dire.
+advertisement-medibot-9 = Lexorin dedans.
+advertisement-medibot-10 = Passez une excellente journée !
+advertisement-medibot-11 = J'espère que vous n'aurez pas besoin de revenir !
+advertisement-medibot-12 = N'oubliez pas de brosser vos dents.
+advertisement-medibot-13 = J'aimerais avoir des mains.
+advertisement-medibot-14 = Je suis là pour aider !
+advertisement-medibot-15 = Demandez à un médecin pour un bonbon !
+advertisement-medibot-16 = Remettez-vous vite !
+advertisement-medibot-17 = Une pomme par jour éloigne le médecin !

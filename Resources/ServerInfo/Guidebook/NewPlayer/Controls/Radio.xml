@@ -1,64 +1,64 @@
 <Document>
-# Speech and Text Channels
-Talking is a key part of Space Station 14. You can press [keybind="FocusChatInputWindow"/] to jump to the text box.
+  # Canaux de Discours et de Texte
+  Parler est une partie essentielle de Space Station 14. Tu peux appuyer sur [keybind="FocusChatInputWindow"/] pour accéder à la zone de texte.
 
-The word next to the text box is the [color=#a4885c]text channel[/color] you're about to send the message to, or rather how you're about to say what you've typed.
+  Le mot à côté de la zone de texte est le [color=#a4885c]canal de texte[/color] auquel tu vas envoyer ton message, ou plutôt comment tu vas dire ce que tu as écrit.
 
-Local is normal speech at normal volume.
+  **Local** est un discours normal à un volume normal.
 
-Whisper can only be heard when nearby somebody. You automatically whisper into your radio to send messages over it.
+  **Whisper** (murmure) ne peut être entendu que lorsque quelqu'un est à proximité. Tu murmures automatiquement dans ton radio pour envoyer des messages via celui-ci.
 
-Emotes are gestures that you make. Can be recieved by anyone who is not blinded. You will often see mimes do many emotes.
+  **Emotes** sont des gestes que tu fais. Elles peuvent être reçues par toute personne qui n'est pas aveugle. Tu verras souvent des mimes faire de nombreux gestes.
 
-Whisper messages can be sent by starting your message with [color=#a4885c][keybind="FocusWhisperChatWindow"/][/color] and Emotes can be sent by starting your message with ([color=#a4885c]@[/color]).
-You can also cycle through all of these text channels by pressing [keybind="CycleChatChannelForward"/].
+  Les messages en **Whisper** peuvent être envoyés en commençant ton message par [color=#a4885c][keybind="FocusWhisperChatWindow"/][/color], et les Emotes peuvent être envoyées en commençant ton message par ([color=#a4885c]@[/color]).
+  Tu peux aussi passer d'un canal de texte à l'autre en appuyant sur [keybind="CycleChatChannelForward"/].
 
-People may not be able to make out all of what you're saying if you're standing too far away from them. This is especially important if you're whispering.
+  Les gens peuvent ne pas être capables de comprendre tout ce que tu dis si tu es trop loin d'eux. Cela est particulièrement important si tu chuchotes.
 
-## Radio
+  ## Radio
 
-Your radio allows you to communicate across the entire station and to your specific [color=#a4885c]department[/color].
+  Ta radio te permet de communiquer avec toute la station et avec ton [color=#a4885c]département[/color].
 
-<Box>
-  <GuideEntityEmbed Entity="ClothingHeadsetGrey"/>
-</Box>
+  <Box>
+    <GuideEntityEmbed Entity="ClothingHeadsetGrey"/>
+  </Box>
 
-To send a [color=#a4885c]station-wide[/color] message over the radio preface, use the [color=#32cd32]Common[/color] channel by beginning your text with [color=#32cd32]semi-colon (;)[/color].
-People standing right next to you might catch bits of your radio message, even if they don't have the access to the relevant radio channel. Watch for eavesdroppers.
+  Pour envoyer un message [color=#a4885c]station-wide[/color] via la radio, commence ton texte par [color=#32cd32]le canal Commun[/color], en mettant un [color=#32cd32]point-virgule (;)[/color] au début de ton message.
+  Les personnes qui se trouvent juste à côté de toi pourraient entendre des morceaux de ton message radio, même si elles n'ont pas accès au canal radio concerné. Fais attention aux écouteurs.
 
-## Departmental Radio
+  ## Radio Départementale
 
-You are able to send messages over your departmental radio channels using [color=#32cd32]colon (:)[/color] followed by the department letter as long as you're wearing a headset with your department's encryption key.
+  Tu peux envoyer des messages via les canaux radio de ton département en utilisant [color=#32cd32]deux-points (:)[/color] suivi de la lettre de ton département, tant que tu portes un casque avec la clé de cryptage de ton département.
 
-Examine your headset to see the department channels available to you.
+  Examine ton casque pour voir les canaux disponibles pour ton département.
 
-<Box>
-  <GuideEntityEmbed Entity="ClothingHeadsetEngineering"/>
-</Box>
+  <Box>
+    <GuideEntityEmbed Entity="ClothingHeadsetEngineering"/>
+  </Box>
 
-Examining an unmodified engineering headset would show you the prefixes for the [color=#32cd32]Common[/color] and [color=#f37746]Engineering[/color] channels.
+  L'examen d'un casque d'ingénierie non modifié te montrera les préfixes pour les canaux [color=#32cd32]Commun[/color] et [color=#f37746]Ingénierie[/color].
 
-It is also possible to use [color=#a4885c]:h[/color]. This hotkey will automatically default to your department radio channel.
-For example, if you're a Station Engineer then [color=#a4885c]:h[/color] will default to [color=#f37746]:e[/color].
+  Il est également possible d'utiliser [color=#a4885c]:h[/color]. Ce raccourci se basera automatiquement sur ton canal radio départemental.
+  Par exemple, si tu es un ingénieur de station, [color=#a4885c]:h[/color] se basera sur [color=#f37746]:e[/color].
 
-## Encryption Keys
-[color=#a4885c]Encryption keys[/color] give you access to their respective channel.
-  
-Examining our engineering headset from earlier shows us [color=#32cd32]Common[/color] and [color=#f37746]Engineering[/color] because an engineer's headset starts with those [color=#a4885c]encryption keys[/color].
-  
-<Box>
-  <GuideEntityEmbed Entity="EncryptionKeyCommon"/>
-  <GuideEntityEmbed Entity="EncryptionKeyEngineering"/>
-</Box>
-  
-You can take out encryption keys by using a [color=#a4885c]screwdriver[/color] on a headset. New encryption keys are put into headsets by clicking on one with an encryption key in your hand.
+  ## Clés de Cryptage
+  Les [color=#a4885c]clés de cryptage[/color] te donnent accès à leur canal respectif.
 
-All command members have extras of their relevant encryption key, but you can also request one at the HoP's office when you're getting your job changed.
+  L'examen de notre casque d'ingénierie plus tôt montre les canaux [color=#32cd32]Commun[/color] et [color=#f37746]Ingénierie[/color], car le casque d'un ingénieur commence par ces [color=#a4885c]clés de cryptage[/color].
 
-## OOC Channels
-OOC (out-of-character) channels exist outside of the game world. They are LOOC, OOC and Dead chat.
+  <Box>
+    <GuideEntityEmbed Entity="EncryptionKeyCommon"/>
+    <GuideEntityEmbed Entity="EncryptionKeyEngineering"/>
+  </Box>
 
-LOOC is on during the rounds, OOC is typically off until the round ends and you can only see and talk in Dead chat when you are, well, dead.
+  Tu peux retirer des clés de cryptage en utilisant un [color=#a4885c]tournevis[/color] sur un casque. De nouvelles clés de cryptage sont insérées dans les casques en cliquant sur un casque avec une clé de cryptage en main.
 
-Do not discuss the current round in the Discord or in OOC if it's on during the round.
+  Tous les membres de l'équipe de commande ont des clés de cryptage supplémentaires pour leurs départements respectifs, mais tu peux également en demander une au bureau du HoP lorsque tu changes de poste.
+
+  ## Canaux OOC
+  Les canaux OOC (out-of-character) existent en dehors du monde du jeu. Il y a LOOC, OOC et Dead chat.
+
+  LOOC est actif pendant les rounds, OOC est généralement désactivé jusqu'à la fin du round, et tu ne peux parler dans Dead chat que lorsque tu es, eh bien, mort.
+
+  Ne discute pas du round en cours dans le Discord ou dans OOC si c'est activé pendant le round.
 </Document>

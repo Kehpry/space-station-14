@@ -1,25 +1,25 @@
 <Document>
-  # Construction
+# Construction
 
-  <Box>
-    <GuideEntityEmbed Entity="Bed" Caption=""/>
-    <GuideEntityEmbed Entity="TableReinforced" Caption=""/>
-    <GuideEntityEmbed Entity="WeaponImprovisedPneumaticCannon" Caption=""/>
-    <GuideEntityEmbed Entity="Chair" Caption=""/>
-  </Box>
+<Box>
+  <GuideEntityEmbed Entity="Bed" Caption=""/>
+  <GuideEntityEmbed Entity="TableReinforced" Caption=""/>
+  <GuideEntityEmbed Entity="WeaponImprovisedPneumaticCannon" Caption=""/>
+  <GuideEntityEmbed Entity="Chair" Caption=""/>
+</Box>
 
+Le Menu de Construction est utilisé pour construire et fabriquer des objets dans le jeu.
+Il peut être accédé en appuyant sur [color=yellow][bold][keybind="OpenCraftingMenu"][/bold][/color].
 
-  The Construction Menu is how you build and craft objects in the game.
-  It can be accessed by pressing [color=yellow][bold][keybind="OpenCraftingMenu"][/bold][/color].
+Lorsque vous placez des objets qui se "verrouillent" sur la grille, vous pouvez maintenir [color=yellow][bold][keybind="EditorLinePlace"][/bold][/color] pour placer toute une ligne d'un coup, et [color=yellow][bold][keybind="EditorGridPlace"][/bold][/color] pour placer une grille entière d'un coup.
 
-  When placing objects that "snap" to the grid, you can hold [color=yellow][bold][keybind="EditorLinePlace"][/bold][/color] to place an entire line at a time, and [color=yellow][bold][keybind="EditorGridPlace"][/bold][/color] to place an entire grid at a time.
+Lorsque vous fabriquez des objets avec de nombreux ingrédients, gardez à l'esprit que vous n'avez pas à tout tenir en même temps; vous pouvez simplement poser les ingrédients au sol, dans votre sac à dos ou sur une table à proximité, et ils seront utilisés pendant la fabrication comme d'habitude.
 
-  When crafting objects with a lot of ingredients, keep in mind you don't have to hold everything at once; you can simply place the ingredients on the floor, in your backpack or on a table near you, and they'll be used up during crafting like normal.
+Lorsque vous placez un "fantôme de bâtiment" quelque part dans le monde, appuyez sur [color=yellow][bold][keybind="EditorRotateObject"][/bold][/color] pour faire pivoter le fantôme dans le sens des aiguilles d'une montre.
+Si vous construisez un composant miroir (comme les Mélangeurs/Filtre de Gaz), vous pouvez appuyer sur [color=yellow][bold][keybind="EditorFlipObject"][/bold][/color] pour retourner le fantôme.
 
-  When placing a "building ghost" somewhere in the world, press [color=yellow][bold][keybind="EditorRotateObject"][/bold][/color] to rotate the ghost clockwise.
-  If you are building a mirrorable component (think: Gas Mixers/Filters), you can press [color=yellow][bold][keybind="EditorFlipObject"][/bold][/color] to flip the ghost.
+Vous pouvez également utiliser [color=yellow][bold][keybind="RotateObjectClockwise"][/bold][/color] et [color=yellow][bold][keybind="RotateObjectCounterclockwise"][/bold][/color] pour faire pivoter un objet dans le sens des aiguilles d'une montre ou dans le sens inverse, si l'objet est déjà construit, à condition qu'il ne soit pas ancré (non-serré).
 
-  You can also use [color=yellow][bold][keybind="RotateObjectClockwise"][/bold][/color] and [color=yellow][bold][keybind="RotateObjectCounterclockwise"][/bold][/color] to rotate an object clockwise or counterclockwise if it's already built, as long as it is unanchored (unwrenched).
 
 
 

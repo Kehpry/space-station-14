@@ -1,0 +1,15 @@
+﻿construction-category-all = Tout
+construction-category-furniture = Meubles
+construction-category-storage = Rangement
+construction-category-tools = Outils
+construction-category-materials = Matériaux
+construction-category-structures = Structures
+construction-category-machines = Machines
+construction-category-weapons = Armes
+construction-category-tiles = Dalles
+construction-category-utilities = Utilitaires
+construction-category-misc = Divers
+construction-category-clothing = Vêtements
+construction-category-favorites = Favoris
+construction-add-favorite-button = Ajouter aux favoris
+construction-remove-from-favorite-button = Retirer des favoris

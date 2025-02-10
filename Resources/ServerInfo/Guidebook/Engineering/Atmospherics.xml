@@ -1,25 +1,26 @@
 <Document>
-  # Atmospherics
-  Atmospherics is the engineering subdepartment responsible for maintaining the station's atmosphere, and ensuring that it is safe and breathable for the crew.
+# Atmosphériques
+Les atmosphériques est le sous-département de l'ingénierie responsable de la maintenance de l'atmosphère de la station, et de garantir qu'elle soit sûre et respirable pour l'équipage.
 
-  Atmospherics is run by Atmospheric Technicians, who are overseen by the Chief Engineer.
+Les atmosphériques sont gérés par des techniciens atmosphériques, qui sont supervisés par le chef ingénieur.
 
-  <Box>
-    <GuideEntityEmbed Entity="ToyFigurineAtmosTech" Caption="Atmosian"/>
-    <GuideEntityEmbed Entity="ToyFigurineChiefEngineer" Caption="CE"/>
-  </Box>
-  <Box>
-    [color=#999999][italic][italic][/color]
-  </Box>
+<Box>
+  <GuideEntityEmbed Entity="ToyFigurineAtmosTech" Caption="Atmosian"/>
+  <GuideEntityEmbed Entity="ToyFigurineChiefEngineer" Caption="CE"/>
+</Box>
+<Box>
+  [color=#999999][italic][italic][/color]
+</Box>
 
-  ## Responsibilities
-  Generally, you'll be responding to [textlink="atmospheric upsets" link="AtmosphericUpsets"] throughout the station.
-  These can range from minor leaks to full-on [textlink="fires" link="Fires"] or [textlink="spacing" link="Spacing"] incidents.
+## Responsabilités
+En général, vous serez amené à répondre à des [textlink="perturbations atmosphériques" link="AtmosphericUpsets"] à travers la station.
+Cela peut aller de fuites mineures à des incidents plus graves tels que des [textlink="incendies" link="Fires"] ou des incidents de [textlink="expulsion dans l'espace" link="Spacing"].
 
-  People from other departments may also request [textlink="canned gasses" link="GasCanisters"] for their department duties, such as [textlink="plasma" link="Gasses"] for the [textlink="Research Department" link="Science"] or [textlink="carbon dioxide" link="Gasses"] for [textlink="Chemistry" link="Chemist"].
+Des personnes d'autres départements peuvent également demander des [textlink="gaz en canister" link="GasCanisters"] pour leurs missions, comme par exemple le [textlink="plasma" link="Gasses"] pour le [textlink="département de recherche" link="Science"] ou le [textlink="dioxyde de carbone" link="Gasses"] pour le [textlink="département de chimie" link="Chemist"].
 
-  In your downtime, you may seek to improve the station by setting up rooms with different atmospheres for [textlink="Voxes" link="Vox"] and other species, or by setting up production of [textlink="exotic gasses" link="Gasses"] for the station's needs.
+Dans votre temps libre, vous pouvez chercher à améliorer la station en configurant des salles avec différentes atmosphères pour les [textlink="Voxes" link="Vox"] et autres espèces, ou en mettant en place la production de [textlink="gaz exotiques" link="Gasses"] pour les besoins de la station.
 
-  When there's no work to do, you may be expected to help regular Station Engineers with their tasks, and mentor new Station Engineers and Atmospheric Technicians.
+Lorsque vous n'avez rien à faire, il peut vous être demandé d'aider les ingénieurs stationnaires dans leurs tâches, et de former les nouveaux ingénieurs stationnaires ainsi que les techniciens atmosphériques.
+
 
 </Document>

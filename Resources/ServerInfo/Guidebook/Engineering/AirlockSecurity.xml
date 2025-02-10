@@ -1,76 +1,77 @@
 <Document>
-  # Airlock Upgrades
-  It is not uncommon for plucky individuals to try and bypass an airlock by meddling with its internal wiring.
+# Améliorations des Portes de Sécurité (Airlock Upgrades)
+Il n'est pas rare que des individus audacieux tentent de contourner une porte de sécurité en manipulant son câblage interne.
 
-  Fortunately, certain countermeasures can be installed into airlocks to inconvenience any would-be trespassers.
+Heureusement, certaines mesures de sécurité peuvent être installées dans les portes de sécurité pour compliquer la tâche de tout intrus potentiel.
 
-  ## Medium security airlocks
-  The most basic form of intrusion deterrence is to install a secured steel plating that will prevent access to internal wiring of the airlock.
+## Portes de Sécurité à Sécurité Moyenne
+La forme la plus basique de dissuasion contre les intrusions consiste à installer une plaque d'acier sécurisée qui empêchera l'accès au câblage interne de la porte de sécurité.
 
-  To upgrade a basic airlock to a medium security airlock, you will require the following materials:
-  <Box HorizontalAlignment="Stretch">
-	  <Box>
-		  <GuideEntityEmbed Entity="SheetSteel" Caption="2 steel sheets"/>
-	  </Box>
-	  <Box>
-		  <GuideEntityEmbed Entity="Screwdriver" Caption="Screwdriver"/>
-	  </Box>
-	  <Box>
-		  <GuideEntityEmbed Entity="Welder" Caption="Welder"/>
-	  </Box>
-  </Box>
+Pour améliorer une porte de sécurité basique en porte de sécurité à sécurité moyenne, vous aurez besoin des matériaux suivants :
+<Box HorizontalAlignment="Stretch">
+	<Box>
+		<GuideEntityEmbed Entity="SheetSteel" Caption="2 feuilles d'acier"/>
+	</Box>
+	<Box>
+		<GuideEntityEmbed Entity="Screwdriver" Caption="Tournevis"/>
+	</Box>
+	<Box>
+		<GuideEntityEmbed Entity="Welder" Caption="Poste à souder"/>
+	</Box>
+</Box>
 
-  To upgrade a basic airlock:
-  -	Use the screwdriver to open the airlock maintenance panel.
-  -	Add the steel sheets to the airlock.
-  -	Weld the steel sheets into place.
-  -	Close the maintenance panel using the screwdriver.
+Pour améliorer une porte de sécurité basique :
+- Utilisez le tournevis pour ouvrir le panneau de maintenance de la porte de sécurité.
+- Ajoutez les feuilles d'acier à la porte de sécurité.
+- Soudez les feuilles d'acier en place.
+- Fermez le panneau de maintenance à l'aide du tournevis.
 
-  ## High security airlocks
-  For airlocks leading to the more sensitive areas of the space station, the use of stronger deterrents are advised. High security airlocks have improved armor plating to protect its internal wiring.
+## Portes de Sécurité à Haute Sécurité
+Pour les portes de sécurité menant aux zones les plus sensibles de la station spatiale, il est recommandé d'utiliser des dissuasions plus fortes. Les portes de sécurité à haute sécurité sont équipées d'un blindage amélioré pour protéger son câblage interne.
 
-  To upgrade a medium security airlock to a high security airlock, you will require the following materials:
-  <Box HorizontalAlignment="Stretch">
-	  <Box>
-		  <GuideEntityEmbed Entity="SheetPlasteel" Caption="2 plasteel sheets"/>
-	  </Box>
-	  <Box>
-		  <GuideEntityEmbed Entity="Screwdriver" Caption="Screwdriver"/>
-	  </Box>
-	  <Box>
-		  <GuideEntityEmbed Entity="Welder" Caption="Welder"/>
-	  </Box>
-  </Box>
+Pour améliorer une porte de sécurité à sécurité moyenne en porte de sécurité à haute sécurité, vous aurez besoin des matériaux suivants :
+<Box HorizontalAlignment="Stretch">
+	<Box>
+		<GuideEntityEmbed Entity="SheetPlasteel" Caption="2 feuilles de plasteel"/>
+	</Box>
+	<Box>
+		<GuideEntityEmbed Entity="Screwdriver" Caption="Tournevis"/>
+	</Box>
+	<Box>
+		<GuideEntityEmbed Entity="Welder" Caption="Poste à souder"/>
+	</Box>
+</Box>
 
-  To upgrade a medium security airlock:
-  - Use the screwdriver to open the airlock maintenance panel.
-  - Add the plasteel sheets to the airlock.
-  - Weld the plasteel sheets into place.
-  - Close the maintenance panel using the screwdriver.
+Pour améliorer une porte de sécurité à sécurité moyenne :
+- Utilisez le tournevis pour ouvrir le panneau de maintenance de la porte de sécurité.
+- Ajoutez les feuilles de plasteel à la porte de sécurité.
+- Soudez les feuilles de plasteel en place.
+- Fermez le panneau de maintenance à l'aide du tournevis.
 
-  ## Maximum security airlocks
-  You can optionally upgrade a high security airlock to a maximum security airlock. Maximum security airlocks possess an additional layer of electrified wire mesh on top of its other protections, which can shock any unauthorized personnel attempting to tamper with the airlock.
+## Portes de Sécurité à Sécurité Maximale
+Vous pouvez également améliorer une porte de sécurité à haute sécurité en une porte de sécurité à sécurité maximale. Ces portes sont équipées d'une couche supplémentaire de treillis métallique électrifié sur ses autres protections, ce qui peut électrocuter toute personne non autorisée tentant de manipuler la porte.
 
-  To upgrade a high security airlock to a maximum security airlock, you will require the following materials:
-  <Box HorizontalAlignment="Stretch">
-	  <Box>
-		  <GuideEntityEmbed Entity="SheetPlasteel" Caption="2 plasteel sheets"/>
-	  </Box>
-    <Box>
-      <GuideEntityEmbed Entity="PartRodMetal" Caption="2 metal rods"/>
-    </Box>
-	  <Box>
-		  <GuideEntityEmbed Entity="Screwdriver" Caption="Screwdriver"/>
-	  </Box>
-	  <Box>
-		  <GuideEntityEmbed Entity="Welder" Caption="Welder"/>
-	  </Box>
-  </Box>
+Pour améliorer une porte de sécurité à haute sécurité en porte de sécurité à sécurité maximale, vous aurez besoin des matériaux suivants :
+<Box HorizontalAlignment="Stretch">
+	<Box>
+		<GuideEntityEmbed Entity="SheetPlasteel" Caption="2 feuilles de plasteel"/>
+	</Box>
+	<Box>
+		<GuideEntityEmbed Entity="PartRodMetal" Caption="2 tiges métalliques"/>
+	</Box>
+	<Box>
+		<GuideEntityEmbed Entity="Screwdriver" Caption="Tournevis"/>
+	</Box>
+	<Box>
+		<GuideEntityEmbed Entity="Welder" Caption="Poste à souder"/>
+	</Box>
+</Box>
 
-  To upgrade a high security airlock:
-  -	Use the screwdriver to open the airlock maintenance panel.
-  -	Add the plasteel sheets to the airlock.
-  -	Weld the plasteel sheets into place.
-  - Add the metal rods to the airlock.
-  -	Close the maintenance panel using the screwdriver.
+Pour améliorer une porte de sécurité à haute sécurité :
+- Utilisez le tournevis pour ouvrir le panneau de maintenance de la porte de sécurité.
+- Ajoutez les feuilles de plasteel à la porte de sécurité.
+- Soudez les feuilles de plasteel en place.
+- Ajoutez les tiges métalliques à la porte de sécurité.
+- Fermez le panneau de maintenance à l'aide du tournevis.
+
 </Document>

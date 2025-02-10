@@ -1,0 +1,12 @@
+﻿advertisement-smite-1 = SMITE ! Banish ta soif !
+advertisement-smite-2 = Un éclat eldritch de citron et lime !
+advertisement-smite-3 = Plus de 1 million de boissons vendues !
+advertisement-smite-4 = SMITE ! Lancez 2d8 pour la SAVEUR.
+advertisement-smite-5 = SMITE ! On va s'occuper de cette paperasse !
+advertisement-smite-6 = Le concierge en a après toi !
+advertisement-smite-7 = SMITE ! Ça ne te rendra pas ivre.
+advertisement-smite-8 = C'est l'heure du citron-lime !
+thankyou-smite-1 = Smite fait la loi !
+thankyou-smite-2 = T'AS SUREMENT voulu du citron-lime !
+thankyou-smite-3 = Le bureau ne saura pas ce qui l'a frappé.
+thankyou-smite-4 = Bannis ta soif.

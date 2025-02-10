@@ -1,11 +1,10 @@
 <Document>
-  # Dwarves
+  # Nains
 
   <Box>
     <GuideEntityEmbed Entity="MobDwarf" Caption=""/>
   </Box>
 
-  Dwarves are similar to humans in most respect, but tolerate alcohol better and are healed by it.
-
+  Les nains sont similaires aux humains à bien des égards, mais tolèrent mieux l'alcool et en sont guéris.  
 
 </Document>

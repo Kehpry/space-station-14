@@ -1,0 +1,6 @@
+ninja-gloves-on = Les gants se chargent d'énergie !
+ninja-gloves-off = Les gants s'éteignent...
+ninja-gloves-not-wearing-suit = Vous ne portez pas de costume de ninja
+ninja-gloves-examine-on = Toutes les capacités sont activées.
+ninja-gloves-examine-off = De simples gants ennuyeux...
+ninja-doorjack-success = Les gants électrocutent quelque chose chez {THE($target)}.

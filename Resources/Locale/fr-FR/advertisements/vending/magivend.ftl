@@ -1,0 +1,11 @@
+advertisement-magivend-1 = Lancez des sorts de la manière appropriée avec MagiVend !
+advertisement-magivend-2 = Soyez votre propre Houdini ! Utilisez MagiVend !
+advertisement-magivend-3 = FJKLFJSD
+advertisement-magivend-4 = AJKFLBJAKL
+advertisement-magivend-5 = >MFW
+advertisement-magivend-6 = HONK !
+advertisement-magivend-7 = EI NATH
+advertisement-magivend-8 = Détruisez la station !
+advertisement-magivend-9 = Matériel de distorsion de l’espace-temps !
+advertisement-magivend-10 = 1234 LOONIES LOL !
+advertisement-magivend-11 = NAR'SIE, LÈVE-TOI !!!

@@ -1,25 +1,25 @@
 ﻿<Document>
-  # Fires
-  Fires are arguably the most dangerous atmospheric upset that can occur on the station.
+# Incendies
+Les incendies sont sans doute la perturbation atmosphérique la plus dangereuse qui peut survenir sur la station.
 
-  <Box>
-    <GuideEntityEmbed Entity="Firelock" Caption=""/>
-    <GuideEntityEmbed Entity="FirelockGlass" Caption=""/>
-  </Box>
+<Box>
+  <GuideEntityEmbed Entity="Firelock" Caption=""/>
+  <GuideEntityEmbed Entity="FirelockGlass" Caption=""/>
+</Box>
 
-  They often make high-pressure and high-temperature gases, which can quickly spread throughout the station if firelocks or doors are opened carelessly, even if only for a moment.
+Ils génèrent souvent des gaz à haute pression et à haute température, qui peuvent se propager rapidement dans toute la station si des serrures contre le feu ou des portes sont ouvertes imprudemment, même si ce n'est que pour un moment.
 
-  If people are caught in a fire, they can quickly become incapacitated, die, and even ash, rendering them unrevivable.
+Si des personnes sont prises dans un incendie, elles peuvent rapidement être incapacitantes, mourir, voire se réduire en cendres, ce qui les rend irrécupérables.
 
-  ## Combating Fires
-  The key elements of a fire are fuel and oxygen.
-  Removing any of these two elements will extinguish the fire.
-  For example, fires that have no oxygen flowing to them will slowly snuff themselves out, and fires that have no fuel will also extinguish themselves.
+## Combattre les Incendies
+Les éléments clés d'un incendie sont le carburant et l'oxygène.
+Retirer l'un de ces deux éléments éteindra le feu.
+Par exemple, les incendies qui n'ont plus d'oxygène qui leur parvient s'éteindront lentement, et les incendies qui n'ont plus de carburant s'éteindront également.
 
-  Exposing the fire to space will extinguish it, as all the gas will simply be spaced.
-  You can then [textlink="fix" link="ExpandingRepairingStation"] the [textlink="spacing" link="Spacing"] and repressurize the area.
+Exposer le feu à l'espace l'éteindra, car tous les gaz seront simplement évacués.
+Vous pouvez ensuite [textlink="réparer" link="ExpandingRepairingStation"] la [textlink="perte de pression" link="Spacing"] et rétablir la pression dans la zone.
 
-  ## Tips
-  - [bold]Know the signs of a future fire.[/bold] If an area is filled with highly flammable gasses, it's only a matter of time before a careless passenger sets it off. Try to isolate the area and scrub the gasses out as quickly as possible.
-  - [bold]Prevent the spread of gasses using a holofan projector.[/bold] Letting gasses through a firelock can make other rooms dangerous, even for a moment. This increases the number of rooms you have to fix.
+## Conseils
+- [bold]Connaître les signes d'un futur incendie.[/bold] Si une zone est remplie de gaz hautement inflammables, ce n'est qu'une question de temps avant qu'un passager imprudent ne déclenche l'incendie. Essayez d'isoler la zone et d'éliminer les gaz aussi rapidement que possible.
+- [bold]Empêcher la propagation des gaz à l'aide d'un projecteur Holofan.[/bold] Laisser les gaz passer par une serrure contre le feu peut rendre d'autres pièces dangereuses, même pour un court instant. Cela augmente le nombre de pièces à réparer.
 </Document>

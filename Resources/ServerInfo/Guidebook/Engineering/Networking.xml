@@ -1,12 +1,12 @@
 <Document>
-  # Networking
-  On the station, devices need to communicate to each other to preform their functions.
-  [textlink="Air alarms" link="AirAlarms"] need to talk to their respective devices, [textlink="doors" link="Airlocks"] need to be linked to form proper airlocks, and much more.
+  # Réseautage
+  Sur la station, les appareils doivent communiquer entre eux pour accomplir leurs fonctions.
+  Les [textlink="Alarms de gaz" link="AirAlarms"] doivent communiquer avec leurs appareils respectifs, les [textlink="portes" link="Airlocks"] doivent être reliées pour former de véritables sas, et bien plus encore.
 
-  This is done through two systems, the Link system and the List system.
+  Cela se fait à travers deux systèmes : le système de lien et le système de liste.
 
-  You can use either the Multitool or Network Configurator to interact with these systems.
-  You can switch between the different systems using [color=yellow][bold][keybind="AltActivateItemInHand"][/bold][/color] or by hovering your cursor over the device and using [color=yellow][bold][keybind="AltActivateItemInWorld"][/bold][/color].
+  Vous pouvez utiliser soit le Multitool soit le Network Configurator pour interagir avec ces systèmes.
+  Vous pouvez basculer entre les différents systèmes en utilisant [color=yellow][bold][keybind="AltActivateItemInHand"][/bold][/color] ou en survolant un appareil avec votre curseur et en utilisant [color=yellow][bold][keybind="AltActivateItemInWorld"][/bold][/color].
 
   <Box HorizontalAlignment="Stretch">
     <Box>
@@ -17,12 +17,12 @@
     </Box>
   </Box>
 
-  Some devices will require access to link devices to them.
-  For example, you need Atmospherics access to link devices to an [textlink="air alarm" link="AirAlarms"].
-  For doors, you'll need the access level of the door you're linking to.
+  Certains appareils nécessitent un accès spécifique pour établir des liens.
+  Par exemple, vous avez besoin d'un accès à l'Atmosphériques pour lier des appareils à un [textlink="alarme de gaz" link="AirAlarms"].
+  Pour les portes, vous aurez besoin du niveau d'accès de la porte à laquelle vous souhaitez lier.
 
-  ## Link System
-  The link system is used for explicitly linking two devices, such as linking a door to another door.
+  ## Système de Lien
+  Le système de lien est utilisé pour relier explicitement deux appareils, comme lier une porte à une autre porte.
 
   <Box>
     <GuideEntityEmbed Entity="AirlockExternal"/>
@@ -31,13 +31,13 @@
     <GuideEntityEmbed Entity="SignalButton"/>
   </Box>
 
-  Under the link system, devices have [bold]ports[/bold] that are capable of either sending or receiving signals.
+  Dans le système de lien, les appareils ont des [bold]ports[/bold] capables d'envoyer ou de recevoir des signaux.
 
-  Hovering over a port using your cursor will show a tooltip that tells you what the port does.
-  For example, output ports will state the conditions under which they will invoke a signal, and input ports will state what the device will do if it receives a signal.
+  Survoler un port avec votre curseur affichera un tooltip vous indiquant la fonction du port.
+  Par exemple, les ports de sortie indiqueront les conditions sous lesquelles ils enverront un signal, tandis que les ports d'entrée préciseront ce que l'appareil fera lorsqu'il recevra un signal.
 
-  ## List System
-  The list system is used for linking multiple devices to a single primary device, such as linking multiple atmospherics devices to an air alarm.
+  ## Système de Liste
+  Le système de liste est utilisé pour lier plusieurs appareils à un appareil principal, comme lier plusieurs appareils atmosphériques à une alarme de gaz.
 
   <Box>
     <GuideEntityEmbed Entity="AirAlarm" Caption=""/>
@@ -47,18 +47,18 @@
     <GuideEntityEmbed Entity="Firelock" Caption=""/>
   </Box>
 
-  Each device has its own unique address, which is used to identify it in the list system. When you link a device to a primary device, you are adding the device's address to a list of devices that the primary device will communicate with.
+  Chaque appareil a une adresse unique, utilisée pour l'identifier dans le système de liste. Lorsque vous liez un appareil à un appareil principal, vous ajoutez l'adresse de cet appareil à une liste des appareils avec lesquels l'appareil principal communiquera.
 
-  You can save a device's address to your tool by interacting with the device using [color=yellow][bold][keybind="Use"][/bold][/color].
+  Vous pouvez enregistrer l'adresse d'un appareil dans votre outil en interagissant avec celui-ci à l'aide de [color=yellow][bold][keybind="Use"][/bold][/color].
 
-  Once you have a list of devices saved to your tool, you can link them to a primary device by interacting with the primary device using [color=yellow][bold][keybind="Use"][/bold][/color], which will bring up a UI.
+  Une fois que vous avez une liste d'appareils enregistrés dans votre outil, vous pouvez les lier à un appareil principal en interagissant avec cet appareil principal à l'aide de [color=yellow][bold][keybind="Use"][/bold][/color], ce qui affichera une interface utilisateur.
 
-  The UI has multiple options:
-  - Set: Overwrites the current list of linked devices with the devices saved on the tool.
-  - Add: Adds the devices saved on the tool to the current list of linked devices.
-  - Clear: Removes all linked devices from the air alarm.
-  - Copy: Copies the list of currently linked devices to the tool.
-  - Show: Draws a line between the primary device and all linked devices. This is useful for visualizing the area the air alarm covers.
+  L'interface utilisateur propose plusieurs options :
+  - Set : Remplace la liste actuelle des appareils liés par ceux enregistrés dans l'outil.
+  - Add : Ajoute les appareils enregistrés dans l'outil à la liste actuelle des appareils liés.
+  - Clear : Supprime tous les appareils liés de l'alarme de gaz.
+  - Copy : Copie la liste des appareils actuellement liés dans l'outil.
+  - Show : Trace une ligne entre l'appareil principal et tous les appareils liés. Cela est utile pour visualiser la zone couverte par l'alarme de gaz.
 
-  If you need to clear your tool, you can press [color=yellow][bold][keybind="Use"][/bold][/color] on the tool or use [color=yellow][bold][keybind="ActivateItemInHand"][/bold][/color] to bring up a list of saved devices, and then press the "Clear" button.
+  Si vous avez besoin de vider votre outil, vous pouvez appuyer sur [color=yellow][bold][keybind="Use"][/bold][/color] sur l'outil ou utiliser [color=yellow][bold][keybind="ActivateItemInHand"][/bold][/color] pour afficher une liste des appareils enregistrés, puis appuyer sur le bouton "Clear".
 </Document>

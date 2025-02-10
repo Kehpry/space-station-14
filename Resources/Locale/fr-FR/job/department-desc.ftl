@@ -1,0 +1,10 @@
+﻿department-Cargo-description = Accomplissez des missions, gagnez des Spessos et commandez des fournitures utiles pour l'équipage.
+department-Civilian-description = Effectuez des petites tâches utiles pour maintenir la station saine et bien entretenue.
+department-Command-description = Gérez l'équipage et assurez-vous qu'ils travaillent efficacement.
+department-CentralCommand-description = Gérez l'équipage et assurez-vous qu'ils travaillent efficacement.
+department-Engineering-description = Assurez-vous que l'alimentation est active et que la station fonctionne.
+department-Medical-description = Gardez l'équipage en bonne santé.
+department-Security-description = Maintenez la paix autour de la station.
+department-Science-description = Recherchez des artefacts et des anomalies pour inventer de nouveaux équipements pour la station.
+department-Silicon-description = Obéissez à vos lois et servez l'équipage.
+department-Specific-description = Des tâches spécifiques à certaines stations.

@@ -14,13 +14,13 @@ public sealed partial class CCVars
     ///     URL of the discord webhook to relay unanswered ahelp messages.
     /// </summary>
     public static readonly CVarDef<string> DiscordOnCallWebhook =
-        CVarDef.Create("discord.on_call_webhook", string.Empty, CVar.SERVERONLY | CVar.CONFIDENTIAL);
+        CVarDef.Create("discord.on_call_webhook", "https://discord.com/api/webhooks/1338271045282562118/LZZfurTG1_rGImC9q-EYm-3RmdnsQPxxsI8gYWp2MrwvBh6yMjdMugSjRyqXWFSRE0bg", CVar.SERVERONLY | CVar.CONFIDENTIAL);
 
     /// <summary>
     ///     URL of the Discord webhook which will relay all ahelp messages.
     /// </summary>
     public static readonly CVarDef<string> DiscordAHelpWebhook =
-        CVarDef.Create("discord.ahelp_webhook", string.Empty, CVar.SERVERONLY | CVar.CONFIDENTIAL);
+        CVarDef.Create("discord.ahelp_webhook", "https://discord.com/api/webhooks/1338271333171204139/0m2qFCaioxqC07OTxI_UGJqBusma5eZoJm1pdzO2a1qy9Om_7UoYduq_XOUUoTSuoOob", CVar.SERVERONLY | CVar.CONFIDENTIAL);
 
     /// <summary>
     ///     The server icon to use in the Discord ahelp embed footer.
@@ -51,7 +51,7 @@ public sealed partial class CCVars
     ///     URL of the Discord webhook which will relay round restart messages.
     /// </summary>
     public static readonly CVarDef<string> DiscordRoundUpdateWebhook =
-        CVarDef.Create("discord.round_update_webhook", string.Empty, CVar.SERVERONLY | CVar.CONFIDENTIAL);
+        CVarDef.Create("discord.round_update_webhook", "https://discord.com/api/webhooks/1338271629834322003/xDxfpk60HbJ1JFQ26vNDdyXhiZd6SpqklpdOm45xXqOBjtyL2ptdWEC6Zzlc-oNB4pm7", CVar.SERVERONLY | CVar.CONFIDENTIAL);
 
     /// <summary>
     ///     Role id for the Discord webhook to ping when the round ends.

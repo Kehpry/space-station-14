@@ -1,12 +1,12 @@
 <Document>
-  # Shuttle-craft
+  # Vaisseau spatial
 
-  Shuttle construction is straightforward, albeit rather expensive and hard to pull off within an hour.
+  La construction de vaisseaux est simple, bien que plutôt coûteuse et difficile à réaliser en une heure.
 
-  It's a good activity if you have a significant amount of spare time on your hands and want a bit of a challenge.
+  C'est une bonne activité si vous disposez de beaucoup de temps libre et souhaitez relever un défi.
 
-  ## Getting started
-  <Box>Required parts:</Box>
+  ## Commencer
+  <Box>Pièces nécessaires :</Box>
   <Box>
   <GuideEntityEmbed Entity="Thruster"/>
   <GuideEntityEmbed Entity="Gyroscope"/>
@@ -21,10 +21,10 @@
   <GuideEntityEmbed Entity="APCBasic"/>
   </Box>
 
-  <Box>Optional parts:</Box>
+  <Box>Pièces optionnelles :</Box>
   <Box>
   <GuideEntityEmbed Entity="AirCanister"/>
-  <GuideEntityEmbed Entity="LightTube" Caption="lighting"/>
+  <GuideEntityEmbed Entity="LightTube" Caption="éclairage"/>
   <GuideEntityEmbed Entity="AirlockGlassShuttle"/>
   <GuideEntityEmbed Entity="SMESBasic"/>
   </Box>
@@ -33,8 +33,8 @@
   <GuideEntityEmbed Entity="NuclearBomb"/>
   </Box>
 
-  ## Foundation
-  For this step you'll need steel sheets, metal rods, and floor tiles (optional).
+  ## Fondation
+  Pour cette étape, vous aurez besoin de feuilles d'acier, de tiges métalliques et de carreaux de sol (optionnel).
 
   <Box>
     <GuideEntityEmbed Entity="SheetSteel" Caption=""/>
@@ -46,32 +46,32 @@
     <GuideEntityEmbed Entity="FloorTileItemWhite" Caption=""/>
   </Box>
 
-  Head out into space with steel sheets and metal rods in hand, and click on the edge of the station to place lattice.
+  Allez dans l'espace avec des feuilles d'acier et des tiges métalliques en main, puis cliquez sur le bord de la station pour placer des lattices.
 
-  Place a line of lattice about 3-4 tiles away from the station, then start building a platform with lattice.
+  Placez une ligne de lattice à environ 3-4 tuiles du bord de la station, puis commencez à construire une plateforme avec des lattices.
 
-  Keep doing this until you have a platform that is at least 3x3 in size, which is connected to the station via a single lattice line.
+  Continuez jusqu'à obtenir une plateforme d'au moins 3x3 en taille, reliée à la station par une seule ligne de lattice.
 
-  Once you're finished constructing the base of your shuttle, you can use wirecutters to snip the connecting lattice that joins your new ship and the station.
+  Une fois que vous avez terminé la base de votre vaisseau, vous pouvez utiliser des coupe-fils pour couper le lattice qui relie votre nouveau vaisseau à la station.
 
-  This platform is considered a different grid from the station, and thus will not have any gravity or be held in place by a station anchor — it can move around freely.
+  Cette plateforme est considérée comme un grille différente de celle de la station, et n'a donc pas de gravité ou d'ancrage station — elle peut se déplacer librement.
 
-  You can expand your lattice platform further by clicking just off the edge with some rods in hand.
+  Vous pouvez agrandir votre plateforme en ajoutant des tiges métalliques tout autour.
 
-  ## Docking Ports
-  Shuttle airlocks serve as docking ports, where ships can dock to stations safely.
+  ## Ports de docking
+  Les sas de vaisseaux servent de ports d'accostage, où les vaisseaux peuvent se fixer à la station en toute sécurité.
 
-  The orientation of docking ports is important, as it determines on which face the shuttle will dock.
+  L'orientation des ports de docking est importante, car elle détermine le côté sur lequel le vaisseau va s'accoster.
 
-  The little numb on the bottom of the docking port determines the direction of the docking port.
+  Le petit nœud au bas du port de docking détermine la direction du port.
 
   <Box>
     <GuideEntityEmbed Entity="AirlockShuttle"/>
     <GuideEntityEmbed Entity="AirlockGlassShuttle"/>
   </Box>
 
-  ## Directional Control
-  From there, once you have the shape you want, bring out and install thrusters at the edges.
+  ## Contrôle directionnel
+  Une fois que vous avez la forme que vous voulez, installez des propulseurs sur les bords.
 
   <Box>
     <GuideEntityEmbed Entity="Thruster" Caption="" Rotation="0"/>
@@ -80,28 +80,28 @@
     <GuideEntityEmbed Entity="Thruster" Caption="" Rotation="270"/>
   </Box>
 
-  It's a good idea to install four thrusters, one on each side of the platform, to ensure you can move in any direction.
+  Il est préférable d'installer quatre propulseurs, un sur chaque côté de la plateforme, pour s'assurer que vous pouvez vous déplacer dans toutes les directions.
 
-  They must be pointing outward into space to function and will not fire if there's a tile in the way of the nozzle.
-  You can rotate thrusters—even anchored ones—using either [color=yellow][bold][keybind="RotateObjectClockwise"][/bold][/color] or [color=yellow][bold][keybind="RotateObjectCounterclockwise"][/bold][/color] to rotate clockwise or counterclockwise.
+  Les propulseurs doivent être orientés vers l'espace pour fonctionner et ne tireront pas si une tuile bloque la buse.
+  Vous pouvez faire pivoter les propulseurs — même ceux qui sont ancrés — en utilisant soit [color=yellow][bold][keybind="RotateObjectClockwise"][/bold][/color] ou [color=yellow][bold][keybind="RotateObjectCounterclockwise"][/bold][/color] pour les faire pivoter dans le sens horaire ou antihoraire.
 
-  Thrusters can be disabled or enabled using [color=yellow][bold][keybind="Use"][/bold][/color] with an empty hand or [color=yellow][bold][keybind="ActivateItemInWorld"][/bold][/color].
+  Les propulseurs peuvent être désactivés ou activés en utilisant [color=yellow][bold][keybind="Use"][/bold][/color] avec une main vide ou [color=yellow][bold][keybind="ActivateItemInWorld"][/bold][/color].
 
-  ## Rotational Control
-  Now that you have directional control, you'll need to install a gyroscope to control your rotation.
+  ## Contrôle rotatif
+  Maintenant que vous avez le contrôle directionnel, vous devrez installer un gyroscope pour contrôler votre rotation.
 
   <Box>
     <GuideEntityEmbed Entity="Gyroscope"/>
   </Box>
-  The placement of the gyroscope is not as important as the thrusters, but it should be somewhere convenient for you to access and power.
+  L'emplacement du gyroscope n'est pas aussi critique que celui des propulseurs, mais il doit être placé quelque part de pratique pour vous, afin que vous puissiez y accéder et l'alimenter.
 
-  Note for large mass objects, you may need more than one gyroscope to rotate effectively.
+  Pour les objets de grande masse, il vous faudra peut-être plus d'un gyroscope pour tourner efficacement.
 
-  ## Power
-  Now that you have all the systems in place, you'll need to power them.
+  ## Alimentation
+  Maintenant que vous avez tous les systèmes en place, vous devrez les alimenter.
 
-  For small shuttles, a J.R.P.A.C.M.A.N.-type portable generator is a good choice. It provides straight LV power, so you don't have to worry about transformers.
-  Fuel for the generator is also commonly found in maintenance tunnels.
+  Pour les petits vaisseaux, un générateur portable de type J.R.P.A.C.M.A.N. est un bon choix. Il fournit de l'énergie LV directement, vous n'aurez donc pas à vous soucier des transformateurs.
+  Le carburant pour le générateur se trouve généralement dans les tunnels de maintenance.
 
   <Box HorizontalAlignment="Stretch">
     <Box>
@@ -112,9 +112,9 @@
     </Box>
   </Box>
 
-  Some stations, however, provide much better generators and compact solutions like the Shuttle APU or the static generator.
-  These output HV and will have to be stepped down to MV and LV.
-  Luckily, these stations also usually provide wallmount substation boards for this purpose.
+  Certaines stations, cependant, fournissent des générateurs beaucoup plus puissants et des solutions compactes comme l'APU de vaisseau ou le générateur statique.
+  Ceux-ci produisent de l'énergie HV et devront être convertis en MV et LV.
+  Heureusement, ces stations fournissent généralement des panneaux de sous-stations murales pour cet usage.
 
   <Box HorizontalAlignment="Stretch">
     <Box>
@@ -128,9 +128,9 @@
     </Box>
   </Box>
 
-  ## Piloting
-  Finally, install the shuttle computer wherever it is convenient and ensure all your thrusters and gyroscopes are receiving power (remember to wire the MV and LV networks!).
-  If they are, congratulations! You should have a functional shuttle!
+  ## Pilotage
+  Enfin, installez l'ordinateur de vaisseau où cela vous convient et assurez-vous que tous vos propulseurs et gyroscopes reçoivent de l'alimentation (n'oubliez pas de connecter les réseaux MV et LV !).
+  Si c'est le cas, félicitations ! Vous devriez avoir un vaisseau fonctionnel !
 
-  Making it livable and good-looking is left as an exercise to the reader.
+  Rendre le vaisseau habitable et agréable à regarder reste un exercice à la charge du lecteur.
 </Document>

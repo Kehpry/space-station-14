@@ -1,8 +1,8 @@
 ﻿<Document>
-  # Silicon Rule 3 - Laws can redefine terms used in other laws
-  A law can change the meaning of both earlier and later laws by redefining a term. If multiple laws define a term, then normal law priority determines which definition to use.
+  # Règle des Siliciums 3 - Les lois peuvent redéfinir des termes utilisés dans d'autres lois
+  Une loi peut modifier la signification des lois précédentes et suivantes en redéfinissant un terme. Si plusieurs lois définissent un même terme, la priorité des lois détermine laquelle doit être appliquée.
 
-  ## Examples
-  - Law 1 says to obey orders from crew. Law 2 says that only Urist McHands is crew. Law 1 effectively becomes "obey orders from Urist McHands".
-  - Law 1 says to obey orders from crew. Law 2 says that only Urist McHands is crew. Law 3 says that only Urist McSlime is crew. Law 4 says that you may not harm crew. Law 1 effectively becomes "obey orders from Urist McHands". Law 4 effectively becomes "you may not harm Urist McHands". Law 3 has no effect because it entirely conflicts with law 2, which takes priority.
+  ## Exemples
+  - La Loi 1 ordonne d’obéir aux ordres des membres d’équipage. La Loi 2 stipule que seul Urist McHands est un membre d’équipage. La Loi 1 devient donc "obéir aux ordres de Urist McHands".
+  - La Loi 1 ordonne d’obéir aux ordres des membres d’équipage. La Loi 2 stipule que seul Urist McHands est un membre d’équipage. La Loi 3 stipule que seul Urist McSlime est un membre d’équipage. La Loi 4 interdit de nuire aux membres d’équipage. La Loi 1 devient donc "obéir aux ordres de Urist McHands". La Loi 4 devient "ne pas nuire à Urist McHands". La Loi 3 n'a aucun effet, car elle contredit entièrement la Loi 2, qui a une priorité plus élevée.
 </Document>
