@@ -2,7 +2,7 @@
   # Contrôles
 
   <Box>Tu peux modifier tes raccourcis à tout moment ici :</Box>
-  <Box Orientation="Vertical"><CommandButton Text="ui-options-tab-controls" Command="options 1"/></Box>
+  <Box Orientation="Vertical"><CommandButton Text="ui-options-tab-controls" Command="options 2"/></Box>
 
   ## Déplacement
   Tu peux te déplacer dans le monde du jeu en utilisant [color=yellow][bold][keybind="MoveUp"][keybind="MoveLeft"][keybind="MoveDown"][keybind="MoveRight"][/bold][/color].
