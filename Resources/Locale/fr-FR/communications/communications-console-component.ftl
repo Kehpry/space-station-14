@@ -25,3 +25,4 @@ comms-console-announcement-title-station = Console de Communications
 comms-console-announcement-title-centcom = Commandement Central  
 comms-console-announcement-title-nukie = Opérateur Nucléaire du Syndicat  
 comms-console-announcement-title-station-ai = IA de la Station  
+comms-console-announcement-title-wizard = Wizard

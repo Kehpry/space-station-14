@@ -1,4 +1,5 @@
-﻿comp-space-heater-ui-thermostat = Thermostat :  
+﻿comp-space-heater-ui-thermostat = Thermostat :
+comp-space-heater-ui-title = Unité de contrôle de la température
 comp-space-heater-ui-mode = Mode  
 comp-space-heater-ui-status-disabled = Éteint  
 comp-space-heater-ui-status-enabled = Allumé  

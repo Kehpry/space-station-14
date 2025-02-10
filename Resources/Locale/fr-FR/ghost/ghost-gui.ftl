@@ -3,7 +3,9 @@ ghost-gui-ghost-warp-button = Téléportation fantôme
 ghost-gui-ghost-roles-button = Rôles de fantôme ({$count})
 ghost-gui-toggle-ghost-visibility-popup-on = Visibilité des fantômes activée.
 ghost-gui-toggle-ghost-visibility-popup-off = Visibilité des fantômes désactivée.
-ghost-gui-toggle-lighting-manager-popup = Éclairage basculé.
+ghost-gui-toggle-lighting-manager-popup-normal = Éclairage normal.
+ghost-gui-toggle-lighting-manager-popup-personal-light = Lumière personnelle activée.
+ghost-gui-toggle-lighting-manager-popup-fullbright = Mode pleine luminosité.
 ghost-gui-toggle-fov-popup = Champ de vision basculé.
 
 ghost-gui-toggle-hearing-popup-on = Vous pouvez maintenant entendre tous les messages.

@@ -35,6 +35,10 @@ spellbook-cluwne-desc = Pour quand vous détestez vraiment quelqu'un et que Frap
 spellbook-slip-name = Pente Glissante
 spellbook-slip-desc = Apprenez les voies anciennes du Janitor et maudissez votre cible pour qu'elle devienne glissante. Nécessite la Robe et le Chapeau de Magicien.
 
+spellbook-item-recall-name = Rappel d'objet  
+spellbook-item-recall-description = Marquez un objet tenu et invoquez-le à tout moment d'un simple claquement de doigts !  
+
+
 # Équipement
 
 spellbook-wand-polymorph-door-name = Baguette d'Entrée

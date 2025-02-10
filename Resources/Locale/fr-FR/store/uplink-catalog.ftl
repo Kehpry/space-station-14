@@ -17,6 +17,10 @@ uplink-esword-desc = Une épée énergétique très dangereuse capable de renvoy
 uplink-esword-double-name = Épée à énergie à double lame
 uplink-esword-double-desc = Un modèle bien plus cher que l'épée à énergie classique : avec une bien plus grande chance de réflexion, un angle d'attaque plus large, plus de dégâts structurels, et une plus grande vitesse de frappe. Fait beaucoup de bruit lorsqu'elle est utilisée ou allumée.
 
+uplink-hypereutactic-blade-name = Lame hypereutactique  
+uplink-hypereutactic-blade-desc = Une gigantesque épée énergétique dont la puissance est à la hauteur de son apparence. Nécessite deux mains. Lente et maladroite, mais assez habile pour renvoyer des attaques. Autrefois rendue tristement célèbre par un agent portant un masque de joie. Vous ne voudriez pas la voir foncer vers vous dans le couloir !  
+
+
 uplink-edagger-name = Dague à énergie
 uplink-edagger-desc = Une petite lame énergétique discrètement dissimulée sous la forme d'un stylo.
 
